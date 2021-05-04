@@ -1,0 +1,241 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.backgroundphoto {
+  position: fixed;
+  top: 0%;
+  left: 50%;
+  height: 140%;
+  width: auto;
+  z-index: -101;
+  transform: translateX(-50%);
+  background-size: cover;
+}
+.mockup {
+  display: flex;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  max-width: 1500px;
+  background-color: #844fff;
+}
+.emailform {
+  display: grid;
+  position: relative;
+  top: 76px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  flex-direction: column;
+  font-size: 26px;
+}
+.cityexample {
+  padding: 15px;
+  width: 16vw;
+  max-width: 210px;
+  max-height: 200px;
+  transition: max-height 0.25s ease-in;
+  background-color: #844fff;
+  border-radius: 45px;
+}
+.cityexamplehighlight {
+  width: 15vw;
+  max-width: 210px;
+  max-height: 200px;
+  transition: max-height 0.25s ease-in;
+  background-color: rgb(104, 30, 223);
+  border-radius: 45px;
+}
+.cityexamplehighlightbkgd {
+  display: flex;
+  width: 20vw;
+  max-width: 250px;
+  height: 20vw;
+  max-height: 250px;
+  transition: max-height 0.25s ease-in;
+  border-radius: 45px;
+  background-color: rgb(104, 30, 223);
+  justify-content: center;
+  align-items: center;
+}
+.protobuttons {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  background-color: rgba(255, 255, 255, 0.78);
+  border: 1px solid #999;
+  text-decoration: none;
+  border-radius: 30px;
+  height: 56px;
+  width: max-content;
+  padding: 0px 20px;
+}
+.privatecitypng {
+  width: 20vw;
+  max-width: 250px;
+  border-radius: 45px;
+  background-color: rgb(104, 30, 223);
+  max-height: 300px;
+  transition: max-height 0.25s ease-in;
+}
+.privatecitygif {
+  width: 20vw;
+  max-width: 250px;
+  border-radius: 45px;
+  background-color: rgb(104, 30, 223);
+  max-height: 300px;
+  transition: max-height 0.25s ease-in;
+}
+.privatecitygifbkgd {
+  display: flex;
+  width: 20vw;
+  max-width: 250px;
+  height: 20vw;
+  max-height: 250px;
+  transition: max-height 0.25s ease-in;
+  border-radius: 45px;
+  background-color: rgb(104, 30, 223);
+  justify-content: center;
+  align-items: center;
+}
+.formbkgdClsd {
+  display: flex;
+  position: relative;
+  background-color: #844fff;
+  height: 330px;
+  max-height: 0px;
+  transition: max-height 0.25s ease-out;
+  flex-direction: column;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.formbkgd {
+  display: flex;
+  position: relative;
+  background-color: #844fff;
+  height: 330px;
+  transition: max-height 0.25s ease-out;
+  flex-direction: column;
+  transition: 0.25s ease-in;
+}
+.formbkgd a {
+  display: flex;
+  position: relative;
+  padding: 30px;
+  color: rgb(240, 240, 250);
+}
+
+.formbkgd input {
+  display: flex;
+  position: relative;
+  padding: 3px 0px;
+  color: rgb(240, 240, 250);
+  font-size: 15px;
+  text-indent: 6px;
+}
+.formbkgd textarea {
+  display: flex;
+  position: relative;
+  padding-top: 5px;
+  color: rgb(240, 240, 250);
+  font-size: 15px;
+  text-indent: 6px;
+}
+.ourusersClsd {
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  background-color: #844fff;
+  max-height: 0px;
+  transition: max-height 0.15s ease-in;
+  overflow: hidden;
+  transform: translateY(-100%);
+}
+
+.ourusersClsddiv {
+  display: flex;
+  position: relative;
+  width: 80%;
+  margin-top: 26px;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+  max-height: 0px;
+  transition: max-height 0.15s ease-in;
+}
+.userdescriptionClsd {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 10px;
+  left: 50%;
+  width: 200px;
+  transform: translateX(-50%);
+  color: rgb(200, 200, 250);
+  max-height: 0px;
+  transition: max-height 0.05s ease-in;
+}
+.ourusers {
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  padding-top: 56px;
+  background-color: #844fff;
+  height: min-content;
+  transition: max-height 0.25s ease-in;
+}
+.ourusersdiv {
+  display: flex;
+  position: relative;
+  width: 80%;
+  margin-top: 26px;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+  max-height: 500px;
+  transition: max-height 0.25s ease-in;
+}
+.userdescription {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 10px;
+  left: 50%;
+  width: 200px;
+  transform: translateX(-50%);
+  color: rgb(200, 200, 250);
+  height: 100px;
+  max-height: 100px;
+  transition: max-height 0.25s ease-in;
+}
+
+.login {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  z-index: 9999;
+  top: 5px;
+  height: 99%;
+  width: 100%;
+  color: white;
+  font-size: 26px;
+  overflow: auto;
+  z-index: 1;
+}
