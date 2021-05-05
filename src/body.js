@@ -166,7 +166,14 @@ class Body extends React.Component {
             initial-stated intent to give back down-payments if lose, or launder
             from borrowers' customers by prisoners'-dilemma duress here and with
             insurance-coagulation further abetted by invoice
-            counterfeit-laundering)
+            counterfeit-laundering not bettered by free-rider-immutable
+            sales-tax/issuance extension over the free-rider-mutable subservice
+            beyond margin-targeting, non-conflictive torts or confusing the
+            'State and the 'People')
+            <br />
+            <br />
+            "other creative way to make it more fun to get 'vaccinated'" -
+            @POTUS holy canoli
           </h2>
           <div
             style={{
