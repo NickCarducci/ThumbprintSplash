@@ -147,41 +147,179 @@ class Body extends React.Component {
             overflow: "hidden"
           }}
         >
-          <b>Speech</b>
-          &bull; Threats that, are not in-kind, are prosecutable; we will not
-          ban that - for evidence &nbsp; (login.gov not partnering or putting
-          out a parole intranet for convicted threats and previous criminal acts
-          is one of the grossest form of malfeasance there is).
-          <br />
-          We will also not be removing convicts, for that we advocate for an
-          intranet for those on parole, utilizing a hands-off state-issued GovID
-          api. For now, we use phone number identification and enforce cloud.
-          <br />
-          AS PER OPINION, I DID NOT WANT TO SAY THIS BECAUSE I WANT IT IMPLIED,
-          BUT I WILL NOT REMOVE CONTENT UNLESS cease of desist is ordered by
-          court. You need to prove what my users say isn't true
-          <br />
-          "hate" vs descriptiveness is not allowed to fire ; .
-          orderingOfPreference is hate, however we will not remove anything
-          except threats and spam (not criticism without-repetition)
-          <br />
-          Labels are required for confirmations, no errors can be laid without
-          logistical proof, not correlative and assumptive. sorting or
-          throttling cannot be so adaptive except by a linear variable, or
-          labeling select words with institutions - especially when the CDC is
-          wrong and often
-          <br />
-          I'm sure if you ask the insurrectionist if they were trying to contest
-          the certification vs overthrow the governemnt (bonds? police-comms?
-          I'd bet just the certification) With or without Section 230, liability
-          is only ascertainable for contributions of the platform if the writers
-          are paid or edited
-          <br />
-          To boot, platforms should not be destroying evidence, they should be
-          highlighting illegal threats so other users know what is not
-          acceptable, and investigations without circumstantial/correlative data
-          or not, should be unfettered until a cease and decist order is
-          properly adjunicated.
+          <div
+            style={{
+              overflow: "hidden",
+              transition: ".3s ease-in",
+              height: this.state.openOldSpeechPolicy ? "min-content" : "0px"
+            }}
+          >
+            <b>Speech</b>
+            &bull; Threats that, are not in-kind, are prosecutable; we will not
+            ban that - for evidence &nbsp; (login.gov not partnering or putting
+            out a parole intranet for convicted threats and previous criminal
+            acts is one of the&nbsp;
+            <a href="https://nationalsecuritycasino.com">
+              grossest form of malfeasance
+            </a>
+            &nbsp;there is).
+            <br />
+            We will also not be removing convicts, for that we advocate for an
+            intranet for those on parole, utilizing a hands-off state-issued
+            GovID api. For now, we use phone number identification and enforce
+            cloud.
+            <br />
+            AS PER OPINION, I DID NOT WANT TO SAY THIS BECAUSE I WANT IT
+            IMPLIED, BUT I WILL NOT REMOVE CONTENT UNLESS cease of desist is
+            ordered by court. You need to prove what my users say isn't true
+            <br />
+            "hate" vs descriptiveness is not allowed to fire ; .
+            orderingOfPreference is hate, however we will not remove anything
+            except threats and spam (not criticism without-repetition)
+            <br />
+            Labels are required for confirmations, no errors can be laid without
+            logistical proof, not correlative and assumptive. sorting or
+            throttling cannot be so adaptive except by a linear variable, or
+            labeling select words with institutions - especially when the CDC is
+            wrong and often
+            <br />
+            I'm sure if you ask the insurrectionist if they were trying to
+            contest the certification vs overthrow the governemnt (bonds?
+            police-comms? I'd bet just the certification) With or without
+            Section 230, liability is only ascertainable for contributions of
+            the platform if the writers are paid or edited
+            <br />
+            To boot, platforms should not be destroying evidence, they should be
+            highlighting illegal threats so other users know what is not
+            acceptable, and investigations without circumstantial/correlative
+            data or not, should be unfettered until a cease and decist order is
+            properly adjunicated.
+          </div>
+          <div
+            style={{
+              overflow: "hidden",
+              transition: ".3s ease-in",
+              height: !this.state.openOldSpeechPolicy ? "min-content" : "0px"
+            }}
+          >
+            <div style={{ width: "100%", overflow: "auto" }}>
+              <TwitterTweetEmbed
+                style={{ alignSelf: "center" }}
+                key={"nick's tweet - 1389936048260669444"}
+                tweetId={"1389936048260669444"}
+              />
+            </div>
+            <br />
+            Otherwise, for statements of fact, only after spam becomes
+            harassment (repeated) will we entertain a label, as we would for
+            plans for attack (to show users what not to do) with upmost ability
+            for their testimony, prominently above our take. we will own out
+            edits for integrity of truth unlike Twitter (nor Facebook, if label
+            is considered editing, which I do because I take the publishers'
+            reading)
+            <br />
+            <br />
+            You see,
+            <br />
+            I present Marx/Schumpeter/Piketty as the same as Mises, without the
+            rent-seeking/prisoner-dilemma-apathy. Marx wanted labor to have
+            profits, which is essentially non-profits (unlimited salaries
+            notwithstanding... lightte.ch). This is misnomer, like Jesus never
+            said he would die for Sin.
+            <br />
+            <br />
+            Why would 9/11 building collapse without a plane under the same
+            weight it always does? Why would italians join axis if for not
+            financial-racism?
+            <br />
+            <br />
+            Maoism is quota-communism (basic) and I’m didn’t study how Lenin
+            went from serfdom to genocide but residualsplit.us is like castle
+            doctrine, and that is also&nbsp;
+            <b
+              style={{ color: "blue" }}
+              onClick={() =>
+                this.setState({
+                  showPayments: true //, showSpeech: false
+                })
+              }
+            >
+              haram
+            </b>
+            . The market cannot solve prisoners’ dilemma
+            <br />
+            <br />
+            Deterministic-calculus = notation of units by causal effect & if
+            partial derivatives are greater than one it is two-full-derivatives
+            (or to boot, doubly)
+            <br />
+            <br />
+            Red-herring is of the unobserved but is 0
+            <br />
+            <br />
+            GDP= C + P is laughable in this regard, as is E = mc^2 unless you
+            can make an g(m/s)(m/s) by mixing them together; there is ALWAYS a
+            diminishing in an exponential-maximum, in algebra one cannot assume
+            significance that is not assumed to be shuffled to mimic perfect
+            indistimination out of the multitude of chances, or of a
+            non-derivative sample-population. Why is stated-intent
+            prisoners'-duress pooling/ free-rider-mutable-tax/issuance saves
+            money from price-elasticity not being a fact? Why is usury's
+            definition not derived from the rental-income-beyond-plausible-use
+            by the owner-oneself? Why is condensation not being a fact and
+            spit-derived-humidity locked in mask doesn't elongate
+            virus-half-life instead of condensate without even a test on
+            countertop after speaking given the couch of a&nbsp;
+            <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
+              null hypothesis
+            </a>
+            <br />
+            <br />
+            <div style={{ position: "relative" }}>
+              <img
+                style={{ width: "100%", height: "auto" }}
+                alt="https://www.dl.dropboxusercontent.com/s/y4q61y8m4tkxocr/ceaseAndDecist.jpg?dl=0"
+                src="https://www.dl.dropboxusercontent.com/s/y4q61y8m4tkxocr/ceaseAndDecist.jpg?dl=0"
+              />
+            </div>
+            Libertarians & finance force us to feast on each other with
+            fixed-prices
+            <br />
+            <br />
+            2% of the population owns 4400% of the assets
+            <br />
+            <br />
+            walter bloomberg: "evans says 'would expect longer-term 10-year
+            treasury rates to move up as economy improves'"
+            <br />
+            <br />
+            most landlords, bond-holders and mortgage-holders, which is 90% of
+            those assets, are above 40
+          </div>
+          <div
+            onMouseEnter={() =>
+              this.setState({ hoveroldSP: true }, () => {
+                clearTimeout(this.stoppspeech);
+                this.stoppspeech = setTimeout(() => {
+                  this.setState({ hoveroldSP: false });
+                }, 200);
+              })
+            }
+            style={{
+              border: "2px dotted",
+              transition: ".3s ease-in",
+              backgroundColor: this.state.hoveroldSP
+                ? "rgba(10,10,10,.5)"
+                : "rgba(10,10,10,0)"
+            }}
+            onClick={() =>
+              this.setState({
+                openOldSpeechPolicy: !this.state.openOldSpeechPolicy
+              })
+            }
+          >
+            {this.state.openOldSpeechPolicy ? "old" : "new"}
+          </div>
         </div>
         <div
           onClick={() => this.setState({ hidePolicy: !this.state.hidePolicy })}
