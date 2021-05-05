@@ -154,22 +154,36 @@ class Body extends React.Component {
             has so far (they really can only tax/issue for courts toll-less
             roads sewade and plows, otherwise it is monopsony-quota-communism
             for no utility as it is free-rider-mutable and networks, 'market' of
-            markets are margin-targetable by government bodies billed-as
-            "protect American consumers"). Now, it is an issue-of exclusion not
-            based on a court-verified part of a minimal-viable-product duress,
-            bid of not a option to buy sold already (not a deposit or
-            down-payment), or skill (not experience, a.k.a. docile, stagnant,
-            counter-productive and focused on competing with other suppliers by
-            moat or consumers instead of concentrating on consumers and winning
-            their clean favor without any duress-of-void or void-of third party
-            dollar or shareholder to which extension is forgone of
-            initial-stated intent to give back down-payments if lose, or launder
-            from borrowers' customers by prisoners'-dilemma duress here and with
+            markets and abject collusion&nbsp;
+            <span style={{ color: "purple" }}>
+              like discrepancies between 13d/retail, shares & dollars in
+              bondage-contracts & credit-counterfeit-laundering-collusion,
+              treasury shares not in outstanding and forced insurance or home
+              warranty in NJ industries, etc.
+            </span>
+            &nbsp;are margin-targetable by government&nbsp;
+            <span style={{ color: "purple" }}>
+              and non-government as needed for non-conflicted jurisprudence
+            </span>
+            &nbsp;bodies billed-as "protect American consumers"). Now, it is an
+            issue-of exclusion not based on a&nbsp;
+            <span style={{ color: "green" }}>court-verified</span>&nbsp;part of
+            a minimal-viable-product duress, bid of not a option to buy sold
+            already (not a deposit or down-payment), or skill (not experience,
+            a.k.a. docile, stagnant, counter-productive and focused on competing
+            with other suppliers by moat or consumers instead of concentrating
+            on consumers and winning their clean favor without any
+            duress-of-void or void-of third party dollar or shareholder to which
+            extension is forgone of initial-stated intent to give back
+            down-payments&nbsp;
+            <span style={{ color: "green" }}>if lose</span>, or launder from
+            borrowers' customers by prisoners'-dilemma duress here and with
             insurance-coagulation further abetted by invoice
             counterfeit-laundering not bettered by free-rider-immutable
             sales-tax/issuance extension over the free-rider-mutable subservice
             beyond margin-targeting, non-conflictive torts or confusing the
-            'State and the 'People')
+            'State and the 'People'), and certify by&nbsp;
+            <span style={{ color: "green" }}>deterministic calculus</span>.
             <br />
             <br />
             "other creative way to make it more fun to get 'vaccinated'" -
