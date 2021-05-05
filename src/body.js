@@ -147,6 +147,27 @@ class Body extends React.Component {
             overflow: "hidden"
           }}
         >
+          <h2>
+            The standing of Speech on the grounds we verbally-quarrel over today
+            is not a freedom-issue, it is a slavery-issue. Before the internet,
+            speech could not be impeded like government can abett favoritism,
+            has so far (they really can only tax/issue for courts toll-less
+            roads sewade and plows, otherwise it is monopsony-quota-communism
+            for no utility as it is free-rider-mutable and networks, 'market' of
+            markets are margin-targetable by government bodies billed-as
+            "protect American consumers"). Now, it is an issue-of exclusion not
+            based on a court-verified part of a minimal-viable-product duress,
+            bid of not a option to buy sold already (not a deposit or
+            down-payment), or skill (not experience, a.k.a. docile, stagnant,
+            counter-productive and focused on competing with other suppliers by
+            moat or consumers instead of concentrating on consumers and winning
+            their clean favor without any duress-of-void or void-of third party
+            dollar or shareholder to which extension is forgone of
+            initial-stated intent to give back down-payments if lose, or launder
+            from borrowers' customers by prisoners'-dilemma duress here and with
+            insurance-coagulation further abetted by invoice
+            counterfeit-laundering)
+          </h2>
           <div
             style={{
               overflow: "hidden",
