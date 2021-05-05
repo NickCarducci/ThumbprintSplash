@@ -1,4 +1,5 @@
 import React from "react";
+import { TwitterTweetEmbed } from "react-twitter-embed";
 
 class Policy extends React.Component {
   state = {};
@@ -270,6 +271,22 @@ class Policy extends React.Component {
         <b>Public </b>
         &bull;Total results by hobby, education or experience
         <br /> and all votes by assigned representatives and candidates
+        <br />
+        <br />
+        <div style={{ width: "100%", overflow: "auto" }}>
+          <TwitterTweetEmbed
+            style={{ alignSelf: "center" }}
+            key={"nick's tweet - 1389936048260669444"}
+            tweetId={"1389936048260669444"}
+          />
+        </div>
+        <br />
+        Otherwise, for statements of fact, only after spam becomes harassment
+        (repeated) will we entertain a label, as we would for plans for attack
+        (to show users what not to do) with upmost ability for their testimony,
+        prominently above our take. we will own out edits for integrity of truth
+        unlike Twitter (nor Facebook, if label is considered editing, which I do
+        because I take the publishers' reading)
         <br />
         <br />
       </div>
