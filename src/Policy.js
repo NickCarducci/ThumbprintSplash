@@ -259,7 +259,7 @@ class Policy extends React.Component {
                   &nbsp;can decipher jumbled messages & media (
                   <span
                     style={{
-                      color: "green"
+                      color: "rgb(150,250,250)"
                     }}
                   >
                     if non-convict, see nationalsecuritycasino.com
@@ -275,7 +275,7 @@ class Policy extends React.Component {
                   ,{" "}
                   <span
                     style={{
-                      color: "rgb(30,120,210)"
+                      color: "rgb(130,120,210)"
                     }}
                   >
                     Devices will have to be re-forged by revisiting an&nbsp;
