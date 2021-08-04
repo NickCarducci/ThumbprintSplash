@@ -1,9 +1,9 @@
 import React from "react";
-import { TwitterTweetEmbed } from "react-twitter-embed";
 import About from "./About";
 import History from "./History";
 import Policy from "./Policy";
 import Preview from "./Preview";
+import TwitterTweetEmbed from "./TwitterTweetEmbed";
 
 class Body extends React.Component {
   state = { hidePolicy: true, closePreview: true, hideAbout: true };
@@ -121,12 +121,35 @@ class Body extends React.Component {
           closePreview={closePreview}
           close={() => this.setState({ closePreview: !closePreview })}
         />
-        Terms of service
-        <br />
-        &bull; Price and development changes may occur at our discretion, there
-        is no liability of downtime or depreciation granted by using this
-        web-app
-        <br />
+        <div
+          style={{
+            width: "400px",
+            display: "inline-block"
+          }}
+        >
+          Our company is a non-governmental, unlimited-outlay, non-profit
+          sole-proprietorship with some Royalty Contracts W/Max-Profit (RCWMP)
+          under $50k, but lightte.ch certified to presently keep salaries under
+          $200k.
+          <br />
+          <br />
+          On&nbsp;
+          <a style={{ color: "grey" }} href="https://youtu.be/W-Vv1vysGzE">
+            November 5th, 2012
+          </a>
+          , US Thumbprint, Inc. was established as a 501(c)(3) "non-profit,"
+          until I realized the gov gets it when I die,
+          <br />
+          unless I make a clean break, with my dns-domain-whois, into a
+          proprietorship without liability-jettisoning-collusions
+          <br />
+          <br />
+          Terms of service
+          <br />
+          &bull; Price and development changes may occur at our discretion,
+          there is no liability of downtime or depreciation granted by using
+          this web-app
+        </div>
         <br />
         <a href="https://johnshopkins.academia.edu/NickCarducci">
           academic purpose
@@ -245,11 +268,7 @@ class Body extends React.Component {
             }}
           >
             <div style={{ width: "100%", overflow: "auto" }}>
-              <TwitterTweetEmbed
-                style={{ alignSelf: "center" }}
-                key={"nick's tweet - 1389936048260669444"}
-                tweetId={"1389936048260669444"}
-              />
+              <TwitterTweetEmbed tweetId={"1389936048260669444"} />
             </div>
             <br />
             Otherwise, for statements of fact, only after spam becomes
