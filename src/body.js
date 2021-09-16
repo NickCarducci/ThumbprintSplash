@@ -26,6 +26,8 @@ class Body extends React.Component {
         this.setState({ closePreview: false });
       } else if (pathname === "/2017") {
         this.props.set2017({ see2017: true });
+      } else if (pathname === "/voting") {
+        this.props.set2017({ voting: true });
       }
     }
   };
@@ -40,7 +42,8 @@ class Body extends React.Component {
       showSpeech,
       showPayments,
       showVideos,
-      showPhone
+      showPhone,
+      voting
     } = this.state;
     return (
       <div
@@ -619,6 +622,26 @@ class Body extends React.Component {
         />
         <br />
         <br />
+        <button
+          onClick={() => this.setState({ voting: !this.state.showDominion })}
+        >
+          voting
+        </button>
+        <br />
+        <br />
+        <div
+          style={{
+            overflow: "hidden",
+            height: !voting ? "0px" : "min-content",
+            backgroundColor: "rgba(170,220,250)"
+          }}
+        >
+          <hr />
+          <br />
+          ArrayArrays - [uuid, way+on-device-key]
+          <br />
+          cors origin ssl
+        </div>
         <button
           onClick={() =>
             this.setState({ showDominion: !this.state.showDominion })
