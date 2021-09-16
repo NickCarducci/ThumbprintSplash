@@ -27,7 +27,7 @@ class Body extends React.Component {
       } else if (pathname === "/2017") {
         this.props.set2017({ see2017: true });
       } else if (pathname === "/voting") {
-        this.props.set2017({ voting: true });
+        this.setState({ voting: true });
       }
     }
   };
@@ -622,9 +622,7 @@ class Body extends React.Component {
         />
         <br />
         <br />
-        <button
-          onClick={() => this.setState({ voting: !this.state.voting })}
-        >
+        <button onClick={() => this.setState({ voting: !this.state.voting })}>
           voting
         </button>
         <br />
@@ -638,7 +636,8 @@ class Body extends React.Component {
         >
           <hr />
           <br />
-          ArrayArrays - [uuid, way+on-device-key]
+          ArrayArrays - [uuid, way+on-device-key], instead of having field+count
+          incremented on the post object
           <br />
           cors origin ssl auth (hope for login.gov api for non-government orgs),
           I am withholding ideas, for your best interests, I've decided
