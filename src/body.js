@@ -647,7 +647,7 @@ class Body extends React.Component {
             this.setState({ showDominion: !this.state.showDominion })
           }
         >
-          Dominion
+          Dominion / fraud
         </button>
         <br />
         <br />
@@ -679,6 +679,13 @@ class Body extends React.Component {
           Associated Press and Google called the election on election day at 61%
           in NJ. That is fraud by definition, especially of an unshuffled
           population, you cannot even call projections an expected value
+          <br />
+          <br />
+          If they use dominion for non-notarized mail-in voting, this is still
+          relevant: to begin with an instance, 15m excess deaths are expected
+          thru Great Leap Forward #HonorSystemSignatures from population growth
+          alone. lmao it's all a big troll, like gdp without m2 or bonds is 1/11
+          gdp, absolutely-retarded
         </div>
         <button onClick={() => this.setState({ showHistory: !showHistory })}>
           History
