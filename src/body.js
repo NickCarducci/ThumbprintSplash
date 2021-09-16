@@ -623,7 +623,7 @@ class Body extends React.Component {
         <br />
         <br />
         <button
-          onClick={() => this.setState({ voting: !this.state.showDominion })}
+          onClick={() => this.setState({ voting: !this.state.voting })}
         >
           voting
         </button>
