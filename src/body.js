@@ -640,7 +640,8 @@ class Body extends React.Component {
           <br />
           ArrayArrays - [uuid, way+on-device-key]
           <br />
-          cors origin ssl
+          cors origin ssl auth (hope for login.gov api for non-government orgs),
+          I am withholding ideas, for your best interests, I've decided
         </div>
         <button
           onClick={() =>
