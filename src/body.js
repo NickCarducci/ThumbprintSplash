@@ -43,7 +43,8 @@ class Body extends React.Component {
       showPayments,
       showVideos,
       showPhone,
-      voting
+      voting,
+      showTaxes
     } = this.state;
     return (
       <div
@@ -479,6 +480,74 @@ class Body extends React.Component {
           Just take it from atm fees, you’ll make more on volume...*/}
         </div>
         <br />
+        Malarkey is useful for describing assumptions, by shorthand.
+        <br />
+        <br />
+        <button onClick={() => this.setState({ showTaxes: !showTaxes })}>
+          Taxes
+        </button>
+        <br />
+        <br />
+        <div
+          style={{
+            width: "100%",
+            maxWidth: "600px",
+            display: "flex",
+            padding: showTaxes ? "10px 0px" : "0px 0px",
+            margin: showTaxes ? "10px" : "0px",
+            borderRadius: "8px",
+            color: "rgb(235,235,240)",
+            height: showTaxes ? "min-content" : "0px",
+            overflow: "hidden",
+            backgroundColor: "rgba(10,20,25)"
+          }}
+        >
+          <iframe
+            src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F108986904353225%2Fvideos%2F4404002109665977%2F&show_text=true&width=220&t=0"
+            style={{ width: "110px", height: "140px" }}
+            scrolling="no"
+            title="https://fb.watch/8vc_WNxnzq/"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            allowFullScreen="true"
+          ></iframe>
+          <div>
+            <b>Marx</b>&nbsp;is pareto I don't care if dead weight is called
+            public or private. credit by income is PATHETIC
+            <br />
+            <a style={{ color: "rgb(200,200,250)" }} href="https://vaults.biz">
+              geohash/month
+            </a>
+            &nbps; is all congress&nbsp;
+            <a
+              style={{ color: "rgb(200,200,250)" }}
+              href="https://nationalsecuritycasino.com"
+            >
+              needs to see
+            </a>
+            <br />
+            <a style={{ color: "rgb(200,200,250)" }} href="https://froth.app">
+              bacteria
+            </a>
+            <br />
+            entrepreneur financed by the discriminating trust built queen in the
+            free rider mutable elasticty otherwise useless
+            <br />
+            <br />
+            <b>Kudlow</b>&nbsp; "I gave up drinking as a public service,"&nbsp;
+            <a style={{ color: "rgb(200,200,250)" }} href="https://vaults.biz">
+              I work for copyright
+            </a>
+            ; contribute or at least trade, don't compete with consumers nor tax
+            for free rider mutable outside article 4 truncated sales tax
+            scope.&nbsp;
+            <a
+              style={{ color: "rgb(200,200,250)" }}
+              href="https://fred.stlouisfed.org/graph/?g=Hzj5"
+            >
+              Half 2.8 continuing claims are 65+
+            </a>
+          </div>
+        </div>
         <button onClick={() => this.setState({ showVideos: !showVideos })}>
           Videos
         </button>
