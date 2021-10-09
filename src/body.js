@@ -504,7 +504,7 @@ class Body extends React.Component {
         >
           <iframe
             src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F108986904353225%2Fvideos%2F4404002109665977%2F&show_text=true&width=220&t=0"
-            style={{ width: "110px", height: "140px" }}
+            style={{ width: "110px", height: "530px" }}
             scrolling="no"
             title="https://fb.watch/8vc_WNxnzq/"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
@@ -546,6 +546,23 @@ class Body extends React.Component {
             >
               Half 2.8 continuing claims are 65+
             </a>
+            <br />
+            <br />
+            Psaki said it is free because it is paid for, although there are
+            more payments being paid at the same time making that point
+            fraudulent but still, babysteps
+            <br />
+            <br />
+            Prices are so elastic that welfare isn’t necessary without dead
+            weight in bonds laundering and rentier-income, even the
+            permenantly-disabled
+            <br />
+            <br />
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:share:6851592880201453568"
+              style={{ width: "100%", height: "400px" }}
+              title="Embedded post"
+            ></iframe>
           </div>
         </div>
         <button onClick={() => this.setState({ showVideos: !showVideos })}>
