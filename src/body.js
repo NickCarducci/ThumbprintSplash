@@ -780,6 +780,24 @@ class Body extends React.Component {
           to industry-wide conflict of interest
           <br />
           <br />
+          Eldersons match care can't wait! or bust, preferably (reverse
+          debt:cash to amortize reimburse downpayments upon repo on third party
+          beneficiary grounds) Care worker gentrification by gov isn't
+          socialist, saver, nor microeconiomics, like shoveling water over a
+          porous fence.
+          <br />
+          <br />
+          $170t value, $88t bond value, $2-6t cash, how the heck when $4t/yr
+          federal spending is normal? 1.1*currencyComponentOfM1 = gdp without
+          bonds before 3/2020 means paying back 44x cash is impossibly
+          purposeful or moot, if third party beneficiary of these public park
+          deeds weren't with standing (they is)
+          <br />
+          <br />
+          How is there only $2-6t cash but federal government spending alone is
+          $4t/yr?
+          <br />
+          <br />
           Government can only certify
           <br />
           teapharmacy.party, cap rental-income at 5 units, 20x rental-income is
