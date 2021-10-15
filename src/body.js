@@ -758,6 +758,28 @@ class Body extends React.Component {
           similar price pay for something of in receipt
           <br />
           <br />
+          Electric trucks that do not exist funding means no consumers want
+          them, subsidies still would otherwise elastically in same magnitude of
+          waste be exuded in price
+          <br />
+          Republicans and Democrats want to own pipes instead of do their job
+          and regulate, target margin networks, finite proiducers will not
+          protect consumers, and hung-jury-permits for duress in minimal viable
+          product before scientific consensus (11/12)
+          <br />
+          All parties other than&nbsp;
+          <a href="https://saverparty.xyz">Savers</a>, the only party that puts
+          consumers before finite producers in accrual & dealmaking with duress
+          and impossibilities moot or purposeful, check and mate lenders,
+          implausible use landlords & non-concurrent prisoners' wardens' gain of
+          non-concurrent collective bargain fraud
+          <br />
+          only customers and labor can discriminate, however, being so far that
+          platforms must pay users to discriminate or assume facts still with
+          reasonable doubt and scientific contention without a bar susceptible
+          to industry-wide conflict of interest
+          <br />
+          <br />
           Government can only certify
           <br />
           teapharmacy.party, cap rental-income at 5 units, 20x rental-income is
