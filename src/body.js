@@ -727,6 +727,16 @@ class Body extends React.Component {
           <br />
           cors origin ssl auth (hope for login.gov api for non-government orgs),
           I am withholding ideas, for your best interests, I've decided
+          <br />
+          <br />
+          "Party corrupting election," bemoans Bill O'reilly. what do you
+          expect?
+          <br />
+          38% don’t vote in nj, they aren’t voters, only 26% are registered,
+          that is a vote no to policy movement, not even worth their time. Only
+          executive authority if vote is majority of whole eligible voting-age
+          population. NJ detest and eligible voters can defeat democrats and
+          republicans in New Jersey
         </div>
         <button
           onClick={() =>
