@@ -730,7 +730,9 @@ class Body extends React.Component {
           <br />
           <br />
           "Party corrupting election," bemoans Bill O'reilly. what do you
-          expect?
+          expect? force abstaination of officials with relevant holdings,
+          provide SEC with a backdoor to 2 week anon uuid tranche brokerage api
+          <br />
           <br />
           38% don’t vote in nj, they aren’t voters, only 26% are registered,
           that is a vote no to policy movement, not even worth their time. Only
