@@ -798,6 +798,10 @@ class Body extends React.Component {
           $4t/yr?
           <br />
           <br />
+          bonds can make profit out of net loss and racketeering for
+          bond-laundering credit counterfeit is perverse
+          <br />
+          <br />
           Government can only certify
           <br />
           teapharmacy.party, cap rental-income at 5 units, 20x rental-income is
