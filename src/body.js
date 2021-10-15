@@ -734,6 +734,10 @@ class Body extends React.Component {
           provide SEC with a backdoor to 2 week anon uuid tranche brokerage api
           <br />
           <br />
+          <a href="https://www.theatlantic.com/politics/archive/2011/10/poll-most-americans-support-occupy-wall-street/246963/">
+            59% occupy
+          </a>
+          <br />
           38% don’t vote in nj, they aren’t voters, only 26% are registered,
           that is a vote no to policy movement, not even worth their time. Only
           executive authority if vote is majority of whole eligible voting-age
@@ -741,10 +745,20 @@ class Body extends React.Component {
           republicans in New Jersey
           <br />
           <br />
-          Wabc says drugs/disorderly/minor-crime is violent crime, no it is
-          because landlords, lenders and non-concurrent collective bargain
-          brokers credit isn’t income
+          They advocate involuntary care for not giving your copyright to a
+          corporation; Wabc says drugs/disorderly/minor-crime is violent crime,
+          no it is because landlords, lenders and non-concurrent collective
+          bargain brokers credit isn’t income. the exact opposite of
+          productivity that is hours under price-deflation - acheivable by
+          timelesspaydayroyalty scoped for industry-type for p2p only,
+          concurrentable-collective-bargainings for investment banks only (no
+          hours nor grandiose scopes), ween free rider immutable article 4
+          sewage police lawsuits by truncated sales tax, about 3% under $2k,
+          geohash/month to congress triggered by private paytech when items of
+          similar price pay for something of in receipt
           <br />
+          <br />
+          Government can only certify
           <br />
           teapharmacy.party, cap rental-income at 5 units, 20x rental-income is
           55+/millennials per capita, your whole lives to save. The younger ages
@@ -753,6 +767,13 @@ class Body extends React.Component {
             virus appeared from somewhere other than bacteria, and bacteria from
             water
           </a>
+          .
+          <br />
+          <br />
+          Needs cell, not alive, you’re studying the byproduct not the cause
+          (bacteria)
+          <br />
+          Mitosis is viral replication, 1 cell/day
         </div>
         <button
           onClick={() =>
