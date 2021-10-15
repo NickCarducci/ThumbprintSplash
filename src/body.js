@@ -737,6 +737,20 @@ class Body extends React.Component {
           executive authority if vote is majority of whole eligible voting-age
           population. NJ detest and eligible voters can defeat democrats and
           republicans in New Jersey
+          <br />
+          <br />
+          Wabc says drugs/disorderly/minor-crime is violent crime, no it is
+          because landlords, lenders and non-concurrent collective bargain
+          brokers credit isn’t income
+          <br />
+          <br />
+          teapharmacy.party, cap rental-income at 5 units, 20x rental-income is
+          55+/millennials per capita, your whole lives to save. The younger ages
+          are mostly antivaxx because we do not believe in creation of where
+          <a href="https://froth.app/stats">
+            virus appeared from somewhere other than bacteria, and bacteria from
+            water
+          </a>
         </div>
         <button
           onClick={() =>
