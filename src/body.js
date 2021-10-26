@@ -54,6 +54,20 @@ class Body extends React.Component {
           backgroundColor: "rgba(200,200,200,.9)"
         }}
       >
+        Thumbprint is a scoring-platform for candidates & parties by committee &
+        experience affinity summaries. 
+        <br/>
+        <br/>
+        Keeping up with civic life doesn't end with legislation, court cases & 
+        secure elections, but on-device end-to-end encrypted schedule-sharing and chats, 
+        permitted by a convict-intranet of sorts, login-kyc on the roadmap for these features' 
+        enablement, and further extends to extracurricular and recreational-life; happenings such 
+        as this rejuvenate neighborhoods around the globe.  To do more good than harm, we are boycotting 
+        credit as income; forging our own paytech so we can be sure we contribute as much as we take 
+        out from ticket buyers, to sustain the non-profit endeavors.  We were 501(c)3, but opted to 
+        operate with taxed-income for our employees so to be sure the copyrights weren't laundered to 
+        bond-holders and nationalistic over internationally-humane ends, and ensure the margins are 
+        forever as tight as possible, as all "non-profits" should.
         <div
           style={{
             position: "fixed",
