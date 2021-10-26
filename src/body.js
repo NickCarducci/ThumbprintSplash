@@ -879,7 +879,7 @@ class Body extends React.Component {
           gdp, absolutely-retarded
         </div>
         <button onClick={() => this.setState({ showHistory: !showHistory })}>
-          History
+          Versions
         </button>
         <History showHistory={showHistory} />
         <br />
