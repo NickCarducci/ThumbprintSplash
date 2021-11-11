@@ -55,19 +55,22 @@ class Body extends React.Component {
         }}
       >
         Thumbprint is a scoring-platform for candidates & parties by committee &
-        experience affinity summaries. 
-        <br/>
-        <br/>
-        Keeping up with civic life doesn't end with legislation, court cases & 
-        secure elections, but on-device end-to-end encrypted schedule-sharing and chats, 
-        permitted by a convict-intranet of sorts, login-kyc on the roadmap for these features' 
-        enablement, and further extends to extracurricular and recreational-life; happenings such 
-        as this rejuvenate neighborhoods around the globe.  To do more good than harm, we are boycotting 
-        credit as income; forging our own paytech so we can be sure we contribute as much as we take 
-        out from ticket buyers, to sustain the non-profit endeavors.  We were 501(c)3, but opted to 
-        operate with taxed-income for our employees so to be sure the copyrights weren't laundered to 
-        bond-holders and nationalistic over internationally-humane ends, and ensure the margins are 
-        forever as tight as possible, as all "non-profits" should.
+        experience affinity summaries
+        <br />
+        <br />
+        Keeping up with civic life doesn't end with legislation, court cases &
+        secure elections, but on-device end-to-end encrypted schedule-sharing
+        and chats, permitted by a convict-intranet of sorts, login-kyc on the
+        roadmap for these features' enablement, and further extends to
+        extracurricular and recreational-life; happenings such as this
+        rejuvenate neighborhoods around the globe. To do more good than harm, we
+        are boycotting credit as income; forging our own paytech so we can be
+        sure we contribute as much as we take out from ticket buyers, to sustain
+        the non-profit endeavors. We were 501(c)3, but opted to operate with
+        taxed-income for our employees so to be sure the copyrights weren't
+        laundered to bond-holders and nationalistic over internationally-humane
+        ends, and ensure the margins are forever as tight as possible, as all
+        "non-profits" should.
         <div
           style={{
             position: "fixed",
@@ -734,6 +737,11 @@ class Body extends React.Component {
             backgroundColor: "rgba(170,220,250)"
           }}
         >
+          <iframe
+            style={{ border: "1px solid black" }}
+            src="https://www.youtube.com/embed/A2kSh0A8Ad0"
+            title="YouTube video player"
+          />
           <hr />
           <br />
           ArrayArrays - [uuid, way+on-device-key], instead of having field+count
@@ -748,90 +756,100 @@ class Body extends React.Component {
           provide SEC with a backdoor to 2 week anon uuid tranche brokerage api
           <br />
           <br />
-          <a href="https://www.theatlantic.com/politics/archive/2011/10/poll-most-americans-support-occupy-wall-street/246963/">
-            59% occupy
-          </a>
-          <br />
-          38% don’t vote in nj, they aren’t voters, only 26% are registered,
-          that is a vote no to policy movement, not even worth their time. Only
-          executive authority if vote is majority of whole eligible voting-age
-          population. NJ detest and eligible voters can defeat democrats and
-          republicans in New Jersey
-          <br />
-          <br />
-          They advocate involuntary care for not giving your copyright to a
-          corporation; Wabc says drugs/disorderly/minor-crime is violent crime,
-          no it is because landlords, lenders and non-concurrent collective
-          bargain brokers credit isn’t income. the exact opposite of
-          productivity that is hours under price-deflation - acheivable by
-          timelesspaydayroyalty scoped for industry-type for p2p only,
-          concurrentable-collective-bargainings for investment banks only (no
-          hours nor grandiose scopes), ween free rider immutable article 4
-          sewage police lawsuits by truncated sales tax, about 3% under $2k,
-          geohash/month to congress triggered by private paytech when items of
-          similar price pay for something of in receipt
-          <br />
-          <br />
-          Electric trucks that do not exist funding means no consumers want
-          them, subsidies still would otherwise elastically in same magnitude of
-          waste be exuded in price
-          <br />
-          Republicans and Democrats want to own pipes instead of do their job
-          and regulate, target margin networks, finite proiducers will not
-          protect consumers, and hung-jury-permits for duress in minimal viable
-          product before scientific consensus (11/12)
-          <br />
-          All parties other than&nbsp;
-          <a href="https://saverparty.xyz">Savers</a>, the only party that puts
-          consumers before finite producers in accrual & dealmaking with duress
-          and impossibilities moot or purposeful, check and mate lenders,
-          implausible use landlords & non-concurrent prisoners' wardens' gain of
-          non-concurrent collective bargain fraud
-          <br />
-          only customers and labor can discriminate, however, being so far that
-          platforms must pay users to discriminate or assume facts still with
-          reasonable doubt and scientific contention without a bar susceptible
-          to industry-wide conflict of interest
-          <br />
-          <br />
-          Eldersons match care can't wait! or bust, preferably (reverse
-          debt:cash to amortize reimburse downpayments upon repo on third party
-          beneficiary grounds) Care worker gentrification by gov isn't
-          socialist, saver, nor microeconiomics, like shoveling water over a
-          porous fence.
-          <br />
-          <br />
-          $170t value, $88t bond value, $2-6t cash, how the heck when $4t/yr
-          federal spending is normal? 1.1*currencyComponentOfM1 = gdp without
-          bonds before 3/2020 means paying back 44x cash is impossibly
-          purposeful or moot, if third party beneficiary of these public park
-          deeds weren't with standing (they is)
-          <br />
-          <br />
-          How is there only $2-6t cash but federal government spending alone is
-          $4t/yr?
-          <br />
-          <br />
-          bonds can make profit out of net loss and racketeering for
-          bond-laundering credit counterfeit is perverse
-          <br />
-          <br />
-          Government can only certify
-          <br />
-          teapharmacy.party, cap rental-income at 5 units, 20x rental-income is
-          55+/millennials per capita, your whole lives to save. The younger ages
-          are mostly antivaxx because we do not believe in creation of where
-          <a href="https://froth.app/stats">
-            virus appeared from somewhere other than bacteria, and bacteria from
-            water
-          </a>
-          .
-          <br />
-          <br />
-          Needs cell, not alive, you’re studying the byproduct not the cause
-          (bacteria)
-          <br />
-          Mitosis is viral replication, 1 cell/day
+          <button
+            onClick={(e) => {
+              this.setState({ openRant: !this.state.openRant });
+            }}
+          >
+            RANT PLS
+          </button>
+          <div style={{ display: this.state.openRant ? "block" : "none" }}>
+            <a href="https://www.theatlantic.com/politics/archive/2011/10/poll-most-americans-support-occupy-wall-street/246963/">
+              59% occupy
+            </a>
+            <br />
+            38% don’t vote in nj, they aren’t voters, only 26% are registered,
+            that is a vote no to policy movement, not even worth their time.
+            Only executive authority if vote is majority of whole eligible
+            voting-age population. NJ detest and eligible voters can defeat
+            democrats and republicans in New Jersey
+            <br />
+            <br />
+            They advocate involuntary care for not giving your copyright to a
+            corporation; Wabc says drugs/disorderly/minor-crime is violent
+            crime, no it is because landlords, lenders and non-concurrent
+            collective bargain brokers credit isn’t income. the exact opposite
+            of productivity that is hours under price-deflation - acheivable by
+            timelesspaydayroyalty scoped for industry-type for p2p only,
+            concurrentable-collective-bargainings for investment banks only (no
+            hours nor grandiose scopes), ween free rider immutable article 4
+            sewage police lawsuits by truncated sales tax, about 3% under $2k,
+            geohash/month to congress triggered by private paytech when items of
+            similar price pay for something of in receipt
+            <br />
+            <br />
+            Electric trucks that do not exist funding means no consumers want
+            them, subsidies still would otherwise elastically in same magnitude
+            of waste be exuded in price
+            <br />
+            Republicans and Democrats want to own pipes instead of do their job
+            and regulate, target margin networks, finite proiducers will not
+            protect consumers, and hung-jury-permits for duress in minimal
+            viable product before scientific consensus (11/12)
+            <br />
+            All parties other than&nbsp;
+            <a href="https://saverparty.xyz">Savers</a>, the only party that
+            puts consumers before finite producers in accrual & dealmaking with
+            duress and impossibilities moot or purposeful, check and mate
+            lenders, implausible use landlords & non-concurrent prisoners'
+            wardens' gain of non-concurrent collective bargain fraud
+            <br />
+            only customers and labor can discriminate, however, being so far
+            that platforms must pay users to discriminate or assume facts still
+            with reasonable doubt and scientific contention without a bar
+            susceptible to industry-wide conflict of interest
+            <br />
+            <br />
+            Eldersons match care can't wait! or bust, preferably (reverse
+            debt:cash to amortize reimburse downpayments upon repo on third
+            party beneficiary grounds) Care worker gentrification by gov isn't
+            socialist, saver, nor microeconiomics, like shoveling water over a
+            porous fence.
+            <br />
+            <br />
+            $170t value, $88t bond value, $2-6t cash, how the heck when $4t/yr
+            federal spending is normal? 1.1*currencyComponentOfM1 = gdp without
+            bonds before 3/2020 means paying back 44x cash is impossibly
+            purposeful or moot, if third party beneficiary of these public park
+            deeds weren't with standing (they is)
+            <br />
+            <br />
+            How is there only $2-6t cash but federal government spending alone
+            is $4t/yr?
+            <br />
+            <br />
+            bonds can make profit out of net loss and racketeering for
+            bond-laundering credit counterfeit is perverse
+            <br />
+            <br />
+            Government can only certify
+            <br />
+            teapharmacy.party, cap rental-income at 5 units, 20x rental-income
+            is 55+/millennials per capita, your whole lives to save. The younger
+            ages are mostly antivaxx because we do not believe in creation of
+            where
+            <a href="https://froth.app/stats">
+              virus appeared from somewhere other than bacteria, and bacteria
+              from water
+            </a>
+            .
+            <br />
+            <br />
+            Needs cell, not alive, you’re studying the byproduct not the cause
+            (bacteria)
+            <br />
+            Mitosis is viral replication, 1 cell/day
+          </div>
         </div>
         <button
           onClick={() =>
