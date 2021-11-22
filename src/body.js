@@ -737,6 +737,10 @@ class Body extends React.Component {
             backgroundColor: "rgba(170,220,250)"
           }}
         >
+          <a href="https://www.usenix.org/legacy/publications/library/proceedings/usenix03/tech/full_papers/tolia/tolia_html/usenix03.html#:~:text=7%20Security%20Considerations">
+            content-addressability
+          </a>
+          , hardly without moduloKey-token
           <iframe
             style={{ border: "1px solid black" }}
             src="https://www.youtube.com/embed/A2kSh0A8Ad0"
