@@ -593,15 +593,15 @@ class Body extends React.Component {
         >
           <iframe
             style={{ border: "1px solid black" }}
-            title="riseoftherest video"
+            title="riseoftherest video https://youtu.be/AiwdrWWUVBI"
             src="https://www.youtube-nocookie.com/embed/AiwdrWWUVBI"
             allowFullScreen
           ></iframe>
           <div
             onClick={() => {
-              var answer = window.confirm("open https://vimeo.com/448329299");
+              var answer = window.confirm("open https://youtu.be/AiwdrWWUVBI");
               if (answer) {
-                window.location.href = "https://vimeo.com/448329299";
+                window.location.href = "https://youtu.be/AiwdrWWUVBI";
               }
             }}
           >
@@ -610,7 +610,7 @@ class Body extends React.Component {
           <br />
           <iframe
             style={{ border: "1px solid black" }}
-            title="opengovfoundation video"
+            title="opengovfoundation video https://youtu.be/W-Vv1vysGzE"
             src="https://www.youtube-nocookie.com/embed/W-Vv1vysGzE"
             allowFullScreen
           ></iframe>
@@ -625,9 +625,23 @@ class Body extends React.Component {
             open OpenGovFoundation
           </div>
           <br />
+          <div
+            onClick={() => {
+              var answer = window.confirm(
+                "open https://www.academia.edu/48950651/Economics_of_Politics_Public_Finance_Term_Paper?source=swp_share"
+              );
+              if (answer) {
+                window.location.href =
+                  "https://www.academia.edu/48950651/Economics_of_Politics_Public_Finance_Term_Paper?source=swp_share";
+              }
+            }}
+          >
+            open Economics of Politics
+          </div>
+          <br />
           <iframe
             style={{ border: "1px solid black" }}
-            title="kickstarter video"
+            title="kickstarter video https://vimeo.com/video/137201995"
             src="https://player.vimeo.com/video/137201995"
             allowFullScreen
           ></iframe>
