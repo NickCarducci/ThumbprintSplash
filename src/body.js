@@ -751,6 +751,10 @@ class Body extends React.Component {
             backgroundColor: "rgba(170,220,250)"
           }}
         >
+          “There is this lack of reality, there continues to be this lack of
+          reality.” Bret Bair on Afghanistan, $1/821 day/person of the budget
+          <br />
+          <br />
           new grounds livelihood when cops follow countervailing laws. if a war
           is virtuous, you'd have volunteers.
           <br />
