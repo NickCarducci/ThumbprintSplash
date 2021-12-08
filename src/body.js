@@ -751,6 +751,17 @@ class Body extends React.Component {
             backgroundColor: "rgba(170,220,250)"
           }}
         >
+          “Don’t want Ukraine to join NATO,” as impetus - Mike Baker.
+          <br />
+          Very unlikely, reasonable doubt still stands.
+          <br />
+          Hung jury, multiple of 12 various industries.
+          <br />
+          More likely when you do not shuffle and survey bias Tranche results,
+          let alone ideological duress of wall st Pharma, and non-voters won and
+          magnet data.
+          <br />
+          <br />
           <a href="https://www.usenix.org/legacy/publications/library/proceedings/usenix03/tech/full_papers/tolia/tolia_html/usenix03.html#:~:text=7%20Security%20Considerations">
             content-addressability
           </a>
@@ -763,15 +774,17 @@ class Body extends React.Component {
           <hr />
           <br />
           ArrayArrays - [uuid, way+on-device-key], instead of having field+count
-          incremented on the post object
+          incremented on the post object.
           <br />
           cors origin ssl auth (hope for login.gov api for non-government orgs),
-          I am withholding ideas, for your best interests, I've decided
+          I am withholding ideas, for your best interests, I've decided. Might
+          use some medical advice prior to jury permits in my copy/mvp, friends
+          and family discount/options on estimates apprv.
           <br />
           <br />
           "Party corrupting election," bemoans Bill O'reilly. what do you
           expect? force abstaination of officials with relevant holdings,
-          provide SEC with a backdoor to 2 week anon uuid tranche brokerage api
+          provide SEC with a backdoor to 2 week anon uuid tranche brokerage api.
           <br />
           <br />
           <button
