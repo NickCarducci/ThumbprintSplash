@@ -751,6 +751,9 @@ class Body extends React.Component {
             backgroundColor: "rgba(170,220,250)"
           }}
         >
+          new grounds livelihood when cops follow countervailing laws. if a war
+          is virtuous, you'd have volunteers.
+          <br />
           “Don’t want Ukraine to join NATO,” as impetus - Mike Baker.
           <br />
           Very unlikely, reasonable doubt still stands.
