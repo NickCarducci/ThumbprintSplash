@@ -752,7 +752,12 @@ class Body extends React.Component {
           }}
         >
           “There is this lack of reality, there continues to be this lack of
-          reality.” Bret Bair on Afghanistan, $1/821 day/person of the budget
+          reality.” Bret Bair on Afghanistan, $1/
+          <a href="https://fred.stlouisfed.org/graph/?g=JE7R">821</a>
+          &nbsp;day/person of the budget
+          <br />
+          <br />
+          1/4 1/4 1/4 pension pentagon premium, 10% debt service (40% njta)
           <br />
           <br />
           new grounds livelihood when cops follow countervailing laws. if a war
