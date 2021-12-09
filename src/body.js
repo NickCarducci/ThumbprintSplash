@@ -416,7 +416,13 @@ class Body extends React.Component {
         </button>
         <br />
         <br />
-        third party beneficiary donee claimable, cash advance to TBT
+        third party beneficiary donee claimable, cash advance to TBT. &nbsp;
+        <a href="https://constitutioncenter.org/interactive-constitution/amendment/amendment-v">
+          prevent state victimization
+        </a>
+        &nbsp;no law is settled, they countervail and politics reason scientific
+        method with multiple of 12 at variious industry jury
+        <br />
         <div
           style={{
             padding: showPayments ? "10px 0px" : "0px 0px",
