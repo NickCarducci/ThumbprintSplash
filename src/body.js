@@ -762,7 +762,14 @@ class Body extends React.Component {
           }}
         >
           “To mail-in-ballots, you do not us the USPS,” David Wilestein of the
-          NJ Globe.
+          NJ Globe. "There were too many nursing home deaths in the nursing home
+          there," well you are measuring, "
+          <a href="https://humanharvest.info/polio">excess</a>" in absolute
+          terms, without regard for population cohort size basis. If Trump
+          claims election fraud on this basis he will have to for his&nbsp;
+          <a href="https://nationalsecuritycasino.com">ppp trust building</a>
+          &nbsp; existing-business free rider mutable 40% tax spending, 60% debt
+          spending.
           <br />
           <br />
           “There is this lack of reality, there continues to be this lack of
