@@ -47,6 +47,7 @@ class Body extends React.Component {
       showTaxes
     } = this.state;
     const buttonStyle = {
+      height: "min-content",
       borderRadius: "13px",
       margin: "10px",
       padding: "6px 10px",
@@ -55,6 +56,10 @@ class Body extends React.Component {
     return (
       <div
         style={{
+          paddingBottom: "50px",
+          justifyContent: "center",
+          display: "flex",
+          flexWrap: "wrap",
           width: "100%",
           textAlign: "center",
           backgroundColor: "rgba(200,200,200,.9)"
@@ -122,55 +127,57 @@ class Body extends React.Component {
             />
           </a>
         </div>
-        <div
-          style={{
-            width: "max-content",
-            position: "relative",
-            display: "flex",
-            zIndex: "9999",
-            backgroundColor: "rgb(250,250,250)"
-          }}
-          onClick={() => this.props.set2017({ see2017: !see2017 })}
-        >
-          {see2017 ? "close" : "see"} 2017 mockup
+        <div>
+          <div
+            style={{
+              width: "max-content",
+              position: "relative",
+              display: "flex",
+              zIndex: "9999",
+              backgroundColor: "rgb(250,250,250)"
+            }}
+            onClick={() => this.props.set2017({ see2017: !see2017 })}
+          >
+            {see2017 ? "close" : "see"} 2017 mockup
+          </div>
+          <img
+            src={require("./mockup.png")}
+            alt="error"
+            className="mockup"
+            style={{
+              height: "auto",
+              maxWidth: "600px",
+              width: see2017 ? "100%" : "0%",
+              transition: ".3s ease-in"
+            }}
+          />
+          <div
+            onClick={() => this.setState({ hideAbout: !hideAbout })}
+            style={{
+              color: "black",
+              width: "100px",
+              backgroundColor: "rgb(250,250,250)"
+            }}
+          >
+            about
+          </div>
+          {/*^mockup 2017*/}
+          <About hideAbout={hideAbout} />
+          <div
+            onClick={() => this.setState({ closePreview: !closePreview })}
+            style={{
+              color: "black",
+              width: "100px",
+              backgroundColor: "rgb(250,250,250)"
+            }}
+          >
+            stack
+          </div>
+          <Preview
+            closePreview={closePreview}
+            close={() => this.setState({ closePreview: !closePreview })}
+          />
         </div>
-        <img
-          src={require("./mockup.png")}
-          alt="error"
-          className="mockup"
-          style={{
-            height: "auto",
-            maxWidth: "600px",
-            width: see2017 ? "100%" : "0%",
-            transition: ".3s ease-in"
-          }}
-        />
-        <div
-          onClick={() => this.setState({ hideAbout: !hideAbout })}
-          style={{
-            color: "black",
-            width: "100px",
-            backgroundColor: "rgb(250,250,250)"
-          }}
-        >
-          about
-        </div>
-        {/*^mockup 2017*/}
-        <About hideAbout={hideAbout} />
-        <div
-          onClick={() => this.setState({ closePreview: !closePreview })}
-          style={{
-            color: "black",
-            width: "100px",
-            backgroundColor: "rgb(250,250,250)"
-          }}
-        >
-          stack
-        </div>
-        <Preview
-          closePreview={closePreview}
-          close={() => this.setState({ closePreview: !closePreview })}
-        />
         <button
           style={buttonStyle}
           onClick={() => this.setState({ voting: !this.state.voting })}
@@ -711,6 +718,8 @@ class Body extends React.Component {
           <br />
           Plea is inherently duress. Give me back my&nbsp;
           <a href="https://teapharmacy.party">nugg</a>
+          <br />
+          Malarkey is useful for describing assumptions, by shorthand.
         </div>
         <div
           style={{
@@ -792,10 +801,6 @@ class Body extends React.Component {
           debit card users? $75/mo? Why so prohibitory for anti-credit startups?
           Just take it from atm fees, you’ll make more on volume...*/}
         </div>
-        <br />
-        Malarkey is useful for describing assumptions, by shorthand.
-        <br />
-        <br />
         <button
           style={buttonStyle}
           onClick={() => this.setState({ showTaxes: !showTaxes })}
@@ -958,7 +963,6 @@ class Body extends React.Component {
             open Kickstarter
           </div>
         </div>
-        <br />
         <button
           style={buttonStyle}
           onClick={() => this.setState({ showPhone: !showPhone })}
