@@ -46,6 +46,12 @@ class Body extends React.Component {
       voting,
       showTaxes
     } = this.state;
+    const buttonStyle = {
+      borderRadius: "13px",
+      margin: "10px",
+      padding: "6px 10px",
+      border: "2px solid"
+    };
     return (
       <div
         style={{
@@ -54,23 +60,46 @@ class Body extends React.Component {
           backgroundColor: "rgba(200,200,200,.9)"
         }}
       >
-        Thumbprint is a scoring-platform for candidates & parties by committee &
-        experience affinity summaries
-        <br />
-        <br />
-        Keeping up with civic life doesn't end with legislation, court cases &
-        secure elections, but on-device end-to-end encrypted schedule-sharing
-        and chats, permitted by a convict-intranet of sorts, login-kyc on the
-        roadmap for these features' enablement, and further extends to
-        extracurricular and recreational-life; happenings such as this
-        rejuvenate neighborhoods around the globe. To do more good than harm, we
-        are boycotting credit as income; forging our own paytech so we can be
-        sure we contribute as much as we take out from ticket buyers, to sustain
-        the non-profit endeavors. We were 501(c)3, but opted to operate with
-        taxed-income for our employees so to be sure the copyrights weren't
-        laundered to bond-holders and nationalistic over internationally-humane
-        ends, and ensure the margins are forever as tight as possible, as all
-        "non-profits" should.
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            borderRadius: "15px",
+            margin: "10px",
+            padding: "10px"
+            //border: "3px solid"
+          }}
+        >
+          <div
+            style={{
+              maxWidth: "400px",
+              borderRadius: "15px",
+              margin: "10px",
+              padding: "10px",
+              border: "3px solid"
+            }}
+          >
+            Thumbprint is a scoring-platform for candidates & parties by
+            committee & experience affinity summaries
+            <br />
+            <br />
+            Keeping up with civic life doesn't end with legislation, court cases
+            & secure elections, but on-device end-to-end encrypted
+            schedule-sharing and chats, permitted by a convict-intranet of
+            sorts, login-kyc on the roadmap for these features' enablement, and
+            further extends to extracurricular and recreational-life; happenings
+            such as this rejuvenate neighborhoods around the globe. To do more
+            good than harm, we are boycotting credit as income; forging our own
+            paytech so we can be sure we contribute as much as we take out from
+            ticket buyers, to sustain the non-profit endeavors. We were 501(c)3,
+            but opted to operate with taxed-income for our employees so to be
+            sure the copyrights weren't laundered to bond-holders and
+            nationalistic over internationally-humane ends, and ensure the
+            margins are forever as tight as possible, as all "non-profits"
+            should.
+          </div>
+        </div>
         <div
           style={{
             position: "fixed",
@@ -142,34 +171,266 @@ class Body extends React.Component {
           closePreview={closePreview}
           close={() => this.setState({ closePreview: !closePreview })}
         />
+        <button
+          style={buttonStyle}
+          onClick={() => this.setState({ voting: !this.state.voting })}
+        >
+          voting
+        </button>
         <div
           style={{
-            width: "400px",
-            display: "inline-block"
+            overflow: "hidden",
+            height: !voting ? "0px" : "min-content",
+            backgroundColor: "rgba(170,220,250)"
           }}
         >
-          Our company is a non-governmental, unlimited-outlay, non-profit
-          sole-proprietorship with some Royalty Contracts W/Max-Profit (RCWMP)
-          under $50k, but lightte.ch certified to presently keep salaries under
-          $200k.
-          <br />
-          <br />
-          On&nbsp;
-          <a style={{ color: "grey" }} href="https://youtu.be/W-Vv1vysGzE">
-            November 5th, 2012
+          <h1>
+            <a href="https://github.com/NickCarducci/Wavepoint.la/blob/master/src/components/Post/VoteModule.js">
+              ArrayArrays in alpha-practice
+            </a>
+          </h1>
+          “To mail-in-ballot, you NO NOT us USPS,” David Wilestein of the NJ
+          Globe.
+          <a href="https://www.usenix.org/legacy/publications/library/proceedings/usenix03/tech/full_papers/tolia/tolia_html/usenix03.html#:~:text=7%20Security%20Considerations">
+            content-addressability
           </a>
-          , US Thumbprint, Inc. was established as a 501(c)(3) "non-profit,"
-          until I realized the gov gets it when I die,
+          , hardly without moduloKey-token
+          <iframe
+            style={{ border: "1px solid black" }}
+            src="https://www.youtube.com/embed/A2kSh0A8Ad0"
+            title="YouTube video player"
+          />
+          <hr />
+          <h3>purple paper</h3>
+          ArrayArrays - [uuid, way+on-device-key], instead of having field+count
+          incremented on the post object.
           <br />
-          unless I make a clean break, with my dns-domain-whois, into a
-          proprietorship without liability-jettisoning-collusions
+          cors origin ssl auth (hope for login.gov api for non-government orgs),
+          I am withholding ideas, for your best interests, I've decided. Might
+          use some medical advice prior to jury permits in my copy/mvp, friends
+          and family discount/options on estimates apprv.
+          <button
+            style={buttonStyle}
+            onClick={(e) => {
+              this.setState({ openRant: !this.state.openRant });
+            }}
+          >
+            RANT PLS
+          </button>
+          <div style={{ display: this.state.openRant ? "block" : "none" }}>
+            "Party corrupting election," bemoans Bill O'reilly. what do you
+            expect? force abstaination of officials with relevant holdings,
+            provide SEC with a backdoor to 2 week anon uuid tranche brokerage
+            api.
+            <br />
+            <br />
+            <a href="https://www.theatlantic.com/politics/archive/2011/10/poll-most-americans-support-occupy-wall-street/246963/">
+              59% occupy
+            </a>
+            <br />
+            38% don’t vote in nj, they aren’t voters, only 26% are registered,
+            that is a vote no to policy movement, not even worth their time.
+            Only executive authority if vote is majority of whole eligible
+            voting-age population. NJ detest and eligible voters can defeat
+            democrats and republicans in New Jersey
+            <br />
+            <br />
+            They advocate involuntary care for not giving your copyright to a
+            corporation; Wabc says drugs/disorderly/minor-crime is violent
+            crime, no it is because landlords, lenders and non-concurrent
+            collective bargain brokers credit isn’t income. the exact opposite
+            of productivity that is hours under price-deflation - acheivable by
+            timelesspaydayroyalty scoped for industry-type for p2p only,
+            concurrentable-collective-bargainings for investment banks only (no
+            hours nor grandiose scopes), ween free rider immutable article 4
+            sewage police lawsuits by truncated sales tax, about 3% under $2k,
+            geohash/month to congress triggered by private paytech when items of
+            similar price pay for something of in receipt
+            <br />
+            <br />
+            Electric trucks that do not exist funding means no consumers want
+            them, subsidies still would otherwise elastically in same magnitude
+            of waste be exuded in price
+            <br />
+            Republicans and Democrats want to own pipes instead of do their job
+            and regulate, target margin networks, finite proiducers will not
+            protect consumers, and hung-jury-permits for duress in minimal
+            viable product before scientific consensus (11/12)
+            <br />
+            All parties other than&nbsp;
+            <a href="https://saverparty.xyz">Savers</a>, the only party that
+            puts consumers before finite producers in accrual & dealmaking with
+            duress and impossibilities moot or purposeful, check and mate
+            lenders, implausible use landlords & non-concurrent prisoners'
+            wardens' gain of non-concurrent collective bargain fraud
+            <br />
+            only customers and labor can discriminate, however, being so far
+            that platforms must pay users to discriminate or assume facts still
+            with reasonable doubt and scientific contention without a bar
+            susceptible to industry-wide conflict of interest
+            <br />
+            <br />
+            Eldersons match care can't wait! or bust, preferably (reverse
+            debt:cash to amortize reimburse downpayments upon repo on third
+            party beneficiary grounds) Care worker gentrification by gov isn't
+            socialist, saver, nor microeconiomics, like shoveling water over a
+            porous fence.
+            <br />
+            <br />
+            $170t value, $88t bond value, $2-6t cash, how the heck when $4t/yr
+            federal spending is normal? 1.1*currencyComponentOfM1 = gdp without
+            bonds before 3/2020 means paying back 44x cash is impossibly
+            purposeful or moot, if third party beneficiary of these public park
+            deeds weren't with standing (they is)
+            <br />
+            <br />
+            How is there only $2-6t cash but federal government spending alone
+            is $4t/yr?
+            <br />
+            <br />
+            bonds can make profit out of net loss and racketeering for
+            bond-laundering credit counterfeit is perverse
+            <br />
+            <br />
+            Government can only certify
+            <br />
+            teapharmacy.party, cap rental-income at 5 units, 20x rental-income
+            is 55+/millennials per capita, your whole lives to save. The younger
+            ages are mostly antivaxx because we do not believe in creation of
+            where
+            <a href="https://froth.app/stats">
+              virus appeared from somewhere other than bacteria, and bacteria
+              from water
+            </a>
+            .
+            <br />
+            <br />
+            Needs cell, not alive, you’re studying the byproduct not the cause
+            (bacteria)
+            <br />
+            Mitosis is viral replication, 1 cell/day
+            <br />
+            <br />
+            "There were too many nursing home deaths in the nursing home there,"
+            well you are measuring, "
+            <a href="https://humanharvest.info/polio">excess</a>" in absolute
+            terms, without regard for population cohort size basis. If Trump
+            claims election fraud on this basis he will have to for his&nbsp;
+            <a href="https://nationalsecuritycasino.com">ppp trust building</a>
+            &nbsp; existing-business free rider mutable 40% tax spending, 60%
+            debt spending.
+            <br />
+            <br />
+            “There is this lack of reality, there continues to be this lack of
+            reality.” Bret Bair on Afghanistan, $1/
+            <a href="https://fred.stlouisfed.org/graph/?g=JE7R">821</a>
+            &nbsp;day/person of the budget
+            <br />
+            <br />
+            1/4 1/4 1/4 pension pentagon premium, 10% debt service (40% njta)
+            <br />
+            <br />
+            new grounds livelihood when cops follow countervailing laws. if a
+            war is virtuous, you'd have volunteers.
+            <br />
+            “Don’t want Ukraine to join NATO,” as impetus - Mike Baker.
+            <br />
+            Very unlikely, reasonable doubt still stands.
+            <br />
+            Hung jury, multiple of 12 various industries.
+            <br />
+            More likely when you do not shuffle and survey bias Tranche results,
+            let alone ideological duress of wall st Pharma, and non-voters won
+            and magnet data.
+          </div>
+        </div>
+        <button
+          style={buttonStyle}
+          onClick={() =>
+            this.setState({ showDominion: !this.state.showDominion })
+          }
+        >
+          Dominion / fraud
+        </button>
+        <div
+          style={{
+            overflow: "hidden",
+            height: !showDominion ? "0px" : "min-content",
+            backgroundColor: "rgba(170,220,250)"
+          }}
+        >
+          <hr />
+          <br />
+          Dominion case is not on solid grounds, how can you have no doubt when
+          you require a court order to audit? It is a&nbsp;
+          <a href="https://squatcommune.com">
+            private company but it is serving government
+          </a>
+          &nbsp;(which is not a person, people or asset). Its subsidiaries
+          were&nbsp;
+          <a href="https://www.smartmatic.com/us/smartmatic-fact-checked/">
+            obviously formed to make fraudulent elections
+          </a>
+          &nbsp;due to pulling out&nbsp;
+          <a href="https://maloney.house.gov/media-center/press-releases/smartmatic-announces-sale-sequoia-voting-systems">
+            only after investigations
+          </a>
+          , if what the CIA says about Chavez is true and not complete
+          propoganda... no evidence of widespread fraud is false given
+          Associated Press and Google called the election on election day at 61%
+          in NJ. That is fraud by definition, especially of an unshuffled
+          population, you cannot even call projections an expected value
           <br />
           <br />
-          Terms of service
-          <br />
-          &bull; Price and development changes may occur at our discretion,
-          there is no liability of downtime or depreciation granted by using
-          this web-app
+          If they use dominion for non-notarized mail-in voting, this is still
+          relevant: to begin with an instance, 15m excess deaths are expected
+          thru Great Leap Forward #HonorSystemSignatures from population growth
+          alone. lmao it's all a big troll, like gdp without m2 or bonds is 1/11
+          gdp, absolutely-retarded
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            borderRadius: "15px",
+            margin: "10px",
+            padding: "10px"
+            //border: "3px solid"
+          }}
+        >
+          <div
+            style={{
+              maxWidth: "400px",
+              borderRadius: "15px",
+              margin: "10px",
+              padding: "10px",
+              border: "3px solid"
+            }}
+          >
+            Our company is a non-governmental, unlimited-outlay, non-profit
+            sole-proprietorship with some Royalty Contracts W/Max-Profit (RCWMP)
+            under $50k, but lightte.ch certified to presently keep salaries
+            under $200k.
+            <br />
+            <br />
+            On&nbsp;
+            <a style={{ color: "grey" }} href="https://youtu.be/W-Vv1vysGzE">
+              November 5th, 2012
+            </a>
+            , US Thumbprint, Inc. was established as a 501(c)(3) "non-profit,"
+            until I realized the gov gets it when I die,
+            <br />
+            unless I make a clean break, with my dns-domain-whois, into a
+            proprietorship without liability-jettisoning-collusions
+            <br />
+            <br />
+            Terms of service
+            <br />
+            &bull; Price and development changes may occur at our discretion,
+            there is no liability of downtime or depreciation granted by using
+            this web-app
+          </div>
         </div>
         <br />
         <a href="https://johnshopkins.academia.edu/NickCarducci">
@@ -179,10 +440,12 @@ class Body extends React.Component {
         <a href="https://vianickcarducci.medium.com/">blog</a>
         <br />
         <br />
-        <button onClick={() => this.setState({ showSpeech: !showSpeech })}>
+        <button
+          style={buttonStyle}
+          onClick={() => this.setState({ showSpeech: !showSpeech })}
+        >
           Speech
         </button>
-        <br />
         <div
           style={{
             borderRadius: "8px",
@@ -411,21 +674,44 @@ class Body extends React.Component {
           <div style={{ transform: "rotate(180deg)", color: "grey" }}>^</div>
         </div>
         <Policy hidePolicy={hidePolicy} />
-        <button onClick={() => this.setState({ showPayments: !showPayments })}>
+        <button
+          style={buttonStyle}
+          onClick={() => this.setState({ showPayments: !showPayments })}
+        >
           Payments
         </button>
-        <br />
-        <br />
-        third party beneficiary donee claimable, cash advance to TBT. &nbsp;
-        <a href="https://constitutioncenter.org/interactive-constitution/amendment/amendment-v">
-          prevent state victimization
-        </a>
-        &nbsp;no law is settled, they countervail and politics reason scientific
-        method with multiple of 12 at variious industry jury
-        <br />
-        <br />
-        Plea is inherently duress. Give me back my&nbsp;
-        <a href="https://teapharmacy.party">nugg</a>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            borderRadius: "15px",
+            margin: "10px",
+            padding: "10px"
+            //border: "3px solid"
+          }}
+        >
+          <div
+            style={{
+              maxWidth: "400px",
+              borderRadius: "15px",
+              margin: "10px",
+              padding: "10px",
+              border: "3px solid"
+            }}
+          >
+            Article 1.8 is an oxymoron, unequal taxes. third party donee
+            beneficiary claimable, cash advance to TBT. &nbsp;
+            <a href="https://constitutioncenter.org/interactive-constitution/amendment/amendment-v">
+              prevent state victimization
+            </a>
+            &nbsp;no law is settled, they countervail and politics reason
+            scientific method with multiple of 12 at variable-industry jury
+          </div>
+          <br />
+          Plea is inherently duress. Give me back my&nbsp;
+          <a href="https://teapharmacy.party">nugg</a>
+        </div>
         <div
           style={{
             padding: showPayments ? "10px 0px" : "0px 0px",
@@ -510,11 +796,12 @@ class Body extends React.Component {
         Malarkey is useful for describing assumptions, by shorthand.
         <br />
         <br />
-        <button onClick={() => this.setState({ showTaxes: !showTaxes })}>
+        <button
+          style={buttonStyle}
+          onClick={() => this.setState({ showTaxes: !showTaxes })}
+        >
           Taxes
         </button>
-        <br />
-        <br />
         <div
           style={{
             width: "100%",
@@ -592,7 +879,10 @@ class Body extends React.Component {
             ></iframe>
           </div>
         </div>
-        <button onClick={() => this.setState({ showVideos: !showVideos })}>
+        <button
+          style={buttonStyle}
+          onClick={() => this.setState({ showVideos: !showVideos })}
+        >
           Videos
         </button>
         <div
@@ -669,7 +959,10 @@ class Body extends React.Component {
           </div>
         </div>
         <br />
-        <button onClick={() => this.setState({ showPhone: !showPhone })}>
+        <button
+          style={buttonStyle}
+          onClick={() => this.setState({ showPhone: !showPhone })}
+        >
           Phone
         </button>
         <div
@@ -749,218 +1042,10 @@ class Body extends React.Component {
         />
         <br />
         <br />
-        <button onClick={() => this.setState({ voting: !this.state.voting })}>
-          voting
-        </button>
-        <br />
-        <br />
-        <div
-          style={{
-            overflow: "hidden",
-            height: !voting ? "0px" : "min-content",
-            backgroundColor: "rgba(170,220,250)"
-          }}
-        >
-          “To mail-in-ballots, you do not us the USPS,” David Wilestein of the
-          NJ Globe. "There were too many nursing home deaths in the nursing home
-          there," well you are measuring, "
-          <a href="https://humanharvest.info/polio">excess</a>" in absolute
-          terms, without regard for population cohort size basis. If Trump
-          claims election fraud on this basis he will have to for his&nbsp;
-          <a href="https://nationalsecuritycasino.com">ppp trust building</a>
-          &nbsp; existing-business free rider mutable 40% tax spending, 60% debt
-          spending.
-          <br />
-          <br />
-          “There is this lack of reality, there continues to be this lack of
-          reality.” Bret Bair on Afghanistan, $1/
-          <a href="https://fred.stlouisfed.org/graph/?g=JE7R">821</a>
-          &nbsp;day/person of the budget
-          <br />
-          <br />
-          1/4 1/4 1/4 pension pentagon premium, 10% debt service (40% njta)
-          <br />
-          <br />
-          new grounds livelihood when cops follow countervailing laws. if a war
-          is virtuous, you'd have volunteers.
-          <br />
-          “Don’t want Ukraine to join NATO,” as impetus - Mike Baker.
-          <br />
-          Very unlikely, reasonable doubt still stands.
-          <br />
-          Hung jury, multiple of 12 various industries.
-          <br />
-          More likely when you do not shuffle and survey bias Tranche results,
-          let alone ideological duress of wall st Pharma, and non-voters won and
-          magnet data.
-          <br />
-          <br />
-          <a href="https://www.usenix.org/legacy/publications/library/proceedings/usenix03/tech/full_papers/tolia/tolia_html/usenix03.html#:~:text=7%20Security%20Considerations">
-            content-addressability
-          </a>
-          , hardly without moduloKey-token
-          <iframe
-            style={{ border: "1px solid black" }}
-            src="https://www.youtube.com/embed/A2kSh0A8Ad0"
-            title="YouTube video player"
-          />
-          <hr />
-          <br />
-          ArrayArrays - [uuid, way+on-device-key], instead of having field+count
-          incremented on the post object.
-          <br />
-          cors origin ssl auth (hope for login.gov api for non-government orgs),
-          I am withholding ideas, for your best interests, I've decided. Might
-          use some medical advice prior to jury permits in my copy/mvp, friends
-          and family discount/options on estimates apprv.
-          <br />
-          <br />
-          "Party corrupting election," bemoans Bill O'reilly. what do you
-          expect? force abstaination of officials with relevant holdings,
-          provide SEC with a backdoor to 2 week anon uuid tranche brokerage api.
-          <br />
-          <br />
-          <button
-            onClick={(e) => {
-              this.setState({ openRant: !this.state.openRant });
-            }}
-          >
-            RANT PLS
-          </button>
-          <div style={{ display: this.state.openRant ? "block" : "none" }}>
-            <a href="https://www.theatlantic.com/politics/archive/2011/10/poll-most-americans-support-occupy-wall-street/246963/">
-              59% occupy
-            </a>
-            <br />
-            38% don’t vote in nj, they aren’t voters, only 26% are registered,
-            that is a vote no to policy movement, not even worth their time.
-            Only executive authority if vote is majority of whole eligible
-            voting-age population. NJ detest and eligible voters can defeat
-            democrats and republicans in New Jersey
-            <br />
-            <br />
-            They advocate involuntary care for not giving your copyright to a
-            corporation; Wabc says drugs/disorderly/minor-crime is violent
-            crime, no it is because landlords, lenders and non-concurrent
-            collective bargain brokers credit isn’t income. the exact opposite
-            of productivity that is hours under price-deflation - acheivable by
-            timelesspaydayroyalty scoped for industry-type for p2p only,
-            concurrentable-collective-bargainings for investment banks only (no
-            hours nor grandiose scopes), ween free rider immutable article 4
-            sewage police lawsuits by truncated sales tax, about 3% under $2k,
-            geohash/month to congress triggered by private paytech when items of
-            similar price pay for something of in receipt
-            <br />
-            <br />
-            Electric trucks that do not exist funding means no consumers want
-            them, subsidies still would otherwise elastically in same magnitude
-            of waste be exuded in price
-            <br />
-            Republicans and Democrats want to own pipes instead of do their job
-            and regulate, target margin networks, finite proiducers will not
-            protect consumers, and hung-jury-permits for duress in minimal
-            viable product before scientific consensus (11/12)
-            <br />
-            All parties other than&nbsp;
-            <a href="https://saverparty.xyz">Savers</a>, the only party that
-            puts consumers before finite producers in accrual & dealmaking with
-            duress and impossibilities moot or purposeful, check and mate
-            lenders, implausible use landlords & non-concurrent prisoners'
-            wardens' gain of non-concurrent collective bargain fraud
-            <br />
-            only customers and labor can discriminate, however, being so far
-            that platforms must pay users to discriminate or assume facts still
-            with reasonable doubt and scientific contention without a bar
-            susceptible to industry-wide conflict of interest
-            <br />
-            <br />
-            Eldersons match care can't wait! or bust, preferably (reverse
-            debt:cash to amortize reimburse downpayments upon repo on third
-            party beneficiary grounds) Care worker gentrification by gov isn't
-            socialist, saver, nor microeconiomics, like shoveling water over a
-            porous fence.
-            <br />
-            <br />
-            $170t value, $88t bond value, $2-6t cash, how the heck when $4t/yr
-            federal spending is normal? 1.1*currencyComponentOfM1 = gdp without
-            bonds before 3/2020 means paying back 44x cash is impossibly
-            purposeful or moot, if third party beneficiary of these public park
-            deeds weren't with standing (they is)
-            <br />
-            <br />
-            How is there only $2-6t cash but federal government spending alone
-            is $4t/yr?
-            <br />
-            <br />
-            bonds can make profit out of net loss and racketeering for
-            bond-laundering credit counterfeit is perverse
-            <br />
-            <br />
-            Government can only certify
-            <br />
-            teapharmacy.party, cap rental-income at 5 units, 20x rental-income
-            is 55+/millennials per capita, your whole lives to save. The younger
-            ages are mostly antivaxx because we do not believe in creation of
-            where
-            <a href="https://froth.app/stats">
-              virus appeared from somewhere other than bacteria, and bacteria
-              from water
-            </a>
-            .
-            <br />
-            <br />
-            Needs cell, not alive, you’re studying the byproduct not the cause
-            (bacteria)
-            <br />
-            Mitosis is viral replication, 1 cell/day
-          </div>
-        </div>
         <button
-          onClick={() =>
-            this.setState({ showDominion: !this.state.showDominion })
-          }
+          style={buttonStyle}
+          onClick={() => this.setState({ showHistory: !showHistory })}
         >
-          Dominion / fraud
-        </button>
-        <br />
-        <br />
-        <div
-          style={{
-            overflow: "hidden",
-            height: !showDominion ? "0px" : "min-content",
-            backgroundColor: "rgba(170,220,250)"
-          }}
-        >
-          <hr />
-          <br />
-          Dominion case is not on solid grounds, how can you have no doubt when
-          you require a court order to audit? It is a&nbsp;
-          <a href="https://squatcommune.com">
-            private company but it is serving government
-          </a>
-          &nbsp;(which is not a person, people or asset). Its subsidiaries
-          were&nbsp;
-          <a href="https://www.smartmatic.com/us/smartmatic-fact-checked/">
-            obviously formed to make fraudulent elections
-          </a>
-          &nbsp;due to pulling out&nbsp;
-          <a href="https://maloney.house.gov/media-center/press-releases/smartmatic-announces-sale-sequoia-voting-systems">
-            only after investigations
-          </a>
-          , if what the CIA says about Chavez is true and not complete
-          propoganda... no evidence of widespread fraud is false given
-          Associated Press and Google called the election on election day at 61%
-          in NJ. That is fraud by definition, especially of an unshuffled
-          population, you cannot even call projections an expected value
-          <br />
-          <br />
-          If they use dominion for non-notarized mail-in voting, this is still
-          relevant: to begin with an instance, 15m excess deaths are expected
-          thru Great Leap Forward #HonorSystemSignatures from population growth
-          alone. lmao it's all a big troll, like gdp without m2 or bonds is 1/11
-          gdp, absolutely-retarded
-        </div>
-        <button onClick={() => this.setState({ showHistory: !showHistory })}>
           Versions
         </button>
         <History showHistory={showHistory} />
