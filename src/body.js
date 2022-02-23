@@ -14,8 +14,6 @@ class Body extends React.Component {
         this.setState({ hidePolicy: false });
       } else if (pathname === "/about") {
         this.setState({ hideAbout: false });
-      } else if (pathname === "/history") {
-        this.setState({ showHistory: true });
       } else if (pathname === "/payments") {
         this.setState({ showPayments: true });
       } else if (pathname === "/speech") {
@@ -28,6 +26,8 @@ class Body extends React.Component {
         this.props.set2017({ see2017: true });
       } else if (pathname === "/voting") {
         this.setState({ voting: true });
+      } else if (["/videos", "/history"].includes(pathname)) {
+        this.setState({ showVideos: true });
       }
     }
   };
@@ -37,11 +37,10 @@ class Body extends React.Component {
       hideAbout,
       closePreview,
       hidePolicy,
-      showHistory,
+      showVideos,
       showDominion,
       showSpeech,
       showPayments,
-      showVideos,
       showPhone,
       voting,
       showTaxes
@@ -53,6 +52,7 @@ class Body extends React.Component {
       padding: "6px 10px",
       border: "2px solid"
     };
+    const space = " ";
     return (
       <div
         style={{
@@ -191,6 +191,8 @@ class Body extends React.Component {
             backgroundColor: "rgba(170,220,250)"
           }}
         >
+          <a href="https://qr.ae/pGQihD">Magnetic nor paper</a>
+          {space}ballots are auditable, trustless.
           <h1>
             <a href="https://github.com/NickCarducci/Wavepoint.la/blob/master/src/components/Post/VoteModule.js">
               ArrayArrays in alpha-practice
@@ -884,6 +886,8 @@ class Body extends React.Component {
             ></iframe>
           </div>
         </div>
+        <br />
+        <br />
         <button
           style={buttonStyle}
           onClick={() => this.setState({ showVideos: !showVideos })}
@@ -965,6 +969,13 @@ class Body extends React.Component {
         </div>
         <button
           style={buttonStyle}
+          onClick={() => this.setState({ showVideos: !showVideos })}
+        >
+          Versions
+        </button>
+        <History showHistory={showVideos} />
+        <button
+          style={buttonStyle}
           onClick={() => this.setState({ showPhone: !showPhone })}
         >
           Phone
@@ -1044,15 +1055,6 @@ class Body extends React.Component {
           src="https://www.dl.dropboxusercontent.com/s/cp1vzypyfh1sb03/Thumbprint%20corp%20logo%20-%20colors_round%20%282%29.png?dl=0"
           alt="err"
         />
-        <br />
-        <br />
-        <button
-          style={buttonStyle}
-          onClick={() => this.setState({ showHistory: !showHistory })}
-        >
-          Versions
-        </button>
-        <History showHistory={showHistory} />
         <br />
         <br />
       </div>
