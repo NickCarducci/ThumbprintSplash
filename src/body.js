@@ -191,7 +191,13 @@ class Body extends React.Component {
             backgroundColor: "rgba(170,220,250)"
           }}
         >
-          corsOrigin delay and DNS tamper-proof-grid required?
+          corsOrigin delay and DNS tamper-proof-grid required? Proof of work is
+          just the corsOrigin+openSource itself, anonymity isn’t even
+          accomplished with{space}
+          <a href="https://vaults.biz/bitcongress">blockchain</a>. My battle is
+          timestamp-meta PII with database, anonymity thread is new, if they
+          watch it coming in as is requires auth, but this system as set is
+          anonymous and preserves the count*proof by size
           <br />
           <a href="https://qr.ae/pGQihD">Magnetic nor paper</a>
           {space}ballots are auditable, trustless.
