@@ -191,6 +191,8 @@ class Body extends React.Component {
             backgroundColor: "rgba(170,220,250)"
           }}
         >
+          corsOrigin delay and DNS tamper-proof-grid required?
+          <br />
           <a href="https://qr.ae/pGQihD">Magnetic nor paper</a>
           {space}ballots are auditable, trustless.
           <h1>
