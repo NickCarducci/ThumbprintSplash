@@ -194,7 +194,9 @@ class Body extends React.Component {
           corsOrigin delay and DNS tamper-proof-grid required? Proof of work is
           just the corsOrigin+openSource itself, anonymity isn’t even
           accomplished with{space}
-          <a href="https://vaults.biz/bitcongress">blockchain</a>. My battle is
+          <a href="https://vaults.biz/bitcongress">blockchain</a>, unless you
+          forge a virtual wallet with, and the authorization faces the same
+          battle. Both blockchain and Array Array voting battle is
           timestamp-meta PII with database, anonymity thread is new, if they
           watch it coming in as is requires auth, but this system as set is
           anonymous and preserves the count*proof by size
