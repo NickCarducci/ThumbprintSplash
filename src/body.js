@@ -199,7 +199,10 @@ class Body extends React.Component {
           battle. Both blockchain and Array Array voting battle is
           timestamp-meta PII with database, anonymity thread is new, if they
           watch it coming in as is requires auth, but this system as set is
-          anonymous and preserves the count*proof by size
+          anonymous and preserves the count*proof by size. But why do you need
+          RSA-keybox excryption to prove revisions? Blockchain is not an
+          identification notary (as login.gov should be for convict intranet and
+          end to end encryption on device for the rest of us)
           <br />
           <a href="https://qr.ae/pGQihD">Magnetic nor paper</a>
           {space}ballots are auditable, trustless.
@@ -1072,3 +1075,4 @@ class Body extends React.Component {
   }
 }
 export default Body;
+
