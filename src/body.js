@@ -564,7 +564,8 @@ class Body extends React.Component {
             highlighting illegal threats so other users know what is not
             acceptable, and investigations without circumstantial/correlative
             data or not, should be unfettered until a cease and decist order is
-            properly adjunicated.
+            properly adjunicated (edit (2/2022): not to ban, nor before{space}
+            <a href="https://gmunit.us">11/12 electronic referenda</a>).
           </div>
           <div
             style={{
@@ -1075,4 +1076,3 @@ class Body extends React.Component {
   }
 }
 export default Body;
-
