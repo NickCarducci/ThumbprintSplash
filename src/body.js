@@ -31,6 +31,34 @@ class Body extends React.Component {
       }
     }
   };
+  componentWillUnmount = () => {
+    window.removeEventListener("resize", this.refresh);
+  };
+  componentDidMount = () => {
+    this.refresh(true);
+    window.addEventListener("resize", this.refresh);
+  };
+
+  refresh = (first) => {
+    const width = this.state.ios ? window.screen.availWidth : window.innerWidth;
+    const height = this.state.ios
+      ? window.screen.availHeight
+      : window.innerHeight;
+
+    if (first || Math.abs(this.state.lastWidth - width) > 0) {
+      clearTimeout(this.resizeTimer);
+      this.resizeTimer = setTimeout(() => {
+        this.setState({
+          height,
+          lastWidth: width,
+          width,
+          availableHeight: this.state.ios
+            ? window.screen.availHeight - 20
+            : window.innerHeight
+        });
+      }, 600);
+    }
+  };
   render() {
     const { see2017 } = this.props;
     const {
@@ -53,6 +81,9 @@ class Body extends React.Component {
       border: "2px solid"
     };
     const space = " ";
+    const wrappedItemStyle = {
+      width: "300px"
+    };
     return (
       <div
         style={{
@@ -470,199 +501,221 @@ class Body extends React.Component {
         </button>
         <div
           style={{
+            width: "100%",
             borderRadius: "8px",
             margin: "10px",
             height: showSpeech ? "min-content" : "0px",
             overflow: "hidden"
           }}
         >
-          <h2>
-            The standing of Speech on the grounds we verbally-quarrel over today
-            is not a freedom-issue, it is a slavery-issue. Before the internet,
-            speech could not be impeded like government can abett favoritism,
-            has so far (they really can only tax/issue for courts toll-less
-            roads sewade and plows, otherwise it is monopsony-quota-communism
-            for no utility as it is free-rider-mutable and networks, 'market' of
-            markets and abject collusion&nbsp;
-            <span style={{ color: "purple" }}>
-              like discrepancies between 13d/retail, shares & dollars in
-              bondage-contracts & credit-counterfeit-laundering-collusion,
-              treasury shares not in outstanding and forced insurance or home
-              warranty in NJ industries, etc.
-            </span>
-            &nbsp;are margin-targetable by government&nbsp;
-            <span style={{ color: "purple" }}>
-              and non-government as needed for non-conflicted jurisprudence
-            </span>
-            &nbsp;bodies billed-as "protect American consumers"). Now, it is an
-            issue-of exclusion not based on a&nbsp;
-            <span style={{ color: "green" }}>court-verified</span>&nbsp;part of
-            a minimal-viable-product duress, bid of not a option to buy sold
-            already (not a deposit or down-payment), or skill (not experience,
-            a.k.a. docile, stagnant, counter-productive and focused on competing
-            with other suppliers by moat or consumers instead of concentrating
-            on consumers and winning their clean favor without any
-            duress-of-void or void-of third party dollar or shareholder to which
-            extension is forgone of initial-stated intent to give back
-            down-payments&nbsp;
-            <span style={{ color: "green" }}>if lose</span>, or launder from
-            borrowers' customers by prisoners'-dilemma duress here and with
-            insurance-coagulation further abetted by invoice
-            counterfeit-laundering not bettered by free-rider-immutable
-            sales-tax/issuance extension over the free-rider-mutable subservice
-            beyond margin-targeting, non-conflictive torts or confusing the
-            'State and the 'People'), and certify by&nbsp;
-            <span style={{ color: "green" }}>deterministic calculus</span>.
-            <br />
-            <br />
-            "other creative way to make it more fun to get 'vaccinated'" -
-            @POTUS holy canoli
-          </h2>
           <div
             style={{
+              columnCount: Math.round(this.state.width / 300),
               overflow: "hidden",
               transition: ".3s ease-in",
               height: this.state.openOldSpeechPolicy ? "min-content" : "0px"
             }}
           >
-            <b>Speech</b>
-            &bull; Threats that, are not in-kind, are prosecutable; we will not
-            ban that - for evidence &nbsp; (login.gov not partnering or putting
-            out a parole intranet for convicted threats and previous criminal
-            acts is one of the&nbsp;
-            <a href="https://nationalsecuritycasino.com">
-              grossest form of malfeasance
-            </a>
-            &nbsp;there is).
-            <br />
-            We will also not be removing convicts, for that we advocate for an
-            intranet for those on parole, utilizing a hands-off state-issued
-            GovID api. For now, we use phone number identification and enforce
-            cloud.
-            <br />
-            AS PER OPINION, I DID NOT WANT TO SAY THIS BECAUSE I WANT IT
-            IMPLIED, BUT I WILL NOT REMOVE CONTENT UNLESS cease of desist is
-            ordered by court. You need to prove what my users say isn't true
-            <br />
-            "hate" vs descriptiveness is not allowed to fire ; .
-            orderingOfPreference is hate, however we will not remove anything
-            except threats and spam (not criticism without-repetition)
-            <br />
-            Labels are required for confirmations, no errors can be laid without
-            logistical proof, not correlative and assumptive. sorting or
-            throttling cannot be so adaptive except by a linear variable, or
-            labeling select words with institutions - especially when the CDC is
-            wrong and often
-            <br />
-            I'm sure if you ask the insurrectionist if they were trying to
-            contest the certification vs overthrow the governemnt (bonds?
-            police-comms? I'd bet just the certification) With or without
-            Section 230, liability is only ascertainable for contributions of
-            the platform if the writers are paid or edited
-            <br />
-            To boot, platforms should not be destroying evidence, they should be
-            highlighting illegal threats so other users know what is not
-            acceptable, and investigations without circumstantial/correlative
-            data or not, should be unfettered until a cease and decist order is
-            properly adjunicated (edit (2/2022): not to ban, nor before{space}
-            <a href="https://gmunit.us">11/12 electronic referenda</a>).
+            <div style={wrappedItemStyle}>
+              <b>Speech</b>
+              &bull; Threats that, are not in-kind, are prosecutable; we will
+              not ban that - for evidence &nbsp; (login.gov not partnering or
+              putting out a parole intranet for convicted threats and previous
+              criminal acts is one of the&nbsp;
+              <a href="https://nationalsecuritycasino.com">
+                grossest form of malfeasance
+              </a>
+              &nbsp;there is).
+              <br />
+              We will also not be removing convicts, for that we advocate for an
+              intranet for those on parole, utilizing a hands-off state-issued
+              GovID api. For now, we use phone number identification and enforce
+              cloud.
+              <br />
+              AS PER OPINION, I DID NOT WANT TO SAY THIS BECAUSE I WANT IT
+              IMPLIED, BUT I WILL NOT REMOVE CONTENT UNLESS cease of desist is
+              ordered by court.
+            </div>
+            <div style={wrappedItemStyle}>
+              <h4>
+                You need to prove what my users say isn't true (edit (2/2022): ,
+                by your own art of fact)
+              </h4>
+              "hate" vs descriptiveness is not allowed to fire ; .
+              orderingOfPreference is hate, however we will not remove anything
+              except{space}
+              <span style={{ textDecoration: "line-through" }}>
+                threats and{" "}
+              </span>
+              spam (not criticism without-repetition)
+              <br />
+              Labels are required for confirmations, no errors can be laid
+              without logistical proof, not correlative and assumptive. sorting
+              or throttling cannot be so adaptive except by a linear variable,
+              or labeling select words with institutions - especially when the
+              CDC is wrong and often
+              <br />
+              I'm sure if you ask the insurrectionist if they were trying to
+              contest the certification vs overthrow the governemnt (bonds?
+              police-comms? I'd bet just the certification) With or without
+              Section 230, liability is only ascertainable for contributions of
+              the platform if the writers are paid or edited
+              <br />
+              To boot, platforms should not be destroying evidence, they should
+              be highlighting illegal threats(edit (2/2022): , alone )so other
+              users know what is not acceptable, and investigations without
+              circumstantial/correlative data or not, should be unfettered until
+              a cease and decist order is properly adjunicated (edit (2/2022):
+              not to ban, nor before{space}
+              <a href="https://gmunit.us">11/12 electronic referenda</a>).
+            </div>
           </div>
           <div
             style={{
+              columnCount: Math.round(this.state.width / 300),
               overflow: "hidden",
               transition: ".3s ease-in",
               height: !this.state.openOldSpeechPolicy ? "min-content" : "0px"
             }}
           >
-            <div style={{ width: "100%", overflow: "auto" }}>
+            <div style={wrappedItemStyle}>
+              <h2>
+                The standing of Speech on the grounds we verbally-quarrel over
+                today is not a freedom-issue, it is a slavery-issue. Before the
+                internet, speech could not be impeded like government can abett
+                favoritism, has so far (they really can only tax/issue for
+                courts toll-less roads sewade and plows, otherwise it is
+                monopsony-quota-communism for no utility as it is
+                free-rider-mutable and networks, 'market' of markets and abject
+                collusion&nbsp;
+                <span style={{ color: "purple" }}>
+                  like discrepancies between 13d/retail, shares & dollars in
+                  bondage-contracts & credit-counterfeit-laundering-collusion,
+                  treasury shares not in outstanding and forced insurance or
+                  home warranty in NJ industries, etc.
+                </span>
+                &nbsp;are margin-targetable by government&nbsp;
+                <span style={{ color: "purple" }}>
+                  and non-government as needed for non-conflicted jurisprudence
+                </span>
+                &nbsp;bodies
+              </h2>
+            </div>
+            <div style={wrappedItemStyle}>
+              billed-as "protect American consumers"). Now, it is an issue-of
+              exclusion not based on a&nbsp;
+              <span style={{ color: "green" }}>court-verified</span>&nbsp;part
+              of a minimal-viable-product duress, bid of not a option to buy
+              sold already (not a deposit or down-payment), or skill (not
+              experience, a.k.a. docile, stagnant, counter-productive and
+              focused on competing with other suppliers by moat or consumers
+              instead of concentrating on consumers and winning their clean
+              favor without any duress-of-void or void-of third party dollar or
+              shareholder to which extension is forgone of initial-stated intent
+              to give back down-payments&nbsp;
+              <span style={{ color: "green" }}>if lose</span>, or launder from
+              borrowers' customers by prisoners'-dilemma duress here and with
+              insurance-coagulation further abetted by invoice
+              counterfeit-laundering not bettered by free-rider-immutable
+              sales-tax/issuance extension over the free-rider-mutable
+              subservice beyond margin-targeting, non-conflictive torts or
+              confusing the 'State and the 'People'), and certify by&nbsp;
+              <span style={{ color: "green" }}>deterministic calculus</span>.
+              <br />
+              <br />
+              "other creative way to make it more fun to get 'vaccinated'" -
+              @POTUS holy canoli
+            </div>
+            <div style={wrappedItemStyle}>
               <TwitterTweetEmbed tweetId={"1389936048260669444"} />
             </div>
-            <br />
-            Otherwise, for statements of fact, only after spam becomes
-            harassment (repeated) will we entertain a label, as we would for
-            plans for attack (to show users what not to do) with upmost ability
-            for their testimony, prominently above our take. we will own out
-            edits for integrity of truth unlike Twitter (nor Facebook, if label
-            is considered editing, which I do because I take the publishers'
-            reading)
-            <br />
-            <br />
-            You see,
-            <br />
-            I present Marx/Schumpeter/Piketty as the same as Mises, without the
-            rent-seeking/prisoner-dilemma-apathy. Marx wanted labor to have
-            profits, which is essentially non-profits (unlimited salaries
-            notwithstanding... lightte.ch). This is misnomer, like Jesus never
-            said he would die for Sin.
-            <br />
-            <br />
-            Why would 9/11 building collapse without a plane under the same
-            weight it always does? Why would italians join axis if for not
-            financial-racism?
-            <br />
-            <br />
-            Maoism is quota-communism (basic) and I’m didn’t study how Lenin
-            went from serfdom to genocide but residualsplit.us is like castle
-            doctrine, and that is also&nbsp;
-            <b
-              style={{ color: "blue" }}
-              onClick={() =>
-                this.setState({
-                  showPayments: true //, showSpeech: false
-                })
-              }
-            >
-              haram
-            </b>
-            . The market cannot solve prisoners’ dilemma
-            <br />
-            <br />
-            Deterministic-calculus = notation of units by causal effect & if
-            partial derivatives are greater than one it is two-full-derivatives
-            (or to boot, doubly)
-            <br />
-            <br />
-            Red-herring is of the unobserved but is 0
-            <br />
-            <br />
-            GDP= C + P is laughable in this regard, as is E = mc^2 unless you
-            can make an g(m/s)(m/s) by mixing them together; there is ALWAYS a
-            diminishing in an exponential-maximum, in algebra one cannot assume
-            significance that is not assumed to be shuffled to mimic perfect
-            indistimination out of the multitude of chances, or of a
-            non-derivative sample-population. Why is stated-intent
-            prisoners'-duress pooling/ free-rider-mutable-tax/issuance saves
-            money from price-elasticity not being a fact? Why is usury's
-            definition not derived from the rental-income-beyond-plausible-use
-            by the owner-oneself? Why is condensation not being a fact and
-            spit-derived-humidity locked in mask doesn't elongate
-            virus-half-life instead of condensate without even a test on
-            countertop after speaking given the couch of a&nbsp;
-            <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
-              null hypothesis
-            </a>
-            <br />
-            <br />
-            <div style={{ position: "relative" }}>
-              <img
-                style={{ width: "100%", height: "auto" }}
-                alt="https://www.dl.dropboxusercontent.com/s/y4q61y8m4tkxocr/ceaseAndDecist.jpg?dl=0"
-                src="https://www.dl.dropboxusercontent.com/s/y4q61y8m4tkxocr/ceaseAndDecist.jpg?dl=0"
-              />
+            <div style={wrappedItemStyle}>
+              Otherwise, for statements of fact, only after spam becomes
+              harassment (repeated) will we entertain a label, as we would for
+              plans for attack (to show users what not to do) with upmost
+              ability for their testimony, prominently above our take. we will
+              own out edits for integrity of truth unlike Twitter (nor Facebook,
+              if label is considered editing, which I do because I take the
+              publishers' reading)
+              <br />
+              <br />
+              You see,
+              <br />
+              I present Marx/Schumpeter/Piketty as the same as Mises, without
+              the rent-seeking/prisoner-dilemma-apathy. Marx wanted labor to
+              have profits, which is essentially non-profits (unlimited salaries
+              notwithstanding... lightte.ch). This is misnomer, like Jesus never
+              said he would die for Sin.
+              <br />
+              <br />
+              Why would 9/11 building collapse without a plane under the same
+              weight it always does? Why would italians join axis if for not
+              financial-racism?
             </div>
-            Libertarians & finance force us to feast on each other with
-            fixed-prices
-            <br />
-            <br />
-            2% of the population owns 4400% of the assets
-            <br />
-            <br />
-            walter bloomberg: "evans says 'would expect longer-term 10-year
-            treasury rates to move up as economy improves'"
-            <br />
-            <br />
-            most landlords, bond-holders and mortgage-holders, which is 90% of
-            those assets, are above 40
+            <div style={wrappedItemStyle}>
+              Maoism is quota-communism (basic) and I’m didn’t study how Lenin
+              went from serfdom to genocide but residualsplit.us is like castle
+              doctrine, and that is also&nbsp;
+              <b
+                style={{ color: "blue" }}
+                onClick={() =>
+                  this.setState({
+                    showPayments: true //, showSpeech: false
+                  })
+                }
+              >
+                haram
+              </b>
+              . The market cannot solve prisoners’ dilemma
+              <br />
+              <br />
+              Deterministic-calculus = notation of units by causal effect & if
+              partial derivatives are greater than one it is
+              two-full-derivatives (or to boot, doubly)
+              <br />
+              <br />
+              Red-herring is of the unobserved but is 0
+              <br />
+              <br />
+              GDP= C + P is laughable in this regard, as is E = mc^2 unless you
+              can make an g(m/s)(m/s) by mixing them together; there is ALWAYS a
+              diminishing in an exponential-maximum, in algebra one cannot
+              assume significance that is not assumed to be shuffled to mimic
+              perfect indistimination out of the multitude of chances, or of a
+              non-derivative sample-population. Why is stated-intent
+              prisoners'-duress pooling/ free-rider-mutable-tax/issuance saves
+              money from price-elasticity not being a fact? Why is usury's
+              definition not derived from the rental-income-beyond-plausible-use
+              by the owner-oneself? Why is condensation not being a fact and
+              spit-derived-humidity locked in mask doesn't elongate
+              virus-half-life instead of condensate without even a test on
+              countertop after speaking given the couch of a&nbsp;
+              <a href="https://pubmed.ncbi.nlm.nih.gov/17542834/">
+                null hypothesis
+              </a>
+            </div>
+            <div style={wrappedItemStyle}>
+              <div style={{ position: "relative" }}>
+                <img
+                  style={{ width: "100%", height: "auto" }}
+                  alt="https://www.dl.dropboxusercontent.com/s/y4q61y8m4tkxocr/ceaseAndDecist.jpg?dl=0"
+                  src="https://www.dl.dropboxusercontent.com/s/y4q61y8m4tkxocr/ceaseAndDecist.jpg?dl=0"
+                />
+              </div>
+              Libertarians & finance force us to feast on each other with
+              fixed-prices
+              <br />
+              <br />
+              2% of the population owns 4400% of the assets
+              <br />
+              <br />
+              walter bloomberg: "evans says 'would expect longer-term 10-year
+              treasury rates to move up as economy improves'"
+              <br />
+              <br />
+              most landlords, bond-holders and mortgage-holders, which is 90% of
+              those assets, are above 40
+            </div>
           </div>
           <div
             onMouseEnter={() =>
