@@ -294,6 +294,16 @@ class Policy extends React.Component {
                   <br />
                 </div>
               )}
+              <div
+                style={{
+                  backgroundColor: "rgba(255,255,255,.8)",
+                  color: "grey"
+                }}
+              >
+                NFC is privacy first product map
+                <br />
+                Removes liability of private code, if only machine readable
+              </div>
             </div>
             <br />
             <br />
