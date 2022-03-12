@@ -119,6 +119,23 @@ class Body extends React.Component {
             //border: "3px solid"
           }}
         >
+          <span>
+            "how many writers would people write a week if there were no
+            deadlines in{space}
+            <a href="https://qr.ae/pGLyru">sprints of variable-part labor</a>,
+            just royalties."{space}
+            <a href="https://qr.ae/pGLyrf">Who waits</a>?
+            <br />
+            reverse amortization, capital loss deflation, appreciate Savers so
+            we all paid what we would have without debt, (cash/debt)*income
+            every year back, cap rental-income at 5 storefronts and
+            condominiums.
+            <br />
+            1/12 industry-vertical max-royalty +{space}
+            <a href="https://vaults.biz/sdr">geohash/mo</a>
+            {space}precinct protocol for world peace 3% under $2k Truncated
+            Production Tax.
+          </span>
           <h4>
             <a href="https://github.com/NickCarducci/mastercard-backbank">
               the only entity boycotting credit
@@ -128,7 +145,6 @@ class Body extends React.Component {
             <a href="https://2024nj.com/ssa">ask-first by liabilities</a>; .7%
             are disabled, not 19%
           </h4>
-
           <div
             style={{
               maxWidth: "400px",
@@ -148,14 +164,15 @@ class Body extends React.Component {
             sorts, login-kyc on the roadmap for these features' enablement, and
             further extends to extracurricular and recreational-life; happenings
             such as this rejuvenate neighborhoods around the globe. To do more
-            good than harm, we are boycotting credit as income; forging our own
-            paytech so we can be sure we contribute as much as we take out from
-            ticket buyers, to sustain the non-profit endeavors. We were 501(c)3,
-            but opted to operate with taxed-income for our employees so to be
-            sure the copyrights weren't laundered to bond-holders and
-            nationalistic over internationally-humane ends, and ensure the
-            margins are forever as tight as possible, as all "non-profits"
-            should.
+            good than harm, we are{space}
+            <a href="https://qr.ae/pGLhuS">boycotting credit</a>
+            {space}as income; forging our own paytech so we can be sure we
+            contribute as much as we take out from ticket buyers, to sustain the
+            non-profit endeavors. We were 501(c)3, but opted to operate with
+            taxed-income for our employees so to be sure the copyrights weren't
+            laundered to bond-holders and nationalistic over
+            internationally-humane ends, and ensure the margins are forever as
+            tight as possible, as all "non-profits" should.
           </div>
         </div>
         dollar owner platform for royalty and sign off, benevolent to consumers
