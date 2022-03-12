@@ -165,7 +165,8 @@ class Body extends React.Component {
             />
             eat my ass* to get into events because that correlates with good
             sewage. let's talk about mood, ingredients behind a non-compete
-            paywall
+            paywall. Old are not disabled and maybe your patients just don’t
+            like you. If it hurts, that means it is working
             <br />
             <br />
             Ownership of notes, being leased back our as per dollar share, 11/12
