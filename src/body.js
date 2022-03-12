@@ -120,6 +120,8 @@ class Body extends React.Component {
           }}
         >
           <span>
+            truncated production tax plundering firesale pitfall
+            <br />
             "you want the oil price to be high enough for your liabilities, the
             bottom, bottom line." I must ask why they don't lower prices, and
             leasing costs, generally.
