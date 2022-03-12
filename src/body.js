@@ -8,10 +8,39 @@ import TwitterTweetEmbed from "./TwitterTweetEmbed";
 class Body extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { hidePolicy: true, closePreview: true, hideAbout: true };
+    this.state = {
+      hidePolicy: true,
+      closePreview: true,
+      hideAbout: true,
+      scrollTop: 0
+    };
 
     this.publicity = React.createRef();
   }
+  handleScroll = (e) => {
+    if (!this.state.offScroll) {
+      const scrollTop = window.scrollY;
+      this.setState(
+        {
+          scrolling: true,
+          scrollTop
+        },
+        () => {
+          clearTimeout(this.scrollTimeout);
+          this.scrollTimeout = setTimeout(
+            () =>
+              this.setState({
+                scrolling: false,
+                atBottom:
+                  this.state.scrollTop >
+                  document.documentElement.scrollHeight - window.innerHeight
+              }),
+            900
+          );
+        }
+      );
+    }
+  };
   componentDidUpdate = (prevProps) => {
     const { pathname } = this.props;
     if (pathname !== prevProps.pathname) {
@@ -43,11 +72,15 @@ class Body extends React.Component {
     }
   };
   componentWillUnmount = () => {
+    clearTimeout(this.resizeTimer);
+    clearTimeout(this.scrollTimeout);
     window.removeEventListener("resize", this.refresh);
+    window.removeEventListener("scroll", this.handleScroll);
   };
   componentDidMount = () => {
     this.refresh(true);
     window.addEventListener("resize", this.refresh);
+    window.addEventListener("scroll", this.handleScroll);
   };
 
   refresh = (first) => {
@@ -121,6 +154,20 @@ class Body extends React.Component {
           }}
         >
           <span>
+            <img
+              style={{
+                float: "right",
+                width: "200px",
+                height: "auto"
+              }}
+              alt="@carducci on Truth social"
+              src="https://www.dl.dropboxusercontent.com/s/n575hiibwzmtp0p/Screen%20Shot%202022-03-06%20at%209.16.20%20AM.png?dl=0"
+            />
+            eat my ass* to get into events because that correlates with good
+            sewage. let's talk about mood, ingredients behind a non-compete
+            paywall
+            <br />
+            <br />
             Ownership of notes, being leased back our as per dollar share, 11/12
             industry without oil, for go-ahead, yeah?
             <h4>
@@ -314,7 +361,7 @@ class Body extends React.Component {
         </div>
         dollar owner platform for royalty and sign off, benevolent to consumers
         and competition,&nbsp;
-        <a href="https://2024nj.com/gas">UT, NM, WY</a>
+        <a href="https://2024nj.com/gas">UT, NM, WY</a>{" "}
         <div
           style={{
             position: "fixed",
@@ -1360,6 +1407,18 @@ class Body extends React.Component {
           >
             nj 101.5
           </div>
+        </div>
+        <br />
+        <div
+          style={{
+            transition: ".3s ease-in",
+            position: "fixed",
+            bottom: "-3px",
+            left: "0px",
+            color: `rgba(0,0,0,${this.state.atBottom ? 1 : 0})`
+          }}
+        >
+          *restrictions apply
         </div>
         <img
           style={{ height: "86px", width: "86px" }}
