@@ -119,6 +119,13 @@ class Body extends React.Component {
             //border: "3px solid"
           }}
         >
+          <h4>
+            the only entity boycotting credit, landlords and insurers; for they
+            surrender the freedoms of labor-borne-demand-bid and balance sheets
+            outstanding{space}
+            <a href="https://2024nj.com/ssa">ask-first by liabilities</a>; .7%
+            are disabled, not 19%
+          </h4>
           <div
             style={{
               maxWidth: "400px",
@@ -241,9 +248,10 @@ class Body extends React.Component {
             innocence hypocrisy. welfare/GDP left/right, 1/hour-GDP/p the new
             edge
           </h4>
-          inflation is not necessary; Great Depression was the input of m2,
-          withdrawal and reimplemented, for laborless-demand, or
-          economic-dispondence.
+          inflation is not necessary;{space}
+          <a href="https://qr.ae/pGLyXT">Great Depression</a>
+          {space}was the input of m2, withdrawal and reimplemented, for
+          laborless-demand, or economic-dispondence.
           <br />
           "deficit spending is{space}
           <a href="https://qr.ae/pGLtAq">principle</a>
@@ -1209,3 +1217,4 @@ class Body extends React.Component {
   }
 }
 export default Body;
+
