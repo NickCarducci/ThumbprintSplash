@@ -128,7 +128,11 @@ class Body extends React.Component {
             <a href="https://qr.ae/pGLyZK">
               *1.2 for employer contributions' premium over fair value
             </a>
-            .
+            . "84% (n=?) say it is the time for Shale as it{space}
+            <a href="https://magnate.company">needs to be</a>
+            {space}
+            affordable, and secure." Yet, oil oligarchs keep admitting lost
+            jobs, variable-part of m+l sprint begs for.
             <br />
             <br />
             you miss the boat, and if everyone is on the boat, it would be too
