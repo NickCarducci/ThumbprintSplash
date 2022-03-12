@@ -167,7 +167,7 @@ class Body extends React.Component {
             <a href="https://qr.ae/pGLKnh">
               requires front-running by the government
             </a>
-            ."
+            ," Liam Halligan
             <br />
             <img
               style={{
