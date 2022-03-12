@@ -120,6 +120,7 @@ class Body extends React.Component {
           }}
         >
           <span>
+            <h2>putin wishes for no hostility or taxes free rider mutables?</h2>
             Let alone plundering for firesale is 1y/0x elastic for no utility by
             1/hour-GDP/p plane, subsidies only lowers poverty thresholds, which
             are based on last years inflation over such income. Progressives’ vs
