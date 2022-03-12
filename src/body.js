@@ -153,10 +153,20 @@ class Body extends React.Component {
             <a href="https://2024nj.com/ssa">ask-first by liabilities</a>; .7%
             are disabled, not 19%. 20 used to be average age of the small
             business owner, 15 for self-employed, now it is 50, and there is
-            less Private than Corporate and Public, daily.
+            less Private than Corporate and Public, daily. 73% of 50+ like-AARP
+            for surrendering bids of others.
             <br />
             <br />
-            Is the savings’ rate FDIC false/surrendered bid named price tooled?
+            Is the savings’ rate{space}
+            <a
+              style={{
+                textDecoration: "line-through"
+              }}
+              href="https://fred.stlouisfed.org/release/tables?rid=54&eid=155443#snid=155478"
+            >
+              FDIC false/surrendered bid named price tooled
+            </a>
+            ?
           </h4>
           <div
             style={{
