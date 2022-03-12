@@ -43,34 +43,40 @@ class Body extends React.Component {
       );
     }
   };
+  componentDidMount = () => {
+    this.checkPathname();
+  };
   componentDidUpdate = (prevProps) => {
     const { pathname } = this.props;
     if (pathname !== prevProps.pathname) {
-      if (pathname === "/privacy") {
-        this.setState({ hidePolicy: false });
-      } else if (pathname === "/publicity") {
-        this.setState({ publicity: false }, () =>
-          window.scrollTo(0, this.publicity.current.scrollTop)
-        );
-      } else if (pathname === "/about") {
-        this.setState({ hideAbout: false });
-      } else if (pathname === "/payments") {
-        this.setState({ showPayments: true });
-      } else if (pathname === "/speech") {
-        this.setState({ showSpeech: true });
-      } else if (pathname === "/phone") {
-        this.setState({ showPhone: true });
-      } else if (pathname === "/stack") {
-        this.setState({ closePreview: false });
-      } else if (pathname === "/2017") {
-        this.props.set2017({ see2017: true });
-      } else if (pathname === "/voting") {
-        this.setState({ voting: true });
-      } else if (["/videos", "/history"].includes(pathname)) {
-        this.setState({ showVideos: true }, () =>
-          window.scrollTo(0, this.videos.current.scrollTop)
-        );
-      }
+      this.checkPathname(pathname);
+    }
+  };
+  checkPathname = (pathname = this.props.pathname) => {
+    if (pathname === "/privacy") {
+      this.setState({ hidePolicy: false });
+    } else if (pathname === "/publicity") {
+      this.setState({ publicity: false }, () =>
+        window.scrollTo(0, this.publicity.current.scrollTop)
+      );
+    } else if (pathname === "/about") {
+      this.setState({ hideAbout: false });
+    } else if (pathname === "/payments") {
+      this.setState({ showPayments: true });
+    } else if (pathname === "/speech") {
+      this.setState({ showSpeech: true });
+    } else if (pathname === "/phone") {
+      this.setState({ showPhone: true });
+    } else if (pathname === "/stack") {
+      this.setState({ closePreview: false });
+    } else if (pathname === "/2017") {
+      this.props.set2017({ see2017: true });
+    } else if (pathname === "/voting") {
+      this.setState({ voting: true });
+    } else if (["/videos", "/history"].includes(pathname)) {
+      this.setState({ showVideos: true }, () =>
+        window.scrollTo(0, this.videos.current.scrollTop)
+      );
     }
   };
   componentWillUnmount = () => {
@@ -1476,7 +1482,16 @@ class Body extends React.Component {
             left: "0px",
             bottom: "0px"
           }}
-          onClick={() => this.setState({ publicity: !publicity })}
+          onClick={() =>
+            this.setState(
+              { publicity: !publicity },
+              () =>
+                publicity &&
+                this.props.history.push(
+                  this.props.pathname === "/" ? "/publicity" : "/"
+                )
+            )
+          }
         >
           Publicity
         </button>
