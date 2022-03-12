@@ -151,7 +151,12 @@ class Body extends React.Component {
             , landlords and insurers; for they surrender the freedoms of
             labor-borne-demand-bid and balance sheets outstanding{space}
             <a href="https://2024nj.com/ssa">ask-first by liabilities</a>; .7%
-            are disabled, not 19%
+            are disabled, not 19%. 20 used to be average age of the small
+            business owner, 15 for self-employed, now it is 50, and there is
+            less Private than Corporate and Public, daily.
+            <br />
+            <br />
+            Is the savings’ rate FDIC false/surrendered bid named price tooled?
           </h4>
           <div
             style={{
