@@ -234,12 +234,21 @@ class Body extends React.Component {
             backgroundColor: "rgba(170,220,250)"
           }}
         >
+          <h4>
+            Free science, rent-free sprints of m+l, 11/12 industry consensus mvp
+            duress + collateral awaiting customer security variance, vertical
+            upright horizontal trust-breaking - no state vig nor comparative
+            innocence hypocrisy. welfare/GDP left/right, 1/hour-GDP/p the new
+            edge
+          </h4>
           inflation is not necessary; Great Depression was the input of m2,
           withdrawal and reimplemented, for laborless-demand, or
           economic-dispondence.
           <br />
-          "deficit spending is principle cause of inflation," not when 1/3 debt
-          and 1/9 surrendered freedoms to bid of labor-borne-demand.
+          "deficit spending is{space}
+          <a href="https://qr.ae/pGLtAq">principle</a>
+          {space}cause of inflation," not when 1/3 debt and 1/9 surrendered
+          freedoms to bid of labor-borne-demand.
           <br />
           <a
             href="https://electiontechnology.quora.com"
@@ -247,6 +256,8 @@ class Body extends React.Component {
           >
             election technology
           </a>
+          . Former director of CBO Doug holts, "Obamacare saves money because we
+          price control to mean inflation."
           <br />
           corsOrigin delay and DNS tamper-proof-grid required? Proof of work is
           just the corsOrigin+openSource itself, anonymity isn’t even
