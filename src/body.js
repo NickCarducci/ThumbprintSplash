@@ -123,7 +123,8 @@ class Body extends React.Component {
             plundering is quick, yet not money nor firesale yet
             non-concurrentable estimates/good will extrapolation; balance sheet
             only is outstanding, it must be amortized to be in the same plane of
-            price (y) to utility (x), or 1/hour-GDP/p.
+            price (y) to utility (x), or 1/hour-
+            <a href="https://qr.ae/pGLyG2">GDP</a>/p.
             <br />
             Vanna, I'd like to your honor, I'd like to "finish" this, yea?
             <br />
