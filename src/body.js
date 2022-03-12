@@ -121,7 +121,13 @@ class Body extends React.Component {
         >
           <span>
             you miss the boat, and if everyone is on the boat, it would be too
-            broad and descriptive
+            broad and descriptive. accrue doesn't make money for the plunderer
+            is laborless demand, yet without fractional reserves of transaction
+            fee based security depositary receipt disruptive technology over
+            monetary for{space}
+            <span style={{ color: "slateblue" }}>
+              less hours per expense growth
+            </span>
             <br />
             <br />
             you betcha! actually, don't,{space}
