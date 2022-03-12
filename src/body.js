@@ -120,7 +120,12 @@ class Body extends React.Component {
           }}
         >
           <span>
-            your honor, I'd like to "finish" this, yea?
+            plundering is quick, yet not money nor firesale yet
+            non-concurrentable estimates/good will extrapolation; balance sheet
+            only is outstanding, it must be amortized to be in the same plane of
+            price (y) to utility (x), or 1/hour-GDP/p.
+            <br />
+            Vanna, I'd like to your honor, I'd like to "finish" this, yea?
             <br />
             Leo "moscows war, not russias, 40%, as angry with putin, companies
             raising living standards by structuring natural demand and
