@@ -120,6 +120,12 @@ class Body extends React.Component {
           }}
         >
           <span>
+            <h1>
+              HOW SELF-DEPRECATING OF BLS AND CENSUS TO MERELY MEASURE POVERTY
+              THRESHOLDS BY LAST YEARS' FCSU+IMPUTED-MORTGAGE VARIANCE FROM MEAN
+              OVER STANDARD DEVIATION SIGNIFICANCE (P{">"}.05%) WITH N{">"}100
+              OR POPULATION/100
+            </h1>
             what do you want and how much does it cost? thrice food, or{space}
             <a href="https://qr.ae/pGQe4S">imputed</a>
             {space}
