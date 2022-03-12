@@ -120,6 +120,17 @@ class Body extends React.Component {
           }}
         >
           <span>
+            what do you want and how much does it cost? thrice food, or{space}
+            <a href="https://qr.ae/pGQe4S">imputed</a>
+            {space}
+            owner-<a href="https://qr.ae/pGLyZT">mortgages</a>
+            {space}for Food, Clothing, Shelter and Utilities, as well as{space}
+            <a href="https://qr.ae/pGLyZK">
+              *1.2 for employer contributions' premium over fair value
+            </a>
+            .
+            <br />
+            <br />
             you miss the boat, and if everyone is on the boat, it would be too
             broad and descriptive. accrue doesn't make money for the plunderer
             is laborless demand, yet without fractional reserves of transaction
