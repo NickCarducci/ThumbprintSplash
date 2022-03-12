@@ -120,6 +120,11 @@ class Body extends React.Component {
           }}
         >
           <span>
+            <h4>
+              Anti-Rent-Seeker-Bona-Fides: "'The Cost of Living Crisis,' 5%/yr
+              over 2%/yr, and 7.5% m2, currency and debt in their own units, 1/3
+              shares by corp+mort+tsy, and 1/3 of surrendered labor-borne-bid."
+            </h4>
             I've sold my laurels.xyz for Yetlest.com
             <h3>
               investment bank funded welfare, 1y/0x elastic plane for 1 useless
