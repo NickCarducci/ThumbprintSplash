@@ -120,12 +120,15 @@ class Body extends React.Component {
           }}
         >
           <h4>
-            the only entity boycotting credit, landlords and insurers; for they
-            surrender the freedoms of labor-borne-demand-bid and balance sheets
-            outstanding{space}
+            <a href="https://github.com/NickCarducci/mastercard-backbank">
+              the only entity boycotting credit
+            </a>
+            , landlords and insurers; for they surrender the freedoms of
+            labor-borne-demand-bid and balance sheets outstanding{space}
             <a href="https://2024nj.com/ssa">ask-first by liabilities</a>; .7%
             are disabled, not 19%
           </h4>
+
           <div
             style={{
               maxWidth: "400px",
