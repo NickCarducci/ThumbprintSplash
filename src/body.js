@@ -793,9 +793,13 @@ class Body extends React.Component {
             {this.state.openOldSpeechPolicy ? "old" : "new"}
           </div>
         </div>
+        <br />
         <div
           onClick={() => this.setState({ hidePolicy: !this.state.hidePolicy })}
         >
+          DUI under weed per diem incarceration war bonds
+          <br />
+          <br />
           Privacy Policy
           <br />
           <div style={{ transform: "rotate(180deg)", color: "grey" }}>^</div>
