@@ -120,6 +120,18 @@ class Body extends React.Component {
           }}
         >
           <span>
+            <h3>
+              investment bank funded welfare, 1y/0x elastic plane for 1 useless
+              coefficient; cap rental-income by operations that which prevent
+              commerce{space}
+              <span role="img" aria-label="umbrella free">
+                ☔️🆓
+              </span>
+              science
+              <span role="img" aria-label="cowguy">
+                🤠
+              </span>
+            </h3>
             prepare your knickers for bullying&nbsp;&bull;&nbsp;hazards be
             known, commerce true, and scapegoating for hypocrisy grounds
             poignancy politics, for what but efficiency,{space}
