@@ -94,6 +94,7 @@ class Body extends React.Component {
     };
     const space = " ";
     const wrappedItemStyle = {
+      breakInside: "avoid",
       width: "300px"
     };
     return (
