@@ -234,6 +234,9 @@ class Body extends React.Component {
         >
           voting
         </button>
+        juris war crimes: mental health intervention licenses; comparative
+        innocence is implicit grounds by the criminal; prejudice and
+        scapegoating
         <div
           style={{
             overflow: "hidden",
