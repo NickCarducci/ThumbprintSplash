@@ -363,11 +363,15 @@ class Body extends React.Component {
             <a href="https://qr.ae/pGLhuS">boycotting credit</a>
             {space}as income; forging our own paytech so we can be sure we
             contribute as much as we take out from ticket buyers, to sustain the
-            non-profit endeavors. We were 501(c)3, but opted to operate with
-            taxed-income for our employees so to be sure the copyrights weren't
-            laundered to bond-holders and nationalistic over
-            internationally-humane ends, and ensure the margins are forever as
-            tight as possible, as all "non-profits" should.
+            non-profit endeavors
+            {/**I said events for cash flow, Simonelli (Int'l law MU Bordelon) 
+            swooned, maybe for the mere excitement of the product we were building; 
+            yet, I needed these things as well for genius' spark */}
+            . We were 501(c)3, but opted to operate with taxed-income for our
+            employees so to be sure the copyrights weren't laundered to
+            bond-holders and nationalistic over internationally-humane ends, and
+            ensure the margins are forever as tight as possible, as all
+            "non-profits" should.
           </div>
         </div>
         dollar owner platform for royalty and sign off, benevolent to consumers
@@ -1325,14 +1329,18 @@ class Body extends React.Component {
         </div>
         <button
           style={buttonStyle}
-          onClick={() => this.setState({ showVideos: !showVideos })}
+          onClick={() =>
+            this.setState({ showVideos: !showVideos, showPhone: false })
+          }
         >
           Versions
         </button>
         <History showHistory={showVideos} />
         <button
           style={buttonStyle}
-          onClick={() => this.setState({ showPhone: !showPhone })}
+          onClick={() =>
+            this.setState({ showPhone: !showPhone, showVideos: false })
+          }
         >
           Phone
         </button>
