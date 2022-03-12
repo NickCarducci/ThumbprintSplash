@@ -6,12 +6,21 @@ import Preview from "./Preview";
 import TwitterTweetEmbed from "./TwitterTweetEmbed";
 
 class Body extends React.Component {
-  state = { hidePolicy: true, closePreview: true, hideAbout: true };
+  constructor(props) {
+    super(props);
+    this.state = { hidePolicy: true, closePreview: true, hideAbout: true };
+
+    this.publicity = React.createRef();
+  }
   componentDidUpdate = (prevProps) => {
     const { pathname } = this.props;
     if (pathname !== prevProps.pathname) {
       if (pathname === "/privacy") {
         this.setState({ hidePolicy: false });
+      } else if (pathname === "/publicity") {
+        this.setState({ publicity: false }, () =>
+          window.scrollTo(0, this.publicity.current.scrollTop)
+        );
       } else if (pathname === "/about") {
         this.setState({ hideAbout: false });
       } else if (pathname === "/payments") {
@@ -27,7 +36,9 @@ class Body extends React.Component {
       } else if (pathname === "/voting") {
         this.setState({ voting: true });
       } else if (["/videos", "/history"].includes(pathname)) {
-        this.setState({ showVideos: true });
+        this.setState({ showVideos: true }, () =>
+          window.scrollTo(0, this.videos.current.scrollTop)
+        );
       }
     }
   };
@@ -71,7 +82,8 @@ class Body extends React.Component {
       showPayments,
       showPhone,
       voting,
-      showTaxes
+      showTaxes,
+      publicity
     } = this.state;
     const buttonStyle = {
       height: "min-content",
@@ -956,6 +968,7 @@ class Body extends React.Component {
         <br />
         <br />
         <button
+          ref={this.videos}
           style={buttonStyle}
           onClick={() => this.setState({ showVideos: !showVideos })}
         >
@@ -1112,6 +1125,30 @@ class Body extends React.Component {
           </div>
         </div>
         <br />
+        <div
+          style={{
+            width: publicity ? "min-content" : "0px",
+            height: publicity ? "min-content" : "0px",
+            overflow: "hidden"
+          }}
+        >
+          <iframe
+            style={{ border: "1px solid black" }}
+            title="Dennis and Judy, reading thumbprint splash page, Sept 2021 - https://youtu.be/Jxj0-TaTm4o"
+            src="https://www.youtube.com/embed/Jxj0-TaTm4o"
+            allowFullScreen
+          ></iframe>
+          <div
+            onClick={() => {
+              var answer = window.confirm("open https://youtu.be/Jxj0-TaTm4o");
+              if (answer) {
+                window.location.href = "https://youtu.be/Jxj0-TaTm4o";
+              }
+            }}
+          >
+            nj 101.5
+          </div>
+        </div>
         <img
           style={{ height: "86px", width: "86px" }}
           src="https://www.dl.dropboxusercontent.com/s/9oci4efa4zsh90q/unnamed.png?dl=0"
@@ -1124,6 +1161,18 @@ class Body extends React.Component {
         />
         <br />
         <br />
+        <button
+          ref={this.publicity}
+          style={{
+            ...buttonStyle,
+            position: "fixed",
+            left: "0px",
+            bottom: "0px"
+          }}
+          onClick={() => this.setState({ publicity: !publicity })}
+        >
+          Publicity
+        </button>
       </div>
     );
   }
