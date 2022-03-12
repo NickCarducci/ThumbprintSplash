@@ -120,6 +120,11 @@ class Body extends React.Component {
           }}
         >
           <span>
+            <h1>
+              BP/Shell loans $b Russia non-concurrentable assets of neighborhood
+              and brand good will, as with premium of false bid pool and
+              implausible use lease laborless-demand ("rents")
+            </h1>
             <h2>putin wishes for no hostility or taxes free rider mutables?</h2>
             Let alone plundering for firesale is 1y/0x elastic for no utility by
             1/hour-GDP/p plane, subsidies only lowers poverty thresholds, which
