@@ -234,6 +234,20 @@ class Body extends React.Component {
             backgroundColor: "rgba(170,220,250)"
           }}
         >
+          inflation is not necessary; Great Depression was the input of m2,
+          withdrawal and reimplemented, for laborless-demand, or
+          economic-dispondence.
+          <br />
+          "deficit spending is principle cause of inflation," not when 1/3 debt
+          and 1/9 surrendered freedoms to bid of labor-borne-demand.
+          <br />
+          <a
+            href="https://electiontechnology.quora.com"
+            style={{ color: "rgb(80,200,120)" }}
+          >
+            election technology
+          </a>
+          <br />
           corsOrigin delay and DNS tamper-proof-grid required? Proof of work is
           just the corsOrigin+openSource itself, anonymity isn’t even
           accomplished with{space}
