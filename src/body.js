@@ -120,6 +120,11 @@ class Body extends React.Component {
           }}
         >
           <span>
+            prepare your knickers for bullying&nbsp;&bull;&nbsp;hazards be
+            known, commerce true, and scapegoating for hypocrisy grounds
+            poignancy politics, for what but efficiency,{space}
+            <a href="https://qr.ae/pGdZKZ">1/hour-GDP/p</a>?
+            <br />
             fine lower court judges for successful appeals
             <h1>
               HOW SELF-DEPRECATING OF BLS AND CENSUS TO MERELY MEASURE POVERTY
