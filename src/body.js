@@ -120,6 +120,12 @@ class Body extends React.Component {
           }}
         >
           <span>
+            Progressives’ vs Occupy test: ubi globally, or bust? Poverty is
+            income relative to last years’ expenses, Food Clothing Shelter
+            Utilities, for investment bank -funded for, and -receivable from,
+            welfare.
+            <br />
+            <br />
             "how many writers would people write a week if there were no
             deadlines in{space}
             <a href="https://qr.ae/pGLyru">sprints of variable-part labor</a>,
