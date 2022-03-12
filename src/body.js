@@ -120,6 +120,8 @@ class Body extends React.Component {
           }}
         >
           <span>
+            Ownership of notes, being leased back our as per dollar share, 11/12
+            industry without oil, for go-ahead, yeah?
             <h4>
               Anti-Rent-Seeker-Bona-Fides: "'The Cost of Living Crisis,' 5%/yr
               over 2%/yr, and 7.5% m2, currency and debt in their own units, 1/3
