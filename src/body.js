@@ -128,6 +128,9 @@ class Body extends React.Component {
             <span style={{ color: "slateblue" }}>
               less hours per expense growth
             </span>
+            , garnered utility may be preserved for aggregate efficiency,
+            1/hour-GDP/p. This is why we support a Cowboy State, and to be sure,
+            ratification of 1775-1787 then 1814 back to choring imputables
             <br />
             <br />
             you betcha! actually, don't,{space}
