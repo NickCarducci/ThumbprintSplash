@@ -245,8 +245,8 @@ class Body extends React.Component {
             Free science, rent-free sprints of m+l, 11/12 industry consensus mvp
             duress + collateral awaiting customer security variance, vertical
             upright horizontal trust-breaking - no state vig nor comparative
-            innocence hypocrisy. welfare/GDP left/right, 1/hour-GDP/p the new
-            edge
+            innocence hypocrisy. welfare/<a href="https://qr.ae/pGLyG2">GDP</a>
+            {space}left/right, 1/hour-GDP/p the new edge
           </h4>
           inflation is not necessary;{space}
           <a href="https://qr.ae/pGLyXT">Great Depression</a>
@@ -1217,4 +1217,3 @@ class Body extends React.Component {
   }
 }
 export default Body;
-
