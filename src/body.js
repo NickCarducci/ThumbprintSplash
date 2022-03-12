@@ -120,6 +120,10 @@ class Body extends React.Component {
           }}
         >
           <span>
+            you miss the boat, and if everyone is on the boat, it would be too
+            broad and descriptive
+            <br />
+            <br />
             you betcha! actually, don't,{space}
             <a href="https://qr.ae/pGLy9q">your debts are my money</a>, but
             there is a solution!
