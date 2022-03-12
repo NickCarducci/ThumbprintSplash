@@ -155,6 +155,8 @@ class Body extends React.Component {
             should.
           </div>
         </div>
+        dollar owner platform for royalty and sign off, benevolent to consumers
+        and competition
         <div
           style={{
             position: "fixed",
