@@ -120,6 +120,8 @@ class Body extends React.Component {
           }}
         >
           <span>
+            "you want the oil price to be high enough for your liabilities, the
+            bottom, bottom line"
             <h1>
               BP/Shell loans $b Russia non-concurrentable assets of neighborhood
               and brand good will, as with premium of false bid pool and
@@ -205,7 +207,8 @@ class Body extends React.Component {
           </div>
         </div>
         dollar owner platform for royalty and sign off, benevolent to consumers
-        and competition
+        and competition,{space}
+        <a href="https://2024nj.com/gas">UT, NM, WY</a>
         <div
           style={{
             position: "fixed",
