@@ -124,6 +124,14 @@ class Body extends React.Component {
             known, commerce true, and scapegoating for hypocrisy grounds
             poignancy politics, for what but efficiency,{space}
             <a href="https://qr.ae/pGdZKZ">1/hour-GDP/p</a>?
+            <img
+              style={{
+                width: "100%",
+                height: "auto"
+              }}
+              alt="'oy he sees himself a ryan gosling' eh 'WHAT DO YOU WANT' elasticity/efficiency economic welfare output 1/hour-GDP/p"
+              src="https://www.dl.dropboxusercontent.com/s/io2wqdkulll2kew/what%20do%20you%20wnt.gif?dl=0"
+            />
             <br />
             fine lower court judges for successful appeals
             <h1>
