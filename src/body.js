@@ -120,11 +120,12 @@ class Body extends React.Component {
           }}
         >
           <span>
-            Subsidies only lowers poverty thresholds, which are based on last
-            years inflation over such income. Progressives’ vs Occupy test: ubi
-            globally, or bust? Poverty is income relative to last years’
-            expenses, Food Clothing Shelter Utilities, for investment bank
-            -funded for, and -receivable from, welfare.
+            Let alone plundering for firesale is 1y/0x elastic for no utility by
+            1/hour-GDP/p plane, subsidies only lowers poverty thresholds, which
+            are based on last years inflation over such income. Progressives’ vs
+            Occupy test: ubi globally, or bust? Poverty is income relative to
+            last years’ expenses, Food Clothing Shelter Utilities, for
+            investment bank -funded for, and -receivable from, welfare.
             <br />
             <br />
             "how many writers would people write a week if there were no
