@@ -130,7 +130,7 @@ class Body extends React.Component {
             Leo "moscows war, not russias, 40%, as angry with putin, companies
             raising living standards by structuring natural demand and
             actualized utility consumption. "Costing a lot of peoples' lives."
-            Gavin: "We should be spending more on military might to do all we
+            Calvin: "We should be spending more on military might to do all we
             can to not rely on Ukraine nor America. Politicians using footing
             that we cannot verify, else villify Putin no bars."
             <h3>bomb and whatever and have to actually maintain thet</h3>
