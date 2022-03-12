@@ -575,8 +575,11 @@ class Body extends React.Component {
             <br />
             Republicans and Democrats want to own pipes instead of do their job
             and regulate, target margin networks, finite proiducers will not
-            protect consumers, and hung-jury-permits for duress in minimal
-            viable product before scientific consensus (11/12)
+            protect consumers, and{space}
+            <span style={{ color: "slateblue" }}>
+              hung-jury-permits for duress in minimal viable product before
+              scientific consensus (11/12)
+            </span>
             <br />
             All parties other than&nbsp;
             <a href="https://saverparty.xyz">Savers</a>, the only party that
@@ -873,14 +876,17 @@ class Body extends React.Component {
               billed-as "protect American consumers"). Now, it is an issue-of
               exclusion not based on a&nbsp;
               <span style={{ color: "green" }}>court-verified</span>&nbsp;part
-              of a minimal-viable-product duress, bid of not a option to buy
-              sold already (not a deposit or down-payment), or skill (not
-              experience, a.k.a. docile, stagnant, counter-productive and
-              focused on competing with other suppliers by moat or consumers
-              instead of concentrating on consumers and winning their clean
-              favor without any duress-of-void or void-of third party dollar or
-              shareholder to which extension is forgone of initial-stated intent
-              to give back down-payments&nbsp;
+              of a{space}
+              <span style={{ color: "slateblue" }}>
+                minimal-viable-product duress
+              </span>
+              , bid of not a option to buy sold already (not a deposit or
+              down-payment), or skill (not experience, a.k.a. docile, stagnant,
+              counter-productive and focused on competing with other suppliers
+              by moat or consumers instead of concentrating on consumers and
+              winning their clean favor without any duress-of-void or void-of
+              third party dollar or shareholder to which extension is forgone of
+              initial-stated intent to give back down-payments&nbsp;
               <span style={{ color: "green" }}>if lose</span>, or launder from
               borrowers' customers by prisoners'-dilemma duress here and with
               insurance-coagulation further abetted by invoice
