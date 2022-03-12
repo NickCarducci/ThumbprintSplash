@@ -33,7 +33,9 @@ class Body extends React.Component {
                 scrolling: false,
                 atBottom:
                   this.state.scrollTop >
-                  document.documentElement.scrollHeight - window.innerHeight
+                  document.documentElement.scrollHeight -
+                    window.innerHeight -
+                    10
               }),
             900
           );
@@ -154,6 +156,15 @@ class Body extends React.Component {
           }}
         >
           <span>
+            <img
+              style={{
+                float: "left",
+                width: "200px",
+                height: "auto"
+              }}
+              alt="this is why i self isolate"
+              src="https://www.dl.dropboxusercontent.com/s/em7xdkbb0obki1w/Screen%20Shot%202022-03-12%20at%203.06.54%20PM.png?dl=0"
+            />
             Torts for consent implied, despondence in bivariate understanding,
             all-cause Surrendered outrights by compound or general-income
             <br />
