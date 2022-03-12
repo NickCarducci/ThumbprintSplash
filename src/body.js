@@ -813,7 +813,12 @@ class Body extends React.Component {
               border: "3px solid"
             }}
           >
-            Article 1.8 is an oxymoron, unequal taxes. third party donee
+            {" "}
+            2024nj.com, all candidates, let me know if you are running!
+            Truncated Production Tax instead of Article 1.8 as an oxymoron,
+            unequal taxes, ween cops off trust-breaking hypocrisy bond loss
+            profit, per diem incarceration, closed source licensure,
+            unknown/known loss hazard-loss of tort-standing. third party donee
             beneficiary claimable, cash advance to TBT. &nbsp;
             <a href="https://constitutioncenter.org/interactive-constitution/amendment/amendment-v">
               prevent state victimization
