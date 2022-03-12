@@ -162,6 +162,13 @@ class Body extends React.Component {
           }}
         >
           <span>
+            "The music is better, because it is more contentious, but the have
+            something to eat, that{space}
+            <a href="https://qr.ae/pGLKnh">
+              requires front-running by the government
+            </a>
+            ."
+            <br />
             <img
               style={{
                 float: "left",
@@ -194,9 +201,11 @@ class Body extends React.Component {
             Ownership of notes, being leased back our as per dollar share, 11/12
             industry without oil, for go-ahead, yeah?
             <h4>
-              Anti-Rent-Seeker-Bona-Fides: "'The Cost of Living Crisis,' 5%/yr
-              over 2%/yr, and 7.5% m2, currency and debt in their own units, 1/3
-              shares by corp+mort+tsy, and 1/3 of surrendered labor-borne-bid."
+              Anti-Rent-Seeker-Bona-Fides: "'
+              <a href="https://qr.ae/pGLKts">The Cost of Living Crisis</a>,'
+              5%/yr over 2%/yr, and 7.5% m2, currency and debt in their own
+              units, 1/3 shares by corp+mort+tsy, and 1/3 of surrendered
+              labor-borne-bid."
             </h4>
             I've sold my laurels.xyz for Yetlest.com
             <h3>
