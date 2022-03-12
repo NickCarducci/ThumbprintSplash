@@ -818,7 +818,8 @@ class Body extends React.Component {
         <div
           onClick={() => this.setState({ hidePolicy: !this.state.hidePolicy })}
         >
-          DUI under weed per diem incarceration war bonds
+          DUI under weed per diem incarceration war bonds; Tranquil and
+          voluntary trade - negative operation rate
           <br />
           <br />
           Privacy Policy
