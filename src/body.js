@@ -120,6 +120,7 @@ class Body extends React.Component {
           }}
         >
           <span>
+            I've sold my laurels.xyz for Yetlest.com
             <h3>
               investment bank funded welfare, 1y/0x elastic plane for 1 useless
               coefficient; cap rental-income by operations that which prevent
