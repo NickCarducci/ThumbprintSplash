@@ -257,7 +257,8 @@ class Body extends React.Component {
             election technology
           </a>
           . Former director of CBO Doug holts, "Obamacare saves money because we
-          price control to mean inflation."
+          price control to mean inflation,{space}
+          <a href="https://qr.ae/pGLrf6">that one year</a>."
           <br />
           corsOrigin delay and DNS tamper-proof-grid required? Proof of work is
           just the corsOrigin+openSource itself, anonymity isn’t even
