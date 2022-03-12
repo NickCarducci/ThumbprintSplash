@@ -142,7 +142,7 @@ class Body extends React.Component {
                 height: "auto"
               }}
               alt="'oy he sees himself a ryan gosling' eh 'WHAT DO YOU WANT' elasticity/efficiency economic welfare output 1/hour-GDP/p"
-              src="https://www.dl.dropboxusercontent.com/s/io2wqdkulll2kew/what%20do%20you%20wnt.gif?dl=0"
+              src="https://www.dl.dropboxusercontent.com/s/opm50hbbn1oxo3z/what%20do%20you%20want.gif?dl=0"
             />
             <br />
             fine lower court judges for successful appeals
