@@ -120,6 +120,10 @@ class Body extends React.Component {
           }}
         >
           <span>
+            you betcha! actually, don't,{space}
+            <a href="https://qr.ae/pGLy9q">your debts are my money</a>, but
+            there is a solution!
+            <br />
             plundering is quick, yet not money nor firesale yet
             non-concurrentable estimates/good will extrapolation; balance sheet
             only is outstanding, it must be amortized to be in the same plane of
@@ -165,10 +169,12 @@ class Body extends React.Component {
             every year back, cap rental-income at 5 storefronts and
             condominiums.
             <br />
-            1/12 industry-vertical max-royalty +{space}
-            <a href="https://vaults.biz/sdr">geohash/mo</a>
-            {space}precinct protocol for world peace 3% under $2k Truncated
-            Production Tax.
+            <span style={{ color: "slateblue" }}>
+              1/12 industry-vertical max-royalty +{space}
+              <a href="https://vaults.biz/sdr">geohash/mo</a>
+              {space}precinct protocol for world peace 3% under $2k Truncated
+              Production Tax.
+            </span>
           </span>
           <h4>
             <a href="https://github.com/NickCarducci/mastercard-backbank">
