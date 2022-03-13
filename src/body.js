@@ -162,6 +162,14 @@ class Body extends React.Component {
           }}
         >
           <span>
+            Mutual funds have liabilities outstanding share that share split by
+            the net asset value, so that they match
+            <br />
+            <br />
+            We have enough oil to supply us than Venezuela, OPEC and Russia, but
+            prices are too high due to leases
+            <br />
+            <br />
             "Your budget options pay later at Raymore and flannigan is
             surrendered bid when collateralized by other than 1/12 vertical
             industry max-royalty, by general income or compound. Jenaris can
