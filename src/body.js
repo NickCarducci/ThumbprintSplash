@@ -162,12 +162,15 @@ class Body extends React.Component {
           }}
         >
           <span>
+            Perjury is not tortious for duress makes it moot.
+            <br />
+            <br />
             Mutual funds have liabilities outstanding share that share split by
             the net asset value, so that they match
             <br />
             <br />
-            We have enough oil to supply us than Venezuela, OPEC and Russia, but
-            prices are too high due to leases
+            kyc wash We have enough oil to supply us than Venezuela, OPEC and
+            Russia, but prices are too high due to leases
             <br />
             <br />
             "Your budget options pay later at Raymore and flannigan is
