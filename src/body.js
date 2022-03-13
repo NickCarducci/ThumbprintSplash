@@ -201,6 +201,14 @@ class Body extends React.Component {
             Pallone, Bill Pascral, very respected).
             <br />
             <br />
+            “Supply,” to the idiotic Judge Janine and in Supply and Demand not
+            only is on an x-axis to the right, only when Demand is of Labor do
+            both move, and otherwise Labor-competition suffices. Supply and
+            Demand is only a Snapshot of propensities, sorted marginally, and
+            Labor-Demand despondency of Supply amounts to a dead weight box, for
+            lesser 1/hour-GDP/p from q*
+            <br />
+            <br />
             "The music is better, because it is more contentious, but the have
             something to eat, that{space}
             <a href="https://qr.ae/pGLKnh">
