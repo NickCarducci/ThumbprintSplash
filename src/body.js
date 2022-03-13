@@ -170,7 +170,12 @@ class Body extends React.Component {
             <br />
             <br />
             kyc wash We have enough oil to supply us than Venezuela, OPEC and
-            Russia, but prices are too high due to leases
+            Russia, but prices are too high due to leases. Z Hospital without
+            loitering surrendered outrights and false bid pools, as well as
+            horizontal trust building and implausible use leases. There is no
+            such thing as a permenant infrastructure, perpetual motion machine,
+            with operating rate neccesarily negative by hours without
+            income/trade
             <br />
             <br />
             "Your budget options pay later at Raymore and flannigan is
