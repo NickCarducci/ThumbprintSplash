@@ -162,7 +162,8 @@ class Body extends React.Component {
           }}
         >
           <span>
-            Italiano (5%) Minority-Owned Depository Institutions; flow of funds.
+            Italiano (5%) Minority-Owned Depository Institutions;{space}
+            <a href="https://commie.dev">flow of funds</a>.
             <br />
             <br />
             Perjury is not tortious for duress makes it moot.
