@@ -114,6 +114,7 @@ class Body extends React.Component {
   render() {
     const { see2017 } = this.props;
     const {
+      Commentary2022,
       hideAbout,
       closePreview,
       hidePolicy,
@@ -161,7 +162,21 @@ class Body extends React.Component {
             //border: "3px solid"
           }}
         >
-          <span>
+          <button
+            style={buttonStyle}
+            onClick={() => this.setState({ Commentary2022: !Commentary2022 })}
+          >
+            Commentary 2022
+          </button>
+          <div
+            style={{
+              width: "100%",
+              borderRadius: "8px",
+              margin: "10px",
+              height: Commentary2022 ? "min-content" : "0px",
+              overflow: "hidden"
+            }}
+          >
             <a href="https://saverparty.xyz/racists">Italiano (5%)</a>
             {space}Minority-Owned Depository Institutions;{space}
             <a href="https://commie.dev">flow of funds</a>.
@@ -393,31 +408,34 @@ class Body extends React.Component {
               {space}precinct protocol for world peace 3% under $2k Truncated
               Production Tax.
             </span>
-          </span>
-          <h4>
-            <a href="https://github.com/NickCarducci/mastercard-backbank">
-              the only entity boycotting credit
-            </a>
-            , landlords and insurers; for they surrender the freedoms of
-            labor-borne-demand-bid and balance sheets outstanding{space}
-            <a href="https://2024nj.com/ssa">ask-first by liabilities</a>; .7%
-            are disabled, not 19%. 20 used to be average age of the small
-            business owner, 15 for self-employed, now it is 50, and there is
-            less Private than Corporate and Public, daily. 73% of 50+ like-AARP
-            for surrendering bids of others.
-            <br />
-            <br />
-            Is the savings’ rate{space}
-            <a
-              style={{
-                textDecoration: "line-through"
-              }}
-              href="https://fred.stlouisfed.org/release/tables?rid=54&eid=155443#snid=155478"
-            >
-              FDIC false/surrendered bid named price tooled
-            </a>
-            ?
-          </h4>
+            <h4>
+              <a href="https://github.com/NickCarducci/mastercard-backbank">
+                the only entity boycotting credit
+              </a>
+              , landlords and insurers; for they surrender the freedoms of
+              labor-borne-demand-bid and balance sheets outstanding{space}
+              <a href="https://2024nj.com/ssa">ask-first by liabilities</a>; .7%
+              are disabled, not 19%. 20 used to be average age of the small
+              business owner, 15 for self-employed, now it is 50, and there is
+              less Private than Corporate and Public, daily. 73% of 50+
+              like-AARP for surrendering bids of others.
+              <br />
+              <br />
+              Is the savings’ rate{space}
+              <a
+                style={{
+                  textDecoration: "line-through"
+                }}
+                href="https://fred.stlouisfed.org/release/tables?rid=54&eid=155443#snid=155478"
+              >
+                FDIC false/surrendered bid named price tooled
+              </a>
+              ?
+            </h4>
+          </div>
+          <a href="https://qr.ae/pvsMQC">
+            Has anyone inseminated a cell with a virion?
+          </a>
           <div
             style={{
               maxWidth: "400px",
