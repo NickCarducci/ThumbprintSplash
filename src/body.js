@@ -824,11 +824,24 @@ class Body extends React.Component {
             <a style={{ color: "grey" }} href="https://youtu.be/W-Vv1vysGzE">
               November 5th, 2012
             </a>
-            , US Thumbprint, Inc. was established as a 501(c)(3) "non-profit,"
-            until I realized the gov gets it when I die,
+            , US Thumbprint, Inc. was established as a 501(c)(3) "
+            <a href="https://qr.ae/pvsMBZ">non-profit</a>," until I realized the
+            gov gets it when I die (and now{space}
+            <a href="https://nextdoor.com/p/kgbkJZqx285M/">
+              non-business income after expenses
+            </a>
+            ?),
             <br />
             unless I make a clean break, with my dns-domain-whois, into a
-            proprietorship without liability-jettisoning-collusions
+            proprietorship without liability-jettisoning-collusions. also, I can
+            use sole proprietorship income tax, disbursements of max-royalties
+            upon sale instead of withdrawal (both attributable for
+            revenue-skimping by NAICS vertical-industry-line and hardly brand
+            name alone, of course).{space}
+            <a href="https://qr.ae/pvsMEm">
+              How can businesses that don’t generate any profit stay in
+              business?
+            </a>
             <br />
             <br />
             Terms of service
