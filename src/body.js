@@ -162,7 +162,8 @@ class Body extends React.Component {
           }}
         >
           <span>
-            Italiano (5%) Minority-Owned Depository Institutions;{space}
+            <a href="https://saverparty.xyz/racists">Italiano (5%)</a>
+            {space}Minority-Owned Depository Institutions;{space}
             <a href="https://commie.dev">flow of funds</a>.
             <br />
             <br />
@@ -870,6 +871,23 @@ class Body extends React.Component {
           >
             <div style={wrappedItemStyle}>
               <b>Speech</b>
+              Topics aren’t to be moderated as newsfeed until desist (order) or
+              payment
+              <br />
+              “Don’t be flippant unless you’ve got something really poignant.”
+              Vs “Closer to ‘right.’”
+              <br />
+              That is no way to sensor questions that impacts topics
+              <br />
+              “Savings account used to be a great vehicle to save money”
+              <br />
+              lending is self-harm, for it just raises price.
+              <br />
+              <a href="https://www.quora.com/Can-the-DoT-take-my-money-from-my-savings-to-pay-off-a-debt/answer/Nick-Carducci">
+                Can the DoT take my money from my savings to pay off a debt?
+              </a>
+              <br />
+              <br />
               &bull; Threats that, are not in-kind, are prosecutable; we will
               not ban that - for evidence &nbsp; (login.gov not partnering or
               putting out a parole intranet for convicted threats and previous
