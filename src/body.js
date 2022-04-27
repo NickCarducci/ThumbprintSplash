@@ -603,6 +603,37 @@ class Body extends React.Component {
           identification notary (as login.gov should be for convict intranet and
           end to end encryption on device for the rest of us)
           <br />
+          <div style={{ display: "flex", flexWrap: "wrap" }}>
+            <div
+              style={{
+                maxWidth: "400px",
+                borderRadius: "15px",
+                margin: "10px",
+                padding: "10px",
+                border: "3px solid"
+              }}
+            >
+              "Anonymity is essential to protecting users who may have
+              identities, opinions or interests that may not align with those in
+              power." Tech Crunch
+            </div>
+            <h2
+              style={{
+                margin: "auto",
+                color: "white",
+                backgroundColor: "green",
+                height: "min-content",
+                lineHeight: "40px",
+                padding: "0px 10px"
+              }}
+            >
+              <a href="https://electiontechnology.quora.com/How-do-hackers-look-for-vulnerabilities-1">
+                Election Technology
+              </a>
+              {space}on quora
+            </h2>
+          </div>
+          <br />
           <a href="https://qr.ae/pGQihD">Magnetic nor paper</a>
           {space}ballots are auditable, trustless.
           <h1>
