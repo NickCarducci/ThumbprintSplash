@@ -468,6 +468,11 @@ class Body extends React.Component {
             bond-holders and nationalistic over internationally-humane ends, and
             ensure the margins are forever as tight as possible, as all
             "non-profits" should.
+            <br />
+            <br />
+            feed/comment/chat requires cred, horizontal thumbprint visuals by
+            profession, hobby, education...
+            <br />
           </div>
         </div>
         dollar owner platform for royalty and sign off, benevolent to consumers
