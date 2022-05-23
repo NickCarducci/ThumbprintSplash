@@ -162,6 +162,13 @@ class Body extends React.Component {
             //border: "3px solid"
           }}
         >
+          Communism deprives no man of the power to appropriate the products of
+          society; all that it does is to deprive him of the{space}
+          <a href="https://nonprofessionalproprietors.quora.com">
+            power to subjugate
+          </a>
+          {space}
+          the labour of others by means of such appropriations.
           <button
             style={buttonStyle}
             onClick={() => this.setState({ Commentary2022: !Commentary2022 })}
