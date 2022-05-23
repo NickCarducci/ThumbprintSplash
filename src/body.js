@@ -1291,6 +1291,18 @@ class Body extends React.Component {
           about today: 2 days after purchasing && 10 days prior to an event.
           <br />
           <br />
+          Thumbprint going to ensure you (artist) aren’t liable (venue gets paid
+          after), other than venues’ ability to not accept you, thereafter
+          (customers can buy whenever you’re again ready to roll). I would
+          suggest the industry mediate in this way (in addition to 2 days after
+          || 10 days before, user-cancellable escrow), albeit sacrificing some
+          discrimination scope of grounds for artists against venues for abuse
+          of this leeway to discriminate character/talent (beyond price). I’ll
+          also be attacking scalping by providing a default-or-custom capacity
+          cap-per-phone number account (once again I would like login.gov help
+          everyone for brokerages and voting too…).
+          <br />
+          <br />
           <TwitterTweetEmbed
             key={"nick's tweet - 1389701993841758208"}
             tweetId={"1389701993841758208"}
