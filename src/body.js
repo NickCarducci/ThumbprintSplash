@@ -878,7 +878,11 @@ class Body extends React.Component {
             Our company is a non-governmental, unlimited-outlay, non-profit
             sole-proprietorship with some Royalty Contracts W/Max-Profit (RCWMP)
             under $50k, but lightte.ch certified to presently keep salaries
-            under $200k.
+            under $200k (
+            <a href="https://www.quora.com/unanswered/Does-banking-the-unbanked-include-bartenders-so-we-dont-have-to-hold-spend-cash-quarterly-in-a-1099-for-tax-exempt-camps-tuition-and-medical">
+              including tax exempt employee benefits
+            </a>
+            ).
             <br />
             <br />
             On&nbsp;
@@ -1664,3 +1668,4 @@ class Body extends React.Component {
   }
 }
 export default Body;
+
