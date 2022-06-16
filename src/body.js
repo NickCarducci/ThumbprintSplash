@@ -558,23 +558,86 @@ class Body extends React.Component {
             close={() => this.setState({ closePreview: !closePreview })}
           />
         </div>
-        <button
-          style={buttonStyle}
-          onClick={() => this.setState({ voting: !this.state.voting })}
-        >
-          voting
-        </button>
-        you all will be castrated by my hands, you'll be happier, & concentrate
-        more. juris war crimes: mental health intervention licenses; comparative
-        innocence is implicit grounds by the criminal; prejudice and
-        scapegoating
+        <span style={{ width: "400px", maxWidth: "100%" }}>
+          <button
+            style={buttonStyle}
+            onClick={() => this.setState({ voting: !this.state.voting })}
+          >
+            voting
+          </button>
+          you all will be castrated by my{space}
+          <span
+            style={{
+              textDecoration: "strike-through"
+            }}
+          >
+            hands
+          </span>
+          {space}
+          <a href="https://www.quora.com/Is-fear-of-excessive-punishment-a-better-method-of-violence-prevention-than-being-reactionary">
+            meds
+          </a>
+          , you'll be{space}
+          <a href="https://www.quora.com/unanswered/Is-duress-illegal-because-of-the-division-of-labor-gaining-efficiency">
+            happier
+          </a>
+          , & concentrate more. juris war crimes: mental health intervention
+          licenses; comparative innocence is implicit grounds by the criminal;
+          prejudice and scapegoating
+        </span>
         <div
           style={{
+            width: "800px",
+            maxWidth: "100%",
+
             overflow: "hidden",
             height: !voting ? "0px" : "min-content",
             backgroundColor: "rgba(170,220,250)"
           }}
         >
+          <div style={{ width: "400px", maxWidth: "100%", float: "right" }}>
+            <a href="https://qr.ae/pGQihD">Magnetic nor paper</a>
+            {space}ballots are auditable, trustless.
+            <h1>
+              <a href="https://github.com/NickCarducci/Wavepoint.la/blob/master/src/components/Post/VoteModule.js">
+                ArrayArrays in alpha-practice
+              </a>
+            </h1>
+            “To mail-in-ballot, you NO NOT us USPS,” David Wilestein of the NJ
+            Globe.
+            <a href="https://www.usenix.org/legacy/publications/library/proceedings/usenix03/tech/full_papers/tolia/tolia_html/usenix03.html#:~:text=7%20Security%20Considerations">
+              content-addressability
+            </a>
+            , hardly without moduloKey-token
+            <iframe
+              style={{ border: "1px solid black", float: "right" }}
+              src="https://www.youtube.com/embed/A2kSh0A8Ad0"
+              title="YouTube video player"
+            />
+            <div
+              style={{
+                width: "400px",
+                maxWidth: "100%",
+                backgroundColor: "rgb(100,150,200)"
+              }}
+            >
+              The way+anon can be used again to overwrite the vote, and delay
+              can be relied upon to abstract the vote from The users’ device
+              providers’ and CRON itself does the same to The server database.
+              <br />
+              Provided that CROn jobs are not watched by the device provider.
+              <br />
+              The CROn delay will be randomized to the ISP webview dns.
+              <h3>purple paper</h3>
+              ArrayArrays - [uuid, way+on-device-key], instead of having
+              field+count incremented on the post object.
+              <br />
+              cors origin ssl auth (hope for login.gov api for non-government
+              orgs), I am withholding ideas, for your best interests, I've
+              decided. Might use some medical advice prior to jury permits in my
+              copy/mvp, friends and family discount/options on estimates apprv.
+            </div>
+          </div>
           <h4>
             Free science, rent-free sprints of m+l, 11/12 industry consensus mvp
             duress + collateral awaiting customer security variance, vertical
@@ -646,33 +709,6 @@ class Body extends React.Component {
             </h2>
           </div>
           <br />
-          <a href="https://qr.ae/pGQihD">Magnetic nor paper</a>
-          {space}ballots are auditable, trustless.
-          <h1>
-            <a href="https://github.com/NickCarducci/Wavepoint.la/blob/master/src/components/Post/VoteModule.js">
-              ArrayArrays in alpha-practice
-            </a>
-          </h1>
-          “To mail-in-ballot, you NO NOT us USPS,” David Wilestein of the NJ
-          Globe.
-          <a href="https://www.usenix.org/legacy/publications/library/proceedings/usenix03/tech/full_papers/tolia/tolia_html/usenix03.html#:~:text=7%20Security%20Considerations">
-            content-addressability
-          </a>
-          , hardly without moduloKey-token
-          <iframe
-            style={{ border: "1px solid black" }}
-            src="https://www.youtube.com/embed/A2kSh0A8Ad0"
-            title="YouTube video player"
-          />
-          <hr />
-          <h3>purple paper</h3>
-          ArrayArrays - [uuid, way+on-device-key], instead of having field+count
-          incremented on the post object.
-          <br />
-          cors origin ssl auth (hope for login.gov api for non-government orgs),
-          I am withholding ideas, for your best interests, I've decided. Might
-          use some medical advice prior to jury permits in my copy/mvp, friends
-          and family discount/options on estimates apprv.
           <button
             style={buttonStyle}
             onClick={(e) => {
@@ -1668,4 +1704,3 @@ class Body extends React.Component {
   }
 }
 export default Body;
-
