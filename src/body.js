@@ -595,6 +595,12 @@ class Body extends React.Component {
             backgroundColor: "rgba(170,220,250)"
           }}
         >
+          {" "}
+          <img
+            style={{ width: "400px", float: "left", height: "auto" }}
+            alt="voting information security"
+            src="https://www.dropbox.com/s/2jh1tsygk1qynk1/voting%20information%20security.png?raw=1"
+          />
           <div style={{ width: "400px", maxWidth: "100%", float: "right" }}>
             <a href="https://qr.ae/pGQihD">Magnetic nor paper</a>
             {space}ballots are auditable, trustless.
