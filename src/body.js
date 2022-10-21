@@ -162,6 +162,16 @@ class Body extends React.Component {
             //border: "3px solid"
           }}
         >
+          Did Trump want to start a war over election fraud?{space}
+          <i>
+            Can one ever audit/prove an election without{space}
+            <a href="https://tor.stackexchange.com/questions/23253/is-transmission-control-protocol-of-in-a-tamper-proof-by-tiny-explosions-dev">
+              user-distributed databases
+            </a>
+            ?
+          </i>
+          <br />
+          <br />
           Communism deprives no man of the power to appropriate the products of
           society; all that it does is to deprive him of the{space}
           <a href="https://nonprofessionalproprietors.quora.com">
@@ -1146,9 +1156,20 @@ class Body extends React.Component {
               financial-racism?
             </div>
             <div style={wrappedItemStyle}>
-              Maoism is quota-communism (basic) and I’m didn’t study how Lenin
-              went from serfdom to genocide but residualsplit.us is like castle
-              doctrine, and that is also&nbsp;
+              <h3>
+                <a href="https://vau.money">vau.money</a>
+                {space}&bull;{space}
+                <a href="https://thetax.party">thetax.party</a>
+                {space}&bull;{space}
+                <a href="https://scopes.cc">scopes.cc</a>
+              </h3>
+              Maoism is [<a href="https://saltbank.org">perishables</a>
+              {space}withstanding] quota-communism (
+              <a href="https://sewageisamatterofdomesticviolence.quora.com/Are-you-one-of-the-few-people-who-dislike-Leninism-and-only-agree-with-Karl-Marx-ideas-If-so-why-What-made-Vladimir-L-1">
+                basic
+              </a>
+              ) and I’m didn’t study how Lenin went from serfdom to genocide but
+              residualsplit.us is like castle doctrine, and that is also&nbsp;
               <b
                 style={{ color: "blue" }}
                 onClick={() =>
