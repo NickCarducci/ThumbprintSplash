@@ -35,9 +35,13 @@ class NavBar extends React.Component {
           Message us
         </div>
         &nbsp;
-        <div style={relativeNavBtns} onClick={() => this.props.setOpen("home")}>
+        <a
+          href="https://projects.invisionapp.com/share/RSBG9X06H#/screens/230757524_TUTORIAL_1"
+          style={relativeNavBtns} //https://projects.invisionapp.com/share/RSBG9X06H
+          onClick={() => this.props.setOpen("home")}
+        >
           See prototype
-        </div>
+        </a>
       </div>
     );
   }
