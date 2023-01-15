@@ -1308,8 +1308,10 @@ class Body extends React.Component {
               border: "3px solid"
             }}
           >
-            {" "}
-            2024nj.com, all candidates, let me know if you are running!
+            welfare industry proprietor; time preference demand or lender,
+            nonetheless:
+            <br />
+            <br /> 2024nj.com, all candidates, let me know if you are running!
             Truncated Production Tax instead of Article 1.8 as an oxymoron,
             unequal taxes, ween cops off trust-breaking hypocrisy bond loss
             profit, per diem incarceration, closed source licensure,
