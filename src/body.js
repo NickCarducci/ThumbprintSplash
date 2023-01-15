@@ -162,6 +162,10 @@ class Body extends React.Component {
             //border: "3px solid"
           }}
         >
+          Would you give your opinion on legislation with the most recent
+          actions or the longest time since the last action?
+          <br />
+          <br />
           Did Trump want to start a war over election fraud?{space}
           <i>
             Can one ever audit/prove an election without{space}
@@ -1270,12 +1274,20 @@ class Body extends React.Component {
           <div style={{ transform: "rotate(180deg)", color: "grey" }}>^</div>
         </div>
         <Policy hidePolicy={hidePolicy} />
-        <button
-          style={buttonStyle}
-          onClick={() => this.setState({ showPayments: !showPayments })}
+        <div
+          style={{
+            display: "block"
+          }}
         >
-          Payments
-        </button>
+          <button
+            style={buttonStyle}
+            onClick={() => this.setState({ showPayments: !showPayments })}
+          >
+            Payments
+          </button>
+          <br />
+          <a href="https://vau.money">vau.money</a>
+        </div>
         <div
           style={{
             display: "flex",
