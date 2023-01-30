@@ -1016,6 +1016,11 @@ class Body extends React.Component {
             overflow: "hidden"
           }}
         >
+          <h2>
+            <a href="https://reddit.com/r/sayists">Say</a>
+            {space}it in the{space}
+            <a href="https://commie.dev/mod">chat</a>
+          </h2>
           <div
             style={{
               columnCount: Math.round(this.state.width / 300),
