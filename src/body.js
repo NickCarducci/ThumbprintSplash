@@ -162,6 +162,26 @@ class Body extends React.Component {
             //border: "3px solid"
           }}
         >
+          <div
+            style={{
+              position: "absolute",
+              right: "0px",
+              top: "60px"
+            }}
+          >
+            nextdoor.com/pages/hibit-fair-haven-nj/
+          </div>
+          <div
+            style={{
+              backgroundColor: "rgba(200,200,200,.9)",
+              position: "absolute",
+              left: "0px",
+              top: "60px"
+            }}
+          >
+            occupywall.us
+          </div>
+          {this.state.width < 400 && <br />}
           Would you give your opinion on legislation with the most recent
           actions or the longest time since the last action?
           <br />
