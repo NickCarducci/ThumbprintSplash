@@ -600,7 +600,17 @@ class Body extends React.Component {
           >
             voting
           </button>
-          you all will be castrated by my{space}
+          <h3>Shareholder, non-binary, and Stakeholder voting</h3>
+          For industry and state, non-binary, non-explicit approval pluralities
+          are unitary by binary issues, which are always decisive with a
+          smallest winning set as there are many choices and/or platforms. To
+          maximize binary issue representation by sample modicum, make more
+          choices and/or use approval voting for old ones. People are
+          "strategic" to break the tie, unless something changes.{space}
+          <a href="http://trajectory-inc.com/about-us/#team-members">you all</a>
+          {space}will{space}
+          <a href="https://medicatethehomeless.quora.com">be castrated</a>
+          {space}by my{space}
           <span
             style={{
               textDecoration: "strike-through"
@@ -616,9 +626,11 @@ class Body extends React.Component {
           <a href="https://www.quora.com/unanswered/Is-duress-illegal-because-of-the-division-of-labor-gaining-efficiency">
             happier
           </a>
-          , & concentrate more. juris war crimes: mental health intervention
-          licenses; comparative innocence is implicit grounds by the criminal;
-          prejudice and scapegoating
+          , & concentrate more.{space}
+          <a href="https://vau.money/login">juris war crimes</a>: mental health
+          intervention licenses; comparative innocence is{space}
+          <a href="https://2024nj.com">implicit grounds</a>
+          {space}by the criminal; prejudice and scapegoating
         </span>
         <div
           style={{
