@@ -182,25 +182,30 @@ class Body extends React.Component {
             occupywall.us
           </div>
           {this.state.width < 400 && <br />}
-          If the{space}
-          <a href="https://www.quora.com/How-much-would-it-cost-to-buy-everything-in-the-world/answer/Nick-Carducci">
-            top 3m gained as much wealth as the top 27m and 120m each since 2020
-          </a>
-          , why does anyone in the 99% support either Trump or Biden?
-          <br />
+          <span>
+            If the{space}
+            <a href="https://www.quora.com/How-much-would-it-cost-to-buy-everything-in-the-world/answer/Nick-Carducci">
+              top 3m gained as much wealth as the top 27m and 120m each since
+              2020
+            </a>
+            , why does anyone in the 99% support either Trump or Biden? Are they
+            just retarded by action?
+          </span>
           <br />
           Would you give your opinion on legislation with the most recent
           actions or the longest time since the last action?
           <br />
           <br />
-          Did Trump want to start a war over election fraud?{space}
-          <i>
-            Can one ever audit/prove an election without{space}
-            <a href="https://tor.stackexchange.com/questions/23253/is-transmission-control-protocol-of-in-a-tamper-proof-by-tiny-explosions-dev">
-              user-distributed databases
-            </a>
-            ?
-          </i>
+          <span>
+            Did Trump want to start a war over election fraud?{space}
+            <i>
+              Can one ever audit/prove an election without{space}
+              <a href="https://tor.stackexchange.com/questions/23253/is-transmission-control-protocol-of-in-a-tamper-proof-by-tiny-explosions-dev">
+                user-distributed databases
+              </a>
+              ?
+            </i>
+          </span>
           local timeout progress saver
           <br />
           <br />
