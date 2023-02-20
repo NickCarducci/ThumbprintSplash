@@ -189,7 +189,13 @@ class Body extends React.Component {
               2020
             </a>
             , why does anyone in the 99% support either Trump or Biden? Are they
-            just retarded by action?
+            just retarded by action?{space}
+            <i>
+              Trump made the top 3m as much money as the top 27m and 120m (what
+              loser wants others to make money; equality is competitive)
+            </i>
+            . No,{space}
+            <b>shareholder loan accounts for everyone!</b>
           </span>
           <br />
           <span>
