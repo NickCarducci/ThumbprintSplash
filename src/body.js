@@ -192,6 +192,11 @@ class Body extends React.Component {
             just retarded by action?
           </span>
           <br />
+          Why did Trump make real property in regards to U.S. Code 26 § 1031
+          either permanently affixed or not primarily held for sale in exchange
+          for some work do be done yet paid in advance?
+          <br />
+          <br />
           Would you give your opinion on legislation with the most recent
           actions or the longest time since the last action?
           <br />
