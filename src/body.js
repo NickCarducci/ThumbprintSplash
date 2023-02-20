@@ -1631,6 +1631,8 @@ class Body extends React.Component {
           >
             open OpenGovFoundation
           </div>
+          Real [deflationary- or AGN-lag] Income, (["tangible" as-in] Material
+          Recovery), or [advanced good nature (AGN)] Income Inequality
           <br />
           <div
             onClick={() => {
