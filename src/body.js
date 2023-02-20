@@ -222,25 +222,34 @@ class Body extends React.Component {
           <br />
           <br />
           <span>
-            Did Trump want to start a war over election fraud?{space}
+            <span>
+              Did Trump want to start a war over election fraud?{space}
+              <i>
+                Can one ever audit/prove an election without{space}
+                <a href="https://tor.stackexchange.com/questions/23253/is-transmission-control-protocol-of-in-a-tamper-proof-by-tiny-explosions-dev">
+                  user-distributed databases
+                </a>
+                ?
+              </i>
+            </span>
+            local timeout progress saver
+          </span>
+          <br />
+          <br />
+          <span>
+            Ability for needs: Communism deprives no man of the power to
+            appropriate the products of society; all that it does is to deprive
+            him of the{space}
+            <a href="https://nonprofessionalproprietors.quora.com">
+              power to subjugate
+            </a>
+            {space}
+            the labour of others by means of such appropriations.{space}
             <i>
-              Can one ever audit/prove an election without{space}
-              <a href="https://tor.stackexchange.com/questions/23253/is-transmission-control-protocol-of-in-a-tamper-proof-by-tiny-explosions-dev">
-                user-distributed databases
-              </a>
-              ?
+              What income is taxable if everything is a gift below the reporting
+              threshold per customer?
             </i>
           </span>
-          local timeout progress saver
-          <br />
-          <br />
-          Communism deprives no man of the power to appropriate the products of
-          society; all that it does is to deprive him of the{space}
-          <a href="https://nonprofessionalproprietors.quora.com">
-            power to subjugate
-          </a>
-          {space}
-          the labour of others by means of such appropriations.
           <button
             style={buttonStyle}
             onClick={() => this.setState({ Commentary2022: !Commentary2022 })}
