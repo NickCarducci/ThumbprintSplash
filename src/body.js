@@ -195,12 +195,13 @@ class Body extends React.Component {
           <span>
             Why did Trump make real property in regards to U.S. Code 26 § 1031
             either permanently affixed or not primarily held for sale in
-            exchange for some work to be done yet paid in advance?{space}
+            exchange for some work to be done yet paid in{space}
+            <a href="https://vau.money">advance</a>?{space}
             <i>
               Are tax refunds by either industry or position constitutional?
             </i>
           </span>
-          <br />
+          <h2>Covalence virus zombie natural immunity sewage</h2>
           <span>
             Do viruses attack humans like a zombie? Is that physiologically and
             {space}
@@ -1814,4 +1815,3 @@ class Body extends React.Component {
   }
 }
 export default Body;
-
