@@ -192,11 +192,20 @@ class Body extends React.Component {
             just retarded by action?
           </span>
           <br />
-          Why did Trump make real property in regards to U.S. Code 26 § 1031
-          either permanently affixed or not primarily held for sale in exchange
-          for some work to be done yet paid in advance?{space}
-          <i>Are tax refunds by either industry or position constitutional?</i>
+          <span>
+            Why did Trump make real property in regards to U.S. Code 26 § 1031
+            either permanently affixed or not primarily held for sale in
+            exchange for some work to be done yet paid in advance?{space}
+            <i>
+              Are tax refunds by either industry or position constitutional?
+            </i>
+          </span>
           <br />
+          <span>
+            Do viruses attack humans like a zombie? Is that physiologically and
+            {space}
+            <a href="https://humanharvest.info">genealogically possible</a>?
+          </span>
           <br />
           Would you give your opinion on legislation with the most recent
           actions or the longest time since the last action?
@@ -1802,4 +1811,3 @@ class Body extends React.Component {
   }
 }
 export default Body;
-
