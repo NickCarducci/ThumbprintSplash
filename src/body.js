@@ -197,7 +197,12 @@ class Body extends React.Component {
             . No,{space}
             <b>shareholder loan accounts for everyone!</b>
           </span>
-          <br />
+          <h2>
+            Can a website like Facebook.com see what other websites you have
+            open, are even local storage browser cookies ring-fenced with SSL
+            https://, or are WebView providers at fault for “Ask App Not to
+            Track” extra-product viable systemic duress?
+          </h2>
           <span>
             Why did Trump make real property in regards to U.S. Code 26 § 1031
             either permanently affixed or not primarily held for sale in
@@ -207,7 +212,7 @@ class Body extends React.Component {
               Are tax refunds by either industry or position constitutional?
             </i>
           </span>
-          <h2>Covalence virus zombie natural immunity sewage</h2>
+          <h2>Covalence-virus, zombie-natural (physiological) sewage</h2>
           <span>
             Do viruses attack humans like a zombie? Is that physiologically and
             {space}
