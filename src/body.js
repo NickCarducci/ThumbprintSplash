@@ -201,7 +201,13 @@ class Body extends React.Component {
             Can a website like Facebook.com see what other websites you have
             open, are even local storage browser cookies ring-fenced with SSL
             https://, or are WebView providers at fault for “Ask App Not to
-            Track” extra-product viable systemic duress?
+            Track” extra-product viable systemic duress?{space}
+            <i>
+              If "Ask App not to Track" isn't for advertising, what is it for?
+              Does advertising mean it tracks your browsing or location history
+              through javascript or WebView? Can't users just use either
+              Incognito mode or DuckDuckGo anyway?
+            </i>
           </h2>
           <span>
             Why did Trump make real property in regards to U.S. Code 26 § 1031
@@ -1837,3 +1843,4 @@ class Body extends React.Component {
   }
 }
 export default Body;
+
