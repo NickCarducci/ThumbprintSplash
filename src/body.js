@@ -182,6 +182,8 @@ class Body extends React.Component {
             occupywall.us
           </div>
           {this.state.width < 400 && <br />}
+          https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Material_flow_accounts_and_resource_productivity
+          <br />
           <span>
             If the{space}
             <a href="https://www.quora.com/How-much-would-it-cost-to-buy-everything-in-the-world/answer/Nick-Carducci">
