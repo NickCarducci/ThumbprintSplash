@@ -182,6 +182,10 @@ class Body extends React.Component {
             occupywall.us
           </div>
           {this.state.width < 400 && <br />}
+          hibit.cc - Is anything but Digital Ocean, Stripe Connect, and Firebase
+          Authentication easy fullstack?
+          <br />
+          <br />
           https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Material_flow_accounts_and_resource_productivity
           <br />
           <span>
@@ -214,8 +218,8 @@ class Body extends React.Component {
           <span>
             Why did Trump make real property in regards to U.S. Code 26 § 1031
             either permanently affixed or not primarily held for sale in
-            exchange for some work to be done yet paid in{space}
-            <a href="https://vau.money">advance</a>?{space}
+            exchange for some work to be done yet paid in advance{space}(
+            <a href="https://vau.money">vau.money/docs</a>)?{space}
             <i>
               Are tax refunds by either industry or position constitutional?
             </i>
@@ -1845,4 +1849,3 @@ class Body extends React.Component {
   }
 }
 export default Body;
-
