@@ -186,9 +186,15 @@ class Body extends React.Component {
           Authentication easy fullstack?
           <br />
           <br />
-          https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Material_flow_accounts_and_resource_productivity
+          <a href="https://electiontechnology.quora.com/Why-don-t-we-have-online-voting-1">
+            electiontechnology.quora.com/Why-don-t-we-have-online-voting-1
+          </a>
           <br />
-          <span>
+          <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Material_flow_accounts_and_resource_productivity">
+            https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Material_flow_accounts_and_resource_productivity
+          </a>
+          <br />
+          <span style={{ fontSize: "12px" }}>
             If the{space}
             <a href="https://www.quora.com/How-much-would-it-cost-to-buy-everything-in-the-world/answer/Nick-Carducci">
               top 3m gained as much wealth as the top 27m and 120m each since
@@ -203,7 +209,11 @@ class Body extends React.Component {
             . No,{space}
             <b>shareholder loan accounts for everyone!</b>
           </span>
-          <h2>
+          <h3>
+            Cross-origin cookies: a function of Steve Jobs (Taiwan the Elderly,
+            save the rats)
+          </h3>
+          <b style={{ fontSize: "14px", color: "dodgerblue" }}>
             Can a website like Facebook.com see what other websites you have
             open, are even local storage browser cookies ring-fenced with SSL
             https://, or are WebView providers at fault for “Ask App Not to
@@ -214,7 +224,7 @@ class Body extends React.Component {
               through javascript or WebView? Can't users just use either
               Incognito mode or DuckDuckGo anyway?
             </i>
-          </h2>
+          </b>
           <span>
             Why did Trump make real property in regards to U.S. Code 26 § 1031
             either permanently affixed or not primarily held for sale in
