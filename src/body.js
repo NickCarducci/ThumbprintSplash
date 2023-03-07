@@ -142,6 +142,7 @@ class Body extends React.Component {
     return (
       <div
         style={{
+          fontSize: "12px",
           paddingBottom: "50px",
           justifyContent: "center",
           display: "flex",
@@ -213,7 +214,7 @@ class Body extends React.Component {
             Cross-origin cookies: a function of Steve Jobs (Taiwan the Elderly,
             save the rats)
           </h3>
-          <b style={{ fontSize: "14px", color: "dodgerblue" }}>
+          <span style={{ fontSize: "11px", color: "cornflowerblue" }}>
             Can a website like Facebook.com see what other websites you have
             open, are even local storage browser cookies ring-fenced with SSL
             https://, or are WebView providers at fault for “Ask App Not to
@@ -224,7 +225,9 @@ class Body extends React.Component {
               through javascript or WebView? Can't users just use either
               Incognito mode or DuckDuckGo anyway?
             </i>
-          </b>
+          </span>
+          {space}
+          <b></b>
           <span>
             Why did Trump make real property in regards to U.S. Code 26 § 1031
             either permanently affixed or not primarily held for sale in
@@ -241,15 +244,19 @@ class Body extends React.Component {
             <a href="https://humanharvest.info">genealogically possible</a>?
           </span>
           <br />
-          Would you give your opinion on legislation with the most recent
-          actions or the longest time since the last action?
+          <span style={{ textDecoration: "line-through" }}>
+            Would you give your opinion on legislation with the most recent
+            actions or the longest time since the last action?
+          </span>
+          {space}Should an advisory direct democracy feed list legislative
+          proposals by last action descending?
           <br />
           Do epidemiologists or statisticians understand how to confirm null by
           covalence?
           <br />
           <br />
           <span>
-            <span>
+            <span style={{ textDecoration: "line-through" }}>
               Did Trump want to start a war over election fraud?{space}
               <i>
                 Can one ever audit/prove an election without{space}
@@ -259,9 +266,16 @@ class Body extends React.Component {
                 ?
               </i>
             </span>
-            local timeout progress saver
+            {space}Should the January 6th protestors be in jail for mental
+            illness or should Trump be in prison for bad advice in being
+            completely misled about Dominion technology voting content
+            addressability and misguided that he would at least show up to his
+            rally?{space}
+            <span style={{ textDecoration: "line-through" }}>
+              local timeout progress saver
+            </span>
+            {space}randomly posted cron jobs.
           </span>
-          <br />
           <br />
           <span>
             Ability for needs: Communism deprives no man of the power to
