@@ -183,6 +183,11 @@ class Body extends React.Component {
             occupywall.us
           </div>
           {this.state.width < 400 && <br />}
+          Are closed source companies allowed to make horizontal parallel or
+          concurrent vertical industry mega apps? Doesn’t a non-profit surrender
+          control even though people donate regardless?
+          <br />
+          <br />
           hibit.cc - Is anything but Digital Ocean, Stripe Connect, and Firebase
           Authentication easy fullstack?
           <br />
