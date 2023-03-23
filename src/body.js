@@ -188,9 +188,21 @@ class Body extends React.Component {
           control even though people donate regardless?
           <br />
           <br />
-          hibit.cc - Is anything but Digital Ocean, Stripe Connect, and Firebase
-          Authentication easy fullstack?
-          <br />
+          <span>
+            hibit.cc - Is anything but Digital Ocean, Stripe Connect, and
+            Firebase Authentication easy fullstack?{space}
+            <i>
+              Do custom and express or standard Stripe Connect accounts keep
+              funds with the original instead or Celtic bank until another
+              account either charges to payout or get a standard destination
+              payment that then does?
+            </i>
+            {space}
+            <b>
+              Are confirmed Stripe payment intents from standard or custom and
+              express accounts held with Celtic Bank?
+            </b>
+          </span>
           <br />
           <a href="https://electiontechnology.quora.com/Why-don-t-we-have-online-voting-1">
             electiontechnology.quora.com/Why-don-t-we-have-online-voting-1
