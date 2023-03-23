@@ -202,6 +202,10 @@ class Body extends React.Component {
               Are confirmed Stripe payment intents from standard or custom and
               express accounts held with Celtic Bank?
             </b>
+            {space}Why do Stripe and Celtic Bank lend deposits to issue cards
+            instead of take fees like standard accounts?
+            {space}
+            <i>Does the Federal Reserve have a 2% depopulation target?</i>
           </span>
           <br />
           <a href="https://electiontechnology.quora.com/Why-don-t-we-have-online-voting-1">
