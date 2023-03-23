@@ -216,20 +216,24 @@ class Body extends React.Component {
             https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Material_flow_accounts_and_resource_productivity
           </a>
           <br />
-          <span style={{ fontSize: "12px" }}>
-            If the{space}
-            <a href="https://www.quora.com/How-much-would-it-cost-to-buy-everything-in-the-world/answer/Nick-Carducci">
-              top 3m gained as much wealth as the top 27m and 120m each since
-              2020
-            </a>
-            , why does anyone in the 99% support either Trump or Biden? Are they
-            just retarded by action?{space}
-            <i>
-              Trump made the top 3m as much money as the top 27m and 120m (what
-              loser wants others to make money; equality is competitive)
-            </i>
-            . No,{space}
-            <b>shareholder loan accounts for everyone!</b>
+          <span>
+            If inequality grew but you aren't the richest and you vote for the
+            same politician, why are you retarding yourself?{space}
+            <span style={{ fontSize: "12px" }}>
+              If the{space}
+              <a href="https://www.quora.com/How-much-would-it-cost-to-buy-everything-in-the-world/answer/Nick-Carducci">
+                top 3m gained as much wealth as the top 27m and 120m each since
+                2020
+              </a>
+              , why does anyone in the 99% support either Trump or Biden? Are
+              they just retarded by action?{space}
+              <i>
+                Trump made the top 3m as much money as the top 27m and 120m
+                (what loser wants others to make money; equality is competitive)
+              </i>
+              . No,{space}
+              <b>shareholder loan accounts for everyone!</b>
+            </span>
           </span>
           <h3>
             Cross-origin cookies: a function of Steve Jobs (Taiwan the Elderly,
