@@ -183,9 +183,13 @@ class Body extends React.Component {
             occupywall.us
           </div>
           {this.state.width < 400 && <br />}
-          Are closed source companies allowed to make horizontal parallel or
-          concurrent vertical industry mega apps? Doesn’t a non-profit surrender
-          control even though people donate regardless?
+          Is the average age of a parent rising because the desire to have kids
+          these days has lessened, household units are smaller and
+          proportionately larger by choice, or are young adult children living
+          with their parents' inflation involuntarily celibate? Are closed
+          source companies allowed to make horizontal parallel or concurrent
+          vertical industry mega apps? Doesn’t a non-profit surrender control
+          even though people donate regardless?
           <br />
           <br />
           <span>
