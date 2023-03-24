@@ -183,6 +183,11 @@ class Body extends React.Component {
             occupywall.us
           </div>
           {this.state.width < 400 && <br />}
+          Does nature or precedence enumerate crimes instead of rights? Does
+          precedence or everything make exculpatory evidence compulsory to be
+          released? And yours is ratings I get it, but it is really dry
+          <br />
+          <br />
           Is the average age of a parent rising because the desire to have kids
           these days has lessened, household units are smaller and
           proportionately larger by choice, or are young adult children living
