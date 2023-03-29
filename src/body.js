@@ -165,24 +165,16 @@ class Body extends React.Component {
         >
           <div
             style={{
-              position: "absolute",
-              right: "0px",
-              top: "60px"
-            }}
-          >
-            nextdoor.com/pages/hibit-fair-haven-nj/
-          </div>
-          <div
-            style={{
+              width: "100%",
               backgroundColor: "rgba(200,200,200,.9)",
-              position: "absolute",
-              left: "0px",
-              top: "60px"
+              display: "flex",
+              justifyContent: "space-between"
             }}
           >
-            occupywall.us
+            <div>nextdoor.com/pages/hibit-fair-haven-nj/</div>
+            <div>occupywall.us</div>
           </div>
-          {this.state.width < 400 && <br />}
+          <br />
           Does nature or precedence enumerate crimes instead of rights? Does
           precedence or everything make exculpatory evidence compulsory to be
           released? And yours is ratings I get it, but it is really dry
