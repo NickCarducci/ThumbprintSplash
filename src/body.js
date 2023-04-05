@@ -154,6 +154,8 @@ class Body extends React.Component {
       >
         <div
           style={{
+            transition: ".3s ease-in",
+            fontSize: this.state.openLegislation ? "" : "0px",
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
@@ -220,7 +222,12 @@ class Body extends React.Component {
           <span>
             If inequality grew but you aren't the richest and you vote for the
             same politician, why are you retarding yourself?{space}
-            <span style={{ fontSize: "12px" }}>
+            <span
+              style={{
+                fontSize: this.state.openLegislation ? "12px" : "0px",
+                transition: ".3s ease-in"
+              }}
+            >
               If the{space}
               <a href="https://www.quora.com/How-much-would-it-cost-to-buy-everything-in-the-world/answer/Nick-Carducci">
                 top 3m gained as much wealth as the top 27m and 120m each since
@@ -242,11 +249,57 @@ class Body extends React.Component {
               </i>
             </span>
           </span>
+          <div
+            style={{
+              fontSize: !this.state.openLegislation ? "12px" : "0px",
+              transition: ".3s ease-in"
+            }}
+          >
+            Thumbprint is many things, but one of them is a voting company. In
+            addition to our prospects as a phone manufacturer with magnetic cell
+            batteries to store, run, and preserve energy at a handheld-device
+            scale, our major ambitions is to be the preferred voting technology
+            do citizens across the globe. Our unique innovation in voting
+            technology enables anonymous voting. The process to achieve our
+            direction requires a simple array of a private and public id arrays,
+            to which we call the ArrayArrays, except the private id also has our
+            users’ vote, which we call a way. This process is content
+            addressable, and requires randomized webhook timeouts/CRON jobs, to
+            avoid traffic correlation attacks, but to us is a monumental design
+            innovation in the distributed ledger-esq space.
+            <br />
+            We will use the funds to bring the theory to practice in time for
+            the 2024 elections. Suitably, we will use Digital Ocean build logs
+            from GitHub deployment pages to narrow points or trust required for
+            the voting process.
+            <br />
+            Hundreds of millions of dollars are spent on election technology
+            annually on average, but only 2/3 of the population votes. Many
+            believe the poor participation is because of access to voting
+            technology from their phones, and many more believe not even in
+            person paper voting is anonymous enough to share their sincere
+            beliefs, skewing election results. We can change this prospect with
+            anonymous content addressable ArrayArrays voting.
+            <br />
+            Thumbprint is led by Nicholas Carducci, an experienced product
+            manager and software developer who has designs on about every
+            market, but will do better to not move too fast to break anything.
+            Our larger team have moved on to for profit endeavors - this non
+            governmental organization is much less interested in the tax breaks
+            than the recognition of having the most reasonable of margins.
+          </div>
           <h3>
             Cross-origin cookies: a function of Steve Jobs (Taiwan the Elderly,
             save the rats)
           </h3>
-          <span style={{ fontSize: "11px", color: "cornflowerblue" }}>
+          <span style={{ fontSize: "12px" }}>dev.to/nickcarducci</span>
+          <span
+            style={{
+              fontSize: this.state.openLegislation ? "11px" : "0px",
+              transition: ".3s ease-in",
+              color: "cornflowerblue"
+            }}
+          >
             Can a website like Facebook.com see what other websites you have
             open, are even local storage browser cookies ring-fenced with SSL
             https://, or are WebView providers at fault for “Ask App Not to
@@ -276,9 +329,16 @@ class Body extends React.Component {
             <a href="https://humanharvest.info">genealogically possible</a>?
           </span>
           <br />
-          <span style={{ textDecoration: "line-through" }}>
-            Would you give your opinion on legislation with the most recent
-            actions or the longest time since the last action?
+          <span
+            onClick={() =>
+              this.setState({ openLegislation: !this.state.openLegislation })
+            }
+            style={{ fontSize: "12px", textDecoration: "underline" }}
+          >
+            <span style={{ textDecoration: "line-through" }}>
+              Would you give your opinion on legislation with the most recent
+              actions or the longest time since the last action?
+            </span>
           </span>
           {space}Should an advisory direct democracy feed list legislative
           proposals by last action descending?
@@ -1905,3 +1965,4 @@ class Body extends React.Component {
   }
 }
 export default Body;
+
