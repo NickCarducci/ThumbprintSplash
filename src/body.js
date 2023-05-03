@@ -255,6 +255,16 @@ class Body extends React.Component {
               transition: ".3s ease-in"
             }}
           >
+            <h2>How can anonymous voting work?</h2>
+            <h3 style={{ color: "steelblue" }}>
+              Two arrays: one stores public identifiers, and the other stores a
+              hash of a private key and a vote way. CRON jobs can relent traffic
+              correlation attacks on result-timestamp communication.{space}
+              <span style={{ color: "slateblue" }}>
+                If voting could be done completely anonymously, would more
+                people vote?
+              </span>
+            </h3>
             Thumbprint is many things, but one of them is a voting company. In
             addition to our prospects as a phone manufacturer with magnetic cell
             batteries to store, run, and preserve energy at a handheld-device
