@@ -255,6 +255,20 @@ class Body extends React.Component {
               transition: ".3s ease-in"
             }}
           >
+            <a
+              href="https://tpt.net.co"
+              style={{
+                padding: "10px",
+                fontSize: "12px",
+                color: "rgb(223, 223, 250)",
+                backgroundColor: "rgba(24, 73, 87, 0.712)",
+                border: "1px solid white"
+              }}
+            >
+              tpt.net.co
+            </a>
+            <br />
+            <br />
             <h2>How can anonymous voting work?</h2>
             <h3 style={{ color: "steelblue" }}>
               Two arrays: one stores public identifiers, and the other stores a
