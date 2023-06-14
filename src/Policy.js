@@ -21,25 +21,30 @@ class Policy extends React.Component {
       >
         <div style={{ display: "flex", flexWrap: "wrap" }}>
           <div style={{ width: "calc(50% - 20px)", margin: "10px" }}>
+            (PII = Personally-Identifiable Information)
+            <br />
+            <br />
             Please contact us with your username to delete your information at
             nick@thumbprint.us <b>or feature requests</b>, or use the web-app
-            (in-dev)
+            (wavv.art)
             <br />
             <br />
             This policy may change. Please return here to stay updated.
             <br />
             <div style={{ width: "100%" }}>
               <br />
-              &bull; In-browser calendar - <b>PouchDB local storage</b>
+              &bull; In-browser calendar - <b>(PouchDB local storage)</b>
               <br />
-              &bull; Voting & banking - (address, email & ID){" "}
-              <em>(in development)</em>
+              &bull; Voting (in development) & banking -{" "}
+              <b>(address, email & ID)</b>
             </div>
             <br />
             <b>Hidden</b>
             <br />
-            &bull;Review communication to:from your contacts, store blocks &
-            mutes
+            &bull;Review communication to:from your contacts,{" "}
+            <span style={{ textDecoration: "line-through" }}>
+              store blocks & mutes
+            </span>
             <br />
             <br />
             <b>Hide-able entities for members</b>
@@ -97,17 +102,20 @@ class Policy extends React.Component {
               &bull; Court Cases
             </div>
             <br />
-            <b>Show-able </b>
+            <b>Show-able (in-dev) </b>
             &bull;Showcase political thumbprint affinity &/or votes
             <br />
             &bull; Toggle indicated experience, education & hobby for polls and
             profile
             <br />
-            &bull; Showcase certifications, awards and memberships (soon)
+            &bull;{" "}
+            <span style={{ textDecoration: "line-through" }}>
+              Showcase certifications, awards and memberships (soon)
+            </span>
             <br />
             <br />
             <b>Public </b>
-            &bull;Total results by hobby, education or experience
+            &bull;Non-PII total results by hobby, education or experience
             <br /> and all votes by assigned representatives and candidates
             <br />
             <br />
