@@ -21,13 +21,6 @@ class Policy extends React.Component {
       >
         <div style={{ display: "flex", flexWrap: "wrap" }}>
           <div style={{ width: "calc(50% - 20px)", margin: "10px" }}>
-            <img
-              style={{ width: "100%", height: "auto" }}
-              alt="twitter.com/vaultbiz"
-              src="https://www.dl.dropboxusercontent.com/s/5227lmxj88pr5du/Screen%20Shot%202021-08-04%20at%2012.26.08%20PM.png?dl=0"
-            />
-          </div>
-          <div style={{ width: "calc(50% - 20px)", margin: "10px" }}>
             Please contact us with your username to delete your information at
             nick@thumbprint.us <b>or feature requests</b>, or use the web-app
             (in-dev)
@@ -84,15 +77,20 @@ class Policy extends React.Component {
                 <br />
                 &bull; Departments
                 <br />
-                &bull; Forms & permits
+                &bull;{" "}
+                <span style={{ textDecoration: "line-through" }}>
+                  Forms & permits
+                </span>
               </div>
             </div>
             <br />
-            <b>Hide-able posts or voting capabilities for members</b>
+            <b style={{ textDecoration: "line-through" }}>
+              Hide-able posts or voting capabilities for members
+            </b>
             <div>
               &bull; Ordinances
               <br />
-              &bull; Budget & proposals
+              &bull; Budget & proposals (separate app)
               <br />
               &bull; Elections
               <br />
