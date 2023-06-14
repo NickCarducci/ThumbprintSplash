@@ -4,7 +4,11 @@ class Fumbler extends React.Component {
   state = {};
   render() {
     return (
-      <div>
+      <div
+        style={{
+          width: "calc(50% - 20px)"
+        }}
+      >
         {" "}
         <div
           onClick={() => this.setState({ convicted: !this.state.convicted })}
@@ -15,7 +19,7 @@ class Fumbler extends React.Component {
             width: "calc(100% - 20px)"
           }}
         >
-          (View as {this.state.convicted ? "Unconvicted" : "Convicted"})
+          View as {this.state.convicted ? "Unconvicted" : "Convicted"} (in-dev)
         </div>
         <div
           style={{
@@ -193,8 +197,6 @@ class Policy extends React.Component {
             (wavv.art)
             <br />
             <br />
-            This policy may change. Please return here to stay updated.
-            <br />
             <div style={{ width: "100%" }}>
               <br />
               &bull; In-browser calendar - <b>(PouchDB local storage)</b>
@@ -266,6 +268,11 @@ class Policy extends React.Component {
               &bull; Court Cases
             </div>
             <br />
+          </div>
+          <div style={{ width: "calc(50% - 20px)", margin: "10px" }}>
+            This policy may change. Please return here to stay updated.
+            <br />
+            <br />
             <b>Show-able (in-dev) </b>
             &bull;Showcase political thumbprint affinity &/or votes
             <br />
@@ -281,6 +288,18 @@ class Policy extends React.Component {
             <b>Public </b>
             &bull;Non-PII total results by hobby, education or experience
             <br /> and all votes by assigned representatives and candidates
+            <br />
+            <br />
+            Otherwise, the Firebase Database (Firestore & Cloud storage) data is
+            encrypted in transit, stored on encrypted disks on the servers, and
+            may be stored in your browser's cache.{" "}
+            <b>
+              So, please only open your chats on a private device (with our SSL
+              HTTPS host certifications). <br />
+              <br />
+              Data is otherwise only controlled by you, granting that it is
+              deemed by us to be appropriate for all audiences (deepai)
+            </b>
             <br />
             <br />
           </div>
@@ -310,20 +329,6 @@ class Policy extends React.Component {
             or references an individually-identifiable user," but informs
             marketing partners of your profile and trends for third-party users
             on Google's brand of products
-          </div>
-          <div style={{ width: "calc(50% - 20px)", margin: "10px" }}>
-            Otherwise, the Firebase Database (Firestore & Cloud storage) data is
-            encrypted in transit, stored on encrypted disks on the servers, and
-            may be stored in your browser's cache.{" "}
-            <b>
-              So, please only open your chats on a private device (with our SSL
-              HTTPS host certifications). <br />
-              <br />
-              Data is otherwise only controlled by you, granting that it is
-              deemed by us to be appropriate for all audiences (deepai)
-            </b>
-            <br />
-            <br />
           </div>
         </div>
       </div>
