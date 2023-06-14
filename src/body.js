@@ -1339,18 +1339,41 @@ class Body extends React.Component {
             }}
           >
             <div style={wrappedItemStyle}>
+              <img
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  maxWidth: "200px",
+                  float: "left"
+                }}
+                alt="twitter.com/vaultbiz"
+                src="https://www.dl.dropboxusercontent.com/s/5227lmxj88pr5du/Screen%20Shot%202021-08-04%20at%2012.26.08%20PM.png?dl=0"
+              />
               <h4>Speech</h4>
-              Topics aren’t to be moderated as newsfeed until desist (order) or
-              payment
+              Topics aren’t to be moderated as newsfeed until desist (order,
+              {space}
+              <span style={{ textDecoration: "line-through" }}>or payment</span>
+              ).
               <br />
-              “Don’t be flippant unless you’ve got something really poignant.”
-              Vs “Closer to ‘right.’”
+              <i>
+                “Don’t be flippant unless you’ve got something really poignant.”
+                Vs “Closer to ‘right.’”
+              </i>
               <br />
-              That is no way to sensor questions that impacts topics
+              That is no way to{space}
+              <a href="https://humanharvest.info">sensor</a>
+              {space}questions that impacts topics.
               <br />
-              “Savings account used to be a great vehicle to save money”
+              <i>
+                For instance, to say “[s]avings accounts used to be a great
+                vehicle to save money,” is adverse to the truth
+              </i>
               <br />
-              lending is self-harm, for it just raises price.
+              lending is self-harm, for it just raises price.{space}
+              <i>
+                If auto insurance is gambling or risk-sharing, why do government
+                motor vehicle commissions enforce it?
+              </i>
               <br />
               <a href="https://www.quora.com/Can-the-DoT-take-my-money-from-my-savings-to-pay-off-a-debt/answer/Nick-Carducci">
                 Can the DoT take my money from my savings to pay off a debt?
