@@ -154,6 +154,8 @@ class Body extends React.Component {
       >
         <div
           style={{
+            maxWidth: "550px",
+            alignSelf: "center",
             transition: ".3s ease-in",
             fontSize: this.state.openLegislation ? "" : "0px",
             display: "flex",
@@ -318,6 +320,7 @@ class Body extends React.Component {
           <a
             href="https://tpt.net.co"
             style={{
+              margin: "4px 0px",
               padding: "10px",
               fontSize: "12px",
               color: "rgb(223, 223, 250)",
@@ -329,11 +332,24 @@ class Body extends React.Component {
           </a>
           <br />
           <br />
+          <button
+            style={{
+              ...buttonStyle,
+              fontSize: "12px"
+            }}
+          >
+            "I have a general admission event, but you only handle stadium
+            tickets. What shall I do?"{space}
+            <i>
+              You can make more sections, and name them “General Admissions 1”,
+              “… 2”, etc.
+            </i>
+          </button>
           <h3>
             Cross-origin cookies: a function of Steve Jobs (Taiwan the Elderly,
             save the rats)
           </h3>
-          <span style={{ fontSize: "12px" }}>dev.to/nickcarducci</span>
+          <span style={{ fontSize: "12px" }}>- dev.to/nickcarducci</span>
           <span
             style={{
               fontSize: this.state.openLegislation ? "11px" : "0px",
@@ -2006,3 +2022,4 @@ class Body extends React.Component {
   }
 }
 export default Body;
+
