@@ -349,7 +349,19 @@ class Body extends React.Component {
             Cross-origin cookies: a function of Steve Jobs (Taiwan the Elderly,
             save the rats)
           </h3>
-          <span style={{ fontSize: "12px" }}>- dev.to/nickcarducci</span>
+          <span
+            style={{ fontSize: "12px" }}
+            onClick={() =>
+              this.setState({ hidePolicy: !this.state.hidePolicy })
+            }
+          >
+            - dev.to/nickcarducci
+            <br />
+            Privacy Policy
+            <br />
+            <div style={{ transform: "rotate(180deg)", color: "grey" }}>^</div>
+            <Policy hidePolicy={hidePolicy} />
+          </span>
           <span
             style={{
               fontSize: this.state.openLegislation ? "11px" : "0px",
@@ -1558,18 +1570,12 @@ class Body extends React.Component {
           </div>
         </div>
         <br />
-        <div
-          onClick={() => this.setState({ hidePolicy: !this.state.hidePolicy })}
-        >
+        <div>
           DUI under weed per diem incarceration war bonds; Tranquil and
           voluntary trade - negative operation rate
           <br />
           <br />
-          Privacy Policy
-          <br />
-          <div style={{ transform: "rotate(180deg)", color: "grey" }}>^</div>
         </div>
-        <Policy hidePolicy={hidePolicy} />
         <div
           style={{
             display: "block"
@@ -2045,4 +2051,5 @@ class Body extends React.Component {
   }
 }
 export default Body;
+
 
