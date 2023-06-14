@@ -264,7 +264,7 @@ class Body extends React.Component {
             </div>
             <div
               style={{
-                fontSize: !this.state.openAbout ? "12px" : "0px",
+                fontSize: this.state.openAbout ? "12px" : "0px",
                 transition: ".3s ease-in"
               }}
             >
@@ -325,7 +325,7 @@ class Body extends React.Component {
               border: "1px solid white"
             }}
           >
-            tpt.net.co
+            tpt.net.co - events ticketing
           </a>
           <br />
           <br />
