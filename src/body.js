@@ -345,6 +345,27 @@ class Body extends React.Component {
               “… 2”, etc.
             </i>
           </button>
+          <a
+            href="https://tpt.net.co"
+            style={{
+              margin: "4px 0px",
+              padding: "10px",
+              fontSize: "12px",
+              color: "rgb(223, 223, 250)",
+              backgroundColor: "rgba(24, 73, 87, 0.712)",
+              border: "1px solid white"
+            }}
+          >
+            thumbprint.app - social calendar
+          </a>
+          <br />
+          <br />
+          <button
+            style={{
+              ...buttonStyle,
+              fontSize: "12px"
+            }}
+          ></button>
           <h3>
             Cross-origin cookies: a function of Steve Jobs (Taiwan the Elderly,
             save the rats)
