@@ -360,6 +360,36 @@ class Body extends React.Component {
           </a>
           <br />
           <br />
+          <a
+            href="https://unwind.rentals"
+            style={{
+              margin: "4px 0px",
+              padding: "10px",
+              fontSize: "12px",
+              color: "rgb(223, 223, 250)",
+              backgroundColor: "rgba(24, 73, 87, 0.712)",
+              border: "1px solid white"
+            }}
+          >
+            unwind.rentals
+          </a>
+          <br />
+          <br />
+          <a
+            href="https://getjobs.uk"
+            style={{
+              margin: "4px 0px",
+              padding: "10px",
+              fontSize: "12px",
+              color: "rgb(223, 223, 250)",
+              backgroundColor: "rgba(24, 73, 87, 0.712)",
+              border: "1px solid white"
+            }}
+          >
+            getjobs.uk
+          </a>
+          <br />
+          <br />
           <button
             style={{
               ...buttonStyle,
