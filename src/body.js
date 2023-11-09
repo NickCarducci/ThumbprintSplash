@@ -154,6 +154,33 @@ class Body extends React.Component {
       >
         <div
           style={{
+            justifyContent: "space-between",
+            width: "190px",
+            display: "flex"
+          }}
+        >
+          <a href="https://wavv.art" style={{ color: "black" }}>
+            <img
+              style={{ height: "86px", width: "86px" }}
+              src="https://www.dl.dropboxusercontent.com/s/cp1vzypyfh1sb03/Thumbprint%20corp%20logo%20-%20colors_round%20%282%29.png?dl=0"
+              //<img src="https://www.dl.dropboxusercontent.com/s/9oci4efa4zsh90q/Thumbprint_logo.png?dl=0" />
+              alt="err"
+            />
+            <br />
+            wavv.art
+          </a>
+          <a href="https://thumbprint.app" style={{ color: "black" }}>
+            <img
+              style={{ height: "86px", width: "86px" }}
+              src="https://www.dl.dropboxusercontent.com/s/9oci4efa4zsh90q/unnamed.png?dl=0"
+              alt="err"
+            />
+            <br />
+            thumbprint.app
+          </a>
+        </div>
+        <div
+          style={{
             maxWidth: "550px",
             alignSelf: "center",
             transition: ".3s ease-in",
@@ -317,21 +344,6 @@ class Body extends React.Component {
               margins.
             </div>
           </div>
-          <a
-            href="https://tpt.net.co"
-            style={{
-              margin: "4px 0px",
-              padding: "10px",
-              fontSize: "12px",
-              color: "rgb(223, 223, 250)",
-              backgroundColor: "rgba(24, 73, 87, 0.712)",
-              border: "1px solid white"
-            }}
-          >
-            tpt.net.co - events ticketing
-          </a>
-          <br />
-          <br />
           <button
             style={{
               ...buttonStyle,
@@ -345,6 +357,17 @@ class Body extends React.Component {
               “… 2”, etc.
             </i>
           </button>
+          <button
+            style={{
+              ...buttonStyle,
+              color: "white",
+              backgroundColor: "blue",
+              fontSize: "12px"
+            }}
+          >
+            Now, save stadiums!{space}
+            <i>You can use wavv.art to create venues.</i>
+          </button>
           <a
             href="https://tpt.net.co"
             style={{
@@ -356,7 +379,7 @@ class Body extends React.Component {
               border: "1px solid white"
             }}
           >
-            thumbprint.app - social calendar
+            tpt.net.co - events ticketing
           </a>
           <br />
           <br />
@@ -2102,5 +2125,4 @@ class Body extends React.Component {
   }
 }
 export default Body;
-
 
