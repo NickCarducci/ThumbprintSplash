@@ -350,6 +350,15 @@ class Body extends React.Component {
               fontSize: "12px"
             }}
           >
+            Anyone can make a class in a community; use wavv.art to make and
+            thumbprint.app to use.
+          </button>
+          <button
+            style={{
+              ...buttonStyle,
+              fontSize: "12px"
+            }}
+          >
             "I have a general admission event, but you only handle stadium
             tickets. What shall I do?"{space}
             <i>
