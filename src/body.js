@@ -351,7 +351,8 @@ class Body extends React.Component {
             }}
           >
             Anyone can make a class in a community; use wavv.art to make and
-            thumbprint.app to use.
+            thumbprint.app to use. We use city names from maps to make
+            townships.
           </button>
           <button
             style={{
@@ -2134,3 +2135,4 @@ class Body extends React.Component {
   }
 }
 export default Body;
+
