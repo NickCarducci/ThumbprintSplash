@@ -152,6 +152,16 @@ class Body extends React.Component {
           backgroundColor: "rgba(200,200,200,.9)"
         }}
       >
+        <iframe
+          title="vid1"
+          src="https://player.vimeo.com/video/202106185" //autoplay=1&muted=1
+          style={{ width: "100%", height: 260 }}
+          allowFullScreen
+          /*loop
+  autoPlay
+  playsInline
+  muted*/
+        />
         <div>
           Find things to do around you.
           <br />
