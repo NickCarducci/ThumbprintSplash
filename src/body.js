@@ -152,32 +152,47 @@ class Body extends React.Component {
           backgroundColor: "rgba(200,200,200,.9)"
         }}
       >
-        <div
-          style={{
-            justifyContent: "space-between",
-            width: "190px",
-            display: "flex"
-          }}
-        >
-          <a href="https://wavv.art" style={{ color: "black" }}>
-            <img
-              style={{ height: "86px", width: "86px" }}
-              src="https://www.dl.dropboxusercontent.com/s/cp1vzypyfh1sb03/Thumbprint%20corp%20logo%20-%20colors_round%20%282%29.png?dl=0"
-              //<img src="https://www.dl.dropboxusercontent.com/s/9oci4efa4zsh90q/Thumbprint_logo.png?dl=0" />
-              alt="err"
-            />
-            <br />
-            wavv.art
-          </a>
-          <a href="https://thumbprint.app" style={{ color: "black" }}>
-            <img
-              style={{ height: "86px", width: "86px" }}
-              src="https://www.dl.dropboxusercontent.com/s/9oci4efa4zsh90q/unnamed.png?dl=0"
-              alt="err"
-            />
-            <br />
-            thumbprint.app
-          </a>
+        <iframe
+          title="vid1"
+          src="https://player.vimeo.com/video/202106185" //autoplay=1&muted=1
+          style={{ width: "100%", height: 260 }}
+          allowFullScreen
+          /*loop
+  autoPlay
+  playsInline
+  muted*/
+        />
+        <div>
+          Find things to do around you.
+          <br />
+          Keep track of plans with friends.
+          <div
+            style={{
+              justifyContent: "space-between",
+              width: "190px",
+              display: "flex"
+            }}
+          >
+            <a href="https://wavv.art" style={{ color: "black" }}>
+              <img
+                style={{ height: "86px", width: "86px" }}
+                src="https://www.dl.dropboxusercontent.com/s/cp1vzypyfh1sb03/Thumbprint%20corp%20logo%20-%20colors_round%20%282%29.png?dl=0"
+                //<img src="https://www.dl.dropboxusercontent.com/s/9oci4efa4zsh90q/Thumbprint_logo.png?dl=0" />
+                alt="err"
+              />
+              <br />
+              wavv.art
+            </a>
+            <a href="https://thumbprint.app" style={{ color: "black" }}>
+              <img
+                style={{ height: "86px", width: "86px" }}
+                src="https://www.dl.dropboxusercontent.com/s/9oci4efa4zsh90q/unnamed.png?dl=0"
+                alt="err"
+              />
+              <br />
+              thumbprint.app
+            </a>
+          </div>
         </div>
         <div
           style={{
@@ -2135,4 +2150,5 @@ class Body extends React.Component {
   }
 }
 export default Body;
+
 
