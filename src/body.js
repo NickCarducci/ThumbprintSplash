@@ -173,7 +173,7 @@ class Body extends React.Component {
               display: "flex"
             }}
           >
-            <a href="https://wavv.art" style={{ color: "black" }}>
+            <a href="https://cityscan.org" style={{ color: "black" }}>
               <img
                 style={{ height: "86px", width: "86px" }}
                 src="https://www.dl.dropboxusercontent.com/s/cp1vzypyfh1sb03/Thumbprint%20corp%20logo%20-%20colors_round%20%282%29.png?dl=0"
@@ -181,7 +181,7 @@ class Body extends React.Component {
                 alt="err"
               />
               <br />
-              wavv.art
+              cityscan.org
             </a>
             <a href="https://thumbprint.app" style={{ color: "black" }}>
               <img
@@ -2150,5 +2150,6 @@ class Body extends React.Component {
   }
 }
 export default Body;
+
 
 
