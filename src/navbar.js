@@ -4,6 +4,7 @@ import "./navbar.css";
 class NavBar extends React.Component {
   state = {};
   render() {
+    //Anonymous Customer Registrar
     const relativeNavBtns = {
       padding: "10px",
       fontSize: "12px",
@@ -13,7 +14,7 @@ class NavBar extends React.Component {
     };
     return (
       <div style={{ textAlign: "center" }}>
-        <h1>Anonymous Customer Registrar</h1>
+        <h1>Social Calendar & Voting</h1>
         <div
           style={{
             display: "flex",
@@ -54,3 +55,4 @@ class NavBar extends React.Component {
   }
 }
 export default NavBar;
+
