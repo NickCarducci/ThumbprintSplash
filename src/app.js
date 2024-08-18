@@ -19,6 +19,38 @@ class App extends React.Component {
     const { see2017 } = this.state;
     return (
       <div style={{ width: "100%", height: "min-content" }}>
+        <div>
+          Find things to do around you.
+          <br />
+          Keep track of plans with friends.
+          <div
+            style={{
+              justifyContent: "space-between",
+              width: "190px",
+              display: "flex"
+            }}
+          >
+            <a href="https://cityscan.org" style={{ color: "black" }}>
+              <img
+                style={{ height: "86px", width: "86px" }}
+                src="https://www.dl.dropboxusercontent.com/s/cp1vzypyfh1sb03/Thumbprint%20corp%20logo%20-%20colors_round%20%282%29.png?dl=0"
+                //<img src="https://www.dl.dropboxusercontent.com/s/9oci4efa4zsh90q/Thumbprint_logo.png?dl=0" />
+                alt="err"
+              />
+              <br />
+              cityscan.org
+            </a>
+            <a href="https://thumbprint.app" style={{ color: "black" }}>
+              <img
+                style={{ height: "86px", width: "86px" }}
+                src="https://www.dl.dropboxusercontent.com/s/9oci4efa4zsh90q/unnamed.png?dl=0"
+                alt="err"
+              />
+              <br />
+              thumbprint.app
+            </a>
+          </div>
+        </div>
         {this.state.openBudget ? (
           <USBudget width={this.props.width} />
         ) : this.state.openThumbprint ? (
@@ -134,3 +166,4 @@ class App extends React.Component {
   }
 }
 export default App;
+
