@@ -12,7 +12,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      open: "home"
+      open: "home",
     };
   }
   render() {
@@ -23,11 +23,16 @@ class App extends React.Component {
           Find things to do around you.
           <br />
           Keep track of plans with friends.
+          <br />
+          "I want to democratize budget proposals and elections for student
+          government associations, municipality governments, and corporate
+          governance boards."
+          <br />- Nick Carducci (CEO, Founder)
           <div
             style={{
               justifyContent: "space-between",
               width: "190px",
-              display: "flex"
+              display: "flex",
             }}
           >
             <a href="https://cityscan.org" style={{ color: "black" }}>
@@ -108,7 +113,7 @@ class App extends React.Component {
                   fontSize: "12px",
                   color: "rgb(223, 223, 250)",
                   backgroundColor: "rgba(24, 73, 87, 0.712)",
-                  border: "1px solid white"
+                  border: "1px solid white",
                 }}
               >
                 Open Legislation
@@ -121,7 +126,7 @@ class App extends React.Component {
                   fontSize: "12px",
                   color: "rgb(223, 223, 250)",
                   backgroundColor: "rgba(24, 73, 87, 0.712)",
-                  border: "1px solid white"
+                  border: "1px solid white",
                 }}
               >
                 Open Budget
@@ -136,7 +141,7 @@ class App extends React.Component {
                   fontSize: "12px",
                   color: "rgb(223, 223, 250)",
                   backgroundColor: "rgba(24, 73, 87, 0.712)",
-                  border: "1px solid white"
+                  border: "1px solid white",
                 }}
               >
                 Pandemic Data
