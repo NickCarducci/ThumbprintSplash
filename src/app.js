@@ -20,10 +20,11 @@ class App extends React.Component {
     return (
       <div style={{ width: "100%", height: "min-content" }}>
         <div>
-          Find things to do around you.
-          <br />
-          Keep track of plans with friends.
-          <br />
+          <h4>
+            Find things to do around you.
+            <br />
+            Keep track of plans with friends.
+          </h4>
           "I want to democratize budget proposals and elections for student
           government associations, municipality governments, and corporate
           governance boards."
@@ -36,6 +37,7 @@ class App extends React.Component {
             }}
           >
             <a href="https://cityscan.org" style={{ color: "black" }}>
+              Explorer
               <img
                 style={{ height: "86px", width: "86px" }}
                 src="https://www.dl.dropboxusercontent.com/s/cp1vzypyfh1sb03/Thumbprint%20corp%20logo%20-%20colors_round%20%282%29.png?dl=0"
@@ -46,6 +48,7 @@ class App extends React.Component {
               cityscan.org
             </a>
             <a href="https://thumbprint.app" style={{ color: "black" }}>
+              Calendar
               <img
                 style={{ height: "86px", width: "86px" }}
                 src="https://www.dl.dropboxusercontent.com/s/9oci4efa4zsh90q/unnamed.png?dl=0"
@@ -55,6 +58,7 @@ class App extends React.Component {
               thumbprint.app
             </a>
           </div>
+          Approval Condorcet voting, higher frequency polls and civic engagement
         </div>
         {this.state.openBudget ? (
           <USBudget width={this.props.width} />
@@ -171,4 +175,5 @@ class App extends React.Component {
   }
 }
 export default App;
+
 
