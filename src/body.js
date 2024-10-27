@@ -12,7 +12,7 @@ class Body extends React.Component {
       hidePolicy: true,
       closePreview: true,
       hideAbout: true,
-      scrollTop: 0
+      scrollTop: 0,
     };
 
     this.publicity = React.createRef();
@@ -23,7 +23,7 @@ class Body extends React.Component {
       this.setState(
         {
           scrolling: true,
-          scrollTop
+          scrollTop,
         },
         () => {
           clearTimeout(this.scrollTimeout);
@@ -35,7 +35,7 @@ class Body extends React.Component {
                   this.state.scrollTop >
                   document.documentElement.scrollHeight -
                     window.innerHeight -
-                    10
+                    10,
               }),
             900
           );
@@ -106,7 +106,7 @@ class Body extends React.Component {
           width,
           availableHeight: this.state.ios
             ? window.screen.availHeight - 20
-            : window.innerHeight
+            : window.innerHeight,
         });
       }, 600);
     }
@@ -125,19 +125,19 @@ class Body extends React.Component {
       showPhone,
       voting,
       showTaxes,
-      publicity
+      publicity,
     } = this.state;
     const buttonStyle = {
       height: "min-content",
       borderRadius: "13px",
       margin: "10px",
       padding: "6px 10px",
-      border: "2px solid"
+      border: "2px solid",
     };
     const space = " ";
     const wrappedItemStyle = {
       breakInside: "avoid",
-      width: "300px"
+      width: "300px",
     };
     return (
       <div
@@ -149,12 +149,32 @@ class Body extends React.Component {
           flexWrap: "wrap",
           width: "100%",
           textAlign: "center",
-          backgroundColor: "rgba(200,200,200,.9)"
+          backgroundColor: "rgba(200,200,200,.9)",
         }}
       >
         <iframe
           title="vid1"
           src="https://player.vimeo.com/video/202106185" //autoplay=1&muted=1
+          style={{ width: "100%", height: 260 }}
+          allowFullScreen
+          /*loop
+  autoPlay
+  playsInline
+  muted*/
+        />
+        <iframe
+          title="vid1"
+          src="https://player.vimeo.com/video/137201995" //autoplay=1&muted=1
+          style={{ width: "100%", height: 260 }}
+          allowFullScreen
+          /*loop
+  autoPlay
+  playsInline
+  muted*/
+        />
+        <iframe
+          title="vid1"
+          src="https://player.vimeo.com/video/447315470" //autoplay=1&muted=1
           style={{ width: "100%", height: 260 }}
           allowFullScreen
           /*loop
@@ -174,7 +194,7 @@ class Body extends React.Component {
               alignItems: "center",
               borderRadius: "15px",
               margin: "10px",
-              padding: "10px"
+              padding: "10px",
               //border: "3px solid"
             }}
           >
@@ -183,7 +203,7 @@ class Body extends React.Component {
                 width: "100%",
                 backgroundColor: "rgba(200,200,200,.9)",
                 display: "flex",
-                justifyContent: "space-between"
+                justifyContent: "space-between",
               }}
             >
               <div>nextdoor.com/pages/hibit-fair-haven-nj/</div>
@@ -238,7 +258,7 @@ class Body extends React.Component {
               <span
                 style={{
                   fontSize: this.state.openLegislation ? "12px" : "0px",
-                  transition: ".3s ease-in"
+                  transition: ".3s ease-in",
                 }}
               >
                 If the{space}
@@ -266,7 +286,7 @@ class Body extends React.Component {
             <div
               style={{
                 fontSize: !this.state.openLegislation ? "12px" : "0px",
-                transition: ".3s ease-in"
+                transition: ".3s ease-in",
               }}
             >
               <div
@@ -279,7 +299,7 @@ class Body extends React.Component {
               <div
                 style={{
                   fontSize: this.state.openAbout ? "12px" : "0px",
-                  transition: ".3s ease-in"
+                  transition: ".3s ease-in",
                 }}
               >
                 <h2>How can anonymous voting work?</h2>
@@ -333,7 +353,7 @@ class Body extends React.Component {
             <button
               style={{
                 ...buttonStyle,
-                fontSize: "12px"
+                fontSize: "12px",
               }}
             >
               Anyone can make a class in a community; use wavv.art to make and
@@ -343,7 +363,7 @@ class Body extends React.Component {
             <button
               style={{
                 ...buttonStyle,
-                fontSize: "12px"
+                fontSize: "12px",
               }}
             >
               "I have a general admission event, but you only handle stadium
@@ -358,7 +378,7 @@ class Body extends React.Component {
                 ...buttonStyle,
                 color: "white",
                 backgroundColor: "blue",
-                fontSize: "12px"
+                fontSize: "12px",
               }}
             >
               Now, save stadiums!{space}
@@ -372,7 +392,7 @@ class Body extends React.Component {
                 fontSize: "12px",
                 color: "rgb(223, 223, 250)",
                 backgroundColor: "rgba(24, 73, 87, 0.712)",
-                border: "1px solid white"
+                border: "1px solid white",
               }}
             >
               tpt.net.co - events ticketing
@@ -387,7 +407,7 @@ class Body extends React.Component {
                 fontSize: "12px",
                 color: "rgb(223, 223, 250)",
                 backgroundColor: "rgba(24, 73, 87, 0.712)",
-                border: "1px solid white"
+                border: "1px solid white",
               }}
             >
               unwind.rentals
@@ -402,7 +422,7 @@ class Body extends React.Component {
                 fontSize: "12px",
                 color: "rgb(223, 223, 250)",
                 backgroundColor: "rgba(24, 73, 87, 0.712)",
-                border: "1px solid white"
+                border: "1px solid white",
               }}
             >
               getjobs.uk
@@ -412,7 +432,7 @@ class Body extends React.Component {
             <button
               style={{
                 ...buttonStyle,
-                fontSize: "12px"
+                fontSize: "12px",
               }}
             ></button>
             <h3>
@@ -438,7 +458,7 @@ class Body extends React.Component {
               style={{
                 fontSize: this.state.openLegislation ? "11px" : "0px",
                 transition: ".3s ease-in",
-                color: "cornflowerblue"
+                color: "cornflowerblue",
               }}
             >
               Can a website like Facebook.com see what other websites you have
@@ -537,7 +557,7 @@ class Body extends React.Component {
                 borderRadius: "8px",
                 margin: "10px",
                 height: Commentary2022 ? "min-content" : "0px",
-                overflow: "hidden"
+                overflow: "hidden",
               }}
             >
               <a href="https://saverparty.xyz/racists">Italiano (5%)</a>
@@ -603,7 +623,7 @@ class Body extends React.Component {
                 style={{
                   float: "left",
                   width: "200px",
-                  height: "auto"
+                  height: "auto",
                 }}
                 alt="this is why i self isolate"
                 src="https://www.dl.dropboxusercontent.com/s/em7xdkbb0obki1w/Screen%20Shot%202022-03-12%20at%203.06.54%20PM.png?dl=0"
@@ -617,7 +637,7 @@ class Body extends React.Component {
                 style={{
                   float: "right",
                   width: "200px",
-                  height: "auto"
+                  height: "auto",
                 }}
                 alt="@carducci on Truth social"
                 src="https://www.dl.dropboxusercontent.com/s/n575hiibwzmtp0p/Screen%20Shot%202022-03-06%20at%209.16.20%20AM.png?dl=0"
@@ -663,7 +683,7 @@ class Body extends React.Component {
               <img
                 style={{
                   width: "100%",
-                  height: "auto"
+                  height: "auto",
                 }}
                 alt="'oy he sees himself a ryan gosling' eh 'WHAT DO YOU WANT' elasticity/efficiency economic welfare output 1/hour-GDP/p"
                 src="https://www.dl.dropboxusercontent.com/s/opm50hbbn1oxo3z/what%20do%20you%20want.gif?dl=0"
@@ -749,7 +769,7 @@ class Body extends React.Component {
               <span
                 style={{
                   backgroundColor: "slateblue",
-                  color: "blanchedalmond"
+                  color: "blanchedalmond",
                 }}
               >
                 Progressives’ vs Occupy test: ubi globally, or bust?
@@ -793,7 +813,7 @@ class Body extends React.Component {
                 Is the savings’ rate{space}
                 <a
                   style={{
-                    textDecoration: "line-through"
+                    textDecoration: "line-through",
                   }}
                   href="https://fred.stlouisfed.org/release/tables?rid=54&eid=155443#snid=155478"
                 >
@@ -811,7 +831,7 @@ class Body extends React.Component {
                 borderRadius: "15px",
                 margin: "10px",
                 padding: "10px",
-                border: "3px solid"
+                border: "3px solid",
               }}
             >
               Thumbprint is a scoring-platform for candidates & parties by
@@ -852,13 +872,13 @@ class Body extends React.Component {
               position: "fixed",
               bottom: "0px",
               right: "0px",
-              height: "100px"
+              height: "100px",
             }}
           >
             <a
               style={{
                 backgroundColor: "rgba(255,255,255,.8)",
-                height: "100%"
+                height: "100%",
               }}
               href="https://lightte.ch"
             >
@@ -876,7 +896,7 @@ class Body extends React.Component {
                 position: "relative",
                 display: "flex",
                 zIndex: "9999",
-                backgroundColor: "rgb(250,250,250)"
+                backgroundColor: "rgb(250,250,250)",
               }}
               onClick={() => this.props.set2017({ see2017: !see2017 })}
             >
@@ -890,7 +910,7 @@ class Body extends React.Component {
                 height: "auto",
                 maxWidth: "600px",
                 width: see2017 ? "100%" : "0%",
-                transition: ".3s ease-in"
+                transition: ".3s ease-in",
               }}
             />
             <div
@@ -898,7 +918,7 @@ class Body extends React.Component {
               style={{
                 color: "black",
                 width: "100px",
-                backgroundColor: "rgb(250,250,250)"
+                backgroundColor: "rgb(250,250,250)",
               }}
             >
               about
@@ -910,7 +930,7 @@ class Body extends React.Component {
               style={{
                 color: "black",
                 width: "100px",
-                backgroundColor: "rgb(250,250,250)"
+                backgroundColor: "rgb(250,250,250)",
               }}
             >
               stack
@@ -943,7 +963,7 @@ class Body extends React.Component {
             {space}by my{space}
             <span
               style={{
-                textDecoration: "strike-through"
+                textDecoration: "strike-through",
               }}
             >
               hands
@@ -969,7 +989,7 @@ class Body extends React.Component {
 
               overflow: "hidden",
               height: !voting ? "0px" : "min-content",
-              backgroundColor: "rgba(170,220,250)"
+              backgroundColor: "rgba(170,220,250)",
             }}
           >
             {" "}
@@ -1001,7 +1021,7 @@ class Body extends React.Component {
                 style={{
                   width: "400px",
                   maxWidth: "100%",
-                  backgroundColor: "rgb(100,150,200)"
+                  backgroundColor: "rgb(100,150,200)",
                 }}
               >
                 The way+anon can be used again to overwrite the vote, and delay
@@ -1070,7 +1090,7 @@ class Body extends React.Component {
                   borderRadius: "15px",
                   margin: "10px",
                   padding: "10px",
-                  border: "3px solid"
+                  border: "3px solid",
                 }}
               >
                 "Anonymity is essential to protecting users who may have
@@ -1084,7 +1104,7 @@ class Body extends React.Component {
                   backgroundColor: "green",
                   height: "min-content",
                   lineHeight: "40px",
-                  padding: "0px 10px"
+                  padding: "0px 10px",
                 }}
               >
                 <a href="https://electiontechnology.quora.com/How-do-hackers-look-for-vulnerabilities-1">
@@ -1246,7 +1266,7 @@ class Body extends React.Component {
             style={{
               overflow: "hidden",
               height: !showDominion ? "0px" : "min-content",
-              backgroundColor: "rgba(170,220,250)"
+              backgroundColor: "rgba(170,220,250)",
             }}
           >
             <hr />
@@ -1285,7 +1305,7 @@ class Body extends React.Component {
               alignItems: "center",
               borderRadius: "15px",
               margin: "10px",
-              padding: "10px"
+              padding: "10px",
               //border: "3px solid"
             }}
           >
@@ -1295,7 +1315,7 @@ class Body extends React.Component {
                 borderRadius: "15px",
                 margin: "10px",
                 padding: "10px",
-                border: "3px solid"
+                border: "3px solid",
               }}
             >
               Our company is a non-governmental, unlimited-outlay, non-profit
@@ -1359,7 +1379,7 @@ class Body extends React.Component {
               borderRadius: "8px",
               margin: "10px",
               height: showSpeech ? "min-content" : "0px",
-              overflow: "hidden"
+              overflow: "hidden",
             }}
           >
             <h2>
@@ -1372,7 +1392,7 @@ class Body extends React.Component {
                 columnCount: Math.round(this.state.width / 300),
                 overflow: "hidden",
                 transition: ".3s ease-in",
-                height: this.state.openOldSpeechPolicy ? "min-content" : "0px"
+                height: this.state.openOldSpeechPolicy ? "min-content" : "0px",
               }}
             >
               <div style={wrappedItemStyle}>
@@ -1433,7 +1453,7 @@ class Body extends React.Component {
                 columnCount: Math.round(this.state.width / 300),
                 overflow: "hidden",
                 transition: ".3s ease-in",
-                height: !this.state.openOldSpeechPolicy ? "min-content" : "0px"
+                height: !this.state.openOldSpeechPolicy ? "min-content" : "0px",
               }}
             >
               <div style={wrappedItemStyle}>
@@ -1442,7 +1462,7 @@ class Body extends React.Component {
                     width: "100%",
                     height: "auto",
                     maxWidth: "200px",
-                    float: "left"
+                    float: "left",
                   }}
                   alt="twitter.com/vaultbiz"
                   src="https://www.dl.dropboxusercontent.com/s/5227lmxj88pr5du/Screen%20Shot%202021-08-04%20at%2012.26.08%20PM.png?dl=0"
@@ -1578,7 +1598,7 @@ class Body extends React.Component {
                   style={{ color: "blue" }}
                   onClick={() =>
                     this.setState({
-                      showPayments: true //, showSpeech: false
+                      showPayments: true, //, showSpeech: false
                     })
                   }
                 >
@@ -1650,11 +1670,11 @@ class Body extends React.Component {
                 transition: ".3s ease-in",
                 backgroundColor: this.state.hoveroldSP
                   ? "rgba(10,10,10,.5)"
-                  : "rgba(10,10,10,0)"
+                  : "rgba(10,10,10,0)",
               }}
               onClick={() =>
                 this.setState({
-                  openOldSpeechPolicy: !this.state.openOldSpeechPolicy
+                  openOldSpeechPolicy: !this.state.openOldSpeechPolicy,
                 })
               }
             >
@@ -1670,7 +1690,7 @@ class Body extends React.Component {
           </div>
           <div
             style={{
-              display: "block"
+              display: "block",
             }}
           >
             <button
@@ -1689,7 +1709,7 @@ class Body extends React.Component {
               alignItems: "center",
               borderRadius: "15px",
               margin: "10px",
-              padding: "10px"
+              padding: "10px",
               //border: "3px solid"
             }}
           >
@@ -1699,7 +1719,7 @@ class Body extends React.Component {
                 borderRadius: "15px",
                 margin: "10px",
                 padding: "10px",
-                border: "3px solid"
+                border: "3px solid",
               }}
             >
               welfare industry proprietor; time preference demand or lender,
@@ -1731,7 +1751,7 @@ class Body extends React.Component {
               color: "rgb(235,235,240)",
               height: showPayments ? "min-content" : "0px",
               overflow: "hidden",
-              backgroundColor: "rgba(10,20,25)"
+              backgroundColor: "rgba(10,20,25)",
             }}
           >
             <b>Payments</b>
@@ -1834,7 +1854,7 @@ class Body extends React.Component {
               color: "rgb(235,235,240)",
               height: showTaxes ? "min-content" : "0px",
               overflow: "hidden",
-              backgroundColor: "rgba(10,20,25)"
+              backgroundColor: "rgba(10,20,25)",
             }}
           >
             <h2>deflate producer tax falls</h2>
@@ -1920,7 +1940,7 @@ class Body extends React.Component {
           <div
             style={{
               height: showVideos ? "min-content" : "0px",
-              overflow: "hidden"
+              overflow: "hidden",
             }}
           >
             NFC Motor Vehicle free rider immutable sewage police lawsuits and
@@ -2020,7 +2040,7 @@ class Body extends React.Component {
           <div
             style={{
               height: showPhone ? "min-content" : "0px",
-              overflow: "hidden"
+              overflow: "hidden",
             }}
           >
             <a href="//www.slideshare.net/NicholasCarducci/thumbprint-phone">
@@ -2047,14 +2067,14 @@ class Body extends React.Component {
             <div
               style={{
                 width: "100%",
-                position: "relative"
+                position: "relative",
               }}
             >
               <span
                 style={{
                   width: "30%",
                   position: "absolute",
-                  right: "0px"
+                  right: "0px",
                 }}
               >
                 On the left is Apple's keybox method, which in comparison to
@@ -2068,13 +2088,13 @@ class Body extends React.Component {
             <div
               style={{
                 position: "relative",
-                width: "60%"
+                width: "60%",
               }}
             >
               <img
                 style={{
                   height: "auto",
-                  width: "100%"
+                  width: "100%",
                 }}
                 src="https://www.dl.dropboxusercontent.com/s/znf4njqgjl4v5jj/AppleCloudKey.png?dl=0"
                 alt="err"
@@ -2086,7 +2106,7 @@ class Body extends React.Component {
             style={{
               width: publicity ? "min-content" : "0px",
               height: publicity ? "min-content" : "0px",
-              overflow: "hidden"
+              overflow: "hidden",
             }}
           >
             <iframe
@@ -2115,7 +2135,7 @@ class Body extends React.Component {
               position: "fixed",
               bottom: "-3px",
               left: "0px",
-              color: `rgba(0,0,0,${this.state.atBottom ? 1 : 0})`
+              color: `rgba(0,0,0,${this.state.atBottom ? 1 : 0})`,
             }}
           >
             *restrictions apply
@@ -2138,7 +2158,7 @@ class Body extends React.Component {
               ...buttonStyle,
               position: "fixed",
               left: "0px",
-              bottom: "0px"
+              bottom: "0px",
             }}
             onClick={() =>
               this.setState(
