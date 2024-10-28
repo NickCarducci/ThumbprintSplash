@@ -19,7 +19,11 @@ class App extends React.Component {
     const { see2017 } = this.state;
     return (
       <div style={{ width: "100%", height: "min-content" }}>
-        <div>
+        <div
+          style={{
+            textAlign: "center",
+          }}
+        >
           <h4>
             Find things to do around you.
             <br />
@@ -175,5 +179,4 @@ class App extends React.Component {
   }
 }
 export default App;
-
 
