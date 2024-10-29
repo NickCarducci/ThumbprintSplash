@@ -41,7 +41,11 @@ class App extends React.Component {
     return (
       <div style={{ width: "100%", height: "min-content" }}>
         <Carousel autoPlay={true} infiniteLoop={true} interval={5000}>
-          <div>
+          <div
+            style={{
+              margin: "70px 0px",
+            }}
+          >
             "I want to democratize budget proposals and elections for student
             government associations, municipality governments, and corporate
             governance boards."
@@ -58,6 +62,7 @@ class App extends React.Component {
               />
             </a>
             <br />
+            cityscan.org
           </div>
           <div>
             <h2>Keep track of plans with friends.</h2>
@@ -69,6 +74,7 @@ class App extends React.Component {
               />
             </a>
             <br />
+            thumbprint.app
           </div>
         </Carousel>
         {this.state.openBudget ? (
