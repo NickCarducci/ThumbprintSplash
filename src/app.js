@@ -1,4 +1,6 @@
 import React from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 import NavBar from "./navbar.js";
 import Ourusers from "./ourusers.js";
 import Messageus from "./messageus.js";
@@ -12,24 +14,41 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      open: "home"
+      open: "home",
     };
   }
   render() {
     const { see2017 } = this.state;
+    const responsive = {
+      superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5,
+      },
+      desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 3,
+      },
+      tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 2,
+      },
+      mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1,
+      },
+    };
     return (
       <div style={{ width: "100%", height: "min-content" }}>
-        <div>
-          Find things to do around you.
-          <br />
-          Keep track of plans with friends.
-          <div
-            style={{
-              justifyContent: "space-between",
-              width: "190px",
-              display: "flex"
-            }}
-          >
+        <Carousel autoPlay={true} infiniteLoop={true} interval={5000}>
+          <div>
+            "I want to democratize budget proposals and elections for student
+            government associations, municipality governments, and corporate
+            governance boards."
+            <br />- Nick Carducci (CEO, Founder)
+          </div>
+          <div>
+            <h2>Find things to do around you.</h2>
             <a href="https://cityscan.org" style={{ color: "black" }}>
               <img
                 style={{ height: "86px", width: "86px" }}
@@ -37,20 +56,21 @@ class App extends React.Component {
                 //<img src="https://www.dl.dropboxusercontent.com/s/9oci4efa4zsh90q/Thumbprint_logo.png?dl=0" />
                 alt="err"
               />
-              <br />
-              cityscan.org
             </a>
+            <br />
+          </div>
+          <div>
+            <h2>Keep track of plans with friends.</h2>
             <a href="https://thumbprint.app" style={{ color: "black" }}>
               <img
                 style={{ height: "86px", width: "86px" }}
                 src="https://www.dl.dropboxusercontent.com/s/9oci4efa4zsh90q/unnamed.png?dl=0"
                 alt="err"
               />
-              <br />
-              thumbprint.app
             </a>
+            <br />
           </div>
-        </div>
+        </Carousel>
         {this.state.openBudget ? (
           <USBudget width={this.props.width} />
         ) : this.state.openThumbprint ? (
@@ -108,7 +128,7 @@ class App extends React.Component {
                   fontSize: "12px",
                   color: "rgb(223, 223, 250)",
                   backgroundColor: "rgba(24, 73, 87, 0.712)",
-                  border: "1px solid white"
+                  border: "1px solid white",
                 }}
               >
                 Open Legislation
@@ -121,7 +141,7 @@ class App extends React.Component {
                   fontSize: "12px",
                   color: "rgb(223, 223, 250)",
                   backgroundColor: "rgba(24, 73, 87, 0.712)",
-                  border: "1px solid white"
+                  border: "1px solid white",
                 }}
               >
                 Open Budget
@@ -136,7 +156,7 @@ class App extends React.Component {
                   fontSize: "12px",
                   color: "rgb(223, 223, 250)",
                   backgroundColor: "rgba(24, 73, 87, 0.712)",
-                  border: "1px solid white"
+                  border: "1px solid white",
                 }}
               >
                 Pandemic Data
